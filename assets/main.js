@@ -4,12 +4,25 @@
 (function () {
   'use strict';
 
-  /* ---- Navigation: mobile slide-out drawer ---- */
+  /* ---- Navigation: mobile slide-out drawer + two-level dropdown groups ---- */
   const toggle = document.querySelector('.nav-toggle');
   const links = document.querySelector('.nav-links');
   const primaryNav = document.getElementById('primary-nav');
+  const groups = document.querySelectorAll('.nav-group');
   const mobileQuery = window.matchMedia('(max-width: 900px)');
   const isMobile = () => mobileQuery.matches;
+
+  const setGroupOpen = (group, open) => {
+    group.classList.toggle('open', open);
+    const btn = group.querySelector('.nav-drop-btn');
+    if (btn) btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  };
+
+  // one group open at a time (mobile accordion; also collapses
+  // click-opened groups on desktop)
+  const closeGroups = (except) => {
+    groups.forEach(g => { if (g !== except) setGroupOpen(g, false); });
+  };
 
   if (toggle && links) {
     const navInner = toggle.closest('.nav-inner');
@@ -45,8 +58,11 @@
       } else if (!hasIcon) {
         toggle.textContent = open ? textClose : textOpen;
       }
-      // never leave focus inside an aria-hidden drawer
-      if (!open && links.contains(document.activeElement)) toggle.focus();
+      if (!open) {
+        closeGroups();
+        // never leave focus inside an aria-hidden drawer
+        if (links.contains(document.activeElement)) toggle.focus();
+      }
       syncNavHidden();
     };
 
@@ -64,7 +80,9 @@
     });
 
     document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && links.classList.contains('open')) setMenu(false);
+      if (e.key !== 'Escape') return;
+      if (links.classList.contains('open')) setMenu(false);
+      else closeGroups();
     });
 
     // Crossing the breakpoint: close the drawer and clear mobile-only
@@ -74,10 +92,28 @@
       if (!isMobile() && links.classList.contains('open')) setMenu(false);
       else syncNavHidden();
     };
-    if (mobileQuery.addEventListener) mobileQuery.addEventListener('change', onViewportChange);
+    if (mobileQuery.addEventListener) {
+      mobileQuery.addEventListener('change', () => { closeGroups(); onViewportChange(); });
+    }
     window.addEventListener('resize', onViewportChange);
 
     syncNavHidden();
+  }
+
+  if (groups.length) {
+    groups.forEach(g => {
+      const btn = g.querySelector('.nav-drop-btn');
+      if (!btn) return;
+      btn.addEventListener('click', () => {
+        const open = !g.classList.contains('open');
+        closeGroups(g);
+        setGroupOpen(g, open);
+      });
+    });
+
+    document.addEventListener('click', (e) => {
+      if (![...groups].some(g => g.contains(e.target))) closeGroups();
+    });
   }
 
   /* ---- Active nav state (by filename) ---- */
@@ -86,6 +122,14 @@
     if (a.classList.contains('lang-switch')) return;
     const href = (a.getAttribute('href') || '').split('/').pop();
     if (href === path || (path === '' && href === 'index.html')) a.classList.add('active');
+  });
+
+  // highlight the group button when one of its children is the current page
+  groups.forEach(g => {
+    if (g.querySelector('a.active')) {
+      const btn = g.querySelector('.nav-drop-btn');
+      if (btn) btn.classList.add('active');
+    }
   });
 
   /* ---- Scroll reveal ---- */
