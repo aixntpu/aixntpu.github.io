@@ -20,6 +20,7 @@
   <meta name="twitter:card" content="summary_large_image" />
   <link rel="icon" href="assets/ai4xntpu_logo_s.png" />
   <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="stylesheet" href="assets/css/news-hub.css" />
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to content</a>
@@ -195,47 +196,9 @@
         <span class="num-label">2 / News</span>
         <h2>Latest announcements.</h2>
       </div>
-      <div class="news-list">
-        <article class="news-item reveal">
-          <span class="news-date">2026-08-01</span>
-          <div>
-            <span class="status-tag st-done">AI services</span>
-            <h3><a href="aiservices.html">AI platforms &amp; teams already in service</a></h3>
-            <p>NTPU AI, the NTPU AI Assistant, and the NTPU AI Aquila Project technical R&amp;D team are now available to the NTPU community.</p>
-          </div>
-        </article>
-        <article class="news-item reveal">
-          <span class="news-date">2026-08-01</span>
-          <div>
-            <span class="status-tag st-done">People</span>
-            <h3><a href="members.html">Center leadership and division heads announced</a></h3>
-            <p>The center director, the three division heads (Industrial Technology, Cross-Domain Application, Education &amp; Innovation), and the administrative window are now listed on the members page.</p>
-          </div>
-        </article>
-        <article class="news-item reveal">
-          <span class="news-date">2026-08-01</span>
-          <div>
-            <span class="status-tag st-done">Announcement</span>
-            <h3><a href="news.html#launch">AI4X Research Center officially began operations on August 1, 2026</a></h3>
-            <p>The university-level Advanced Research Center for Cross-Disciplinary AI is now officially operational, with its governance structure in place and first-wave initiatives under way.</p>
-          </div>
-        </article>
-        <article class="news-item reveal">
-          <span class="news-date">2026-07-18</span>
-          <div>
-            <span class="status-tag st-soon">Mission</span>
-            <h3><a href="news.html#mission">Center mission and first-wave initiatives published</a></h3>
-            <p>The center's founding mission and its first-wave work items (research matchmaking, capacity mapping, data governance, and seed projects) are now published on this site.</p>
-          </div>
-        </article>
-        <article class="news-item reveal">
-          <span class="news-date">2026-07-18</span>
-          <div>
-            <span class="status-tag st-planned">Survey</span>
-            <h3><a href="news.html#survey">Cross-domain collaboration and research needs survey</a></h3>
-            <p>Faculty and research teams are invited to share collaboration interests and research needs, which will inform the first wave of matchmaking after launch.</p>
-          </div>
-        </article>
+      <div class="news-list" data-news-home
+           data-news-src="assets/data/news.en.json">
+        <p class="news-message">Loading…</p>
       </div>
       <div class="tc mt-3 reveal">
         <a href="news.html" class="btn btn-ghost">All news &amp; events <span class="arrow">→</span></a>
@@ -633,5 +596,6 @@
   </footer>
 
   <script src="assets/main.js" defer></script>
+  <script type="module" src="assets/js/home-news.js"></script>
 </body>
 </html>

@@ -3,17 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>News &amp; Events | NTPU AI4X</title>
-  <meta name="description" content="News and events of the NTPU AI4X Research Center: the official launch announcement, center mission and first-wave initiatives, and the cross-domain collaboration survey." />
-  <link rel="canonical" href="https://ai4x.ntpu.edu.tw/news.html" />
-  <link rel="alternate" hreflang="en" href="https://ai4x.ntpu.edu.tw/news.html" />
-  <link rel="alternate" hreflang="zh-Hant-TW" href="https://ai4x.ntpu.edu.tw/zh/news.html" />
-  <link rel="alternate" hreflang="x-default" href="https://ai4x.ntpu.edu.tw/news.html" />
+  <title>News detail | News &amp; Events | NTPU AI4X</title>
+  <meta name="description" content="Details of an AI4X news item or event: dates, deadline, location, eligibility, and the information source." />
+  <meta name="robots" content="noindex, follow" />
+  <link rel="canonical" href="https://ai4x.ntpu.edu.tw/news-detail.html" />
+  <link rel="alternate" hreflang="en" href="https://ai4x.ntpu.edu.tw/news-detail.html" />
+  <link rel="alternate" hreflang="zh-Hant-TW" href="https://ai4x.ntpu.edu.tw/zh/news-detail.html" />
+  <link rel="alternate" hreflang="x-default" href="https://ai4x.ntpu.edu.tw/news-detail.html" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="NTPU AI4X" />
-  <meta property="og:title" content="News &amp; Events | NTPU AI4X" />
+  <meta property="og:title" content="News detail | NTPU AI4X" />
   <meta property="og:description" content="Official announcements from the Advanced Research Center for Cross-Disciplinary AI, National Taipei University." />
-  <meta property="og:url" content="https://ai4x.ntpu.edu.tw/news.html" />
+  <meta property="og:url" content="https://ai4x.ntpu.edu.tw/news-detail.html" />
   <meta property="og:image" content="https://ai4x.ntpu.edu.tw/assets/launch-cover.png" />
   <link rel="icon" href="assets/ai4xntpu_logo_s.png" />
   <link rel="stylesheet" href="assets/styles.css" />
@@ -63,71 +64,14 @@
 
   <section id="main-content" class="page-hero" tabindex="-1">
     <div class="wrap">
-      <p class="breadcrumb"><a href="index.html">Home</a><span class="sep">/</span>News &amp; Events</p>
-      <span class="eyebrow">News &amp; Events</span>
-      <h1>Announcements from the <em class="grad-text">AI4X</em> center.</h1>
-      <p class="lede">
-        Official announcements, calls for collaboration, and upcoming events.
-        The center has been officially operating since August 1, 2026; event registration
-        and the first project call will follow here.
-      </p>
+      <p class="breadcrumb"><a href="index.html">Home</a><span class="sep">/</span><a href="news.html">News &amp; Events</a><span class="sep">/</span>Detail</p>
     </div>
   </section>
 
   <section>
     <div class="wrap">
-      <div class="news-hub" data-news-list
-           data-news-src="assets/data/news.en.json">
-        <div class="news-hub__toolbar">
-          <div class="news-search">
-            <label class="news-search__label" for="news-search">Search news &amp; events</label>
-            <input class="news-search__input" id="news-search" type="search" name="q"
-                   autocomplete="off" placeholder="Search events, organizers, keywords…" data-news-search />
-          </div>
-          <div class="news-filters">
-            <div class="news-filter">
-              <label class="news-filter__label" for="news-filter-category">Category</label>
-              <select id="news-filter-category" data-news-filter="category">
-                <option value="">All categories</option>
-              </select>
-            </div>
-            <div class="news-filter">
-              <label class="news-filter__label" for="news-filter-source">Source</label>
-              <select id="news-filter-source" data-news-filter="source">
-                <option value="">All sources</option>
-              </select>
-            </div>
-            <div class="news-filter">
-              <label class="news-filter__label" for="news-filter-status">Status</label>
-              <select id="news-filter-status" data-news-filter="status">
-                <option value="">All statuses</option>
-              </select>
-            </div>
-          </div>
-          <div class="news-hub__status">
-            <p class="news-hub__count" data-news-count aria-live="polite"></p>
-            <button type="button" class="news-hub__clear" data-news-clear hidden>Clear filters</button>
-          </div>
-        </div>
-
-        <div class="news-hub__results" data-news-results>
-          <p class="news-message">Loading…</p>
-        </div>
-      </div>
-      <p class="contact-note mt-3">
-        Further announcements — including the first research groups, the cross-domain seed
-        project call, and the first academic event — will be published here once confirmed.
-      </p>
-    </div>
-  </section>
-
-  <section class="section-tint">
-    <div class="wrap tc">
-      <span class="eyebrow" style="justify-content:center">Next</span>
-      <h2 class="mt-1" style="margin-inline:auto;max-width:24ch">Want to collaborate with the center?</h2>
-      <div class="cta-actions" style="justify-content:center">
-        <a href="contact.html" class="btn btn-primary">Contact &amp; collaboration <span class="arrow">→</span></a>
-        <a href="index.html#first-wave" class="btn btn-ghost">First-wave initiatives</a>
+      <div data-news-detail data-news-src="assets/data/news.en.json">
+        <p class="news-message">Loading…</p>
       </div>
     </div>
   </section>
@@ -165,6 +109,6 @@
   </footer>
 
   <script src="assets/main.js" defer></script>
-  <script type="module" src="assets/js/news-list.js"></script>
+  <script type="module" src="assets/js/news-detail.js"></script>
 </body>
 </html>
