@@ -1,0 +1,131 @@
+{
+  "$schema": "./news.schema.json",
+  "items": [
+    {
+      "id": "2026-sea-openai-hackathon-taiwan",
+      "slug": "sea-openai-hackathon-taiwan",
+      "title": "Sea X OpenAI Hackathon APAC Series — Taiwan",
+      "summary": "Sea and OpenAI bring their Asia-Pacific hackathon series to Taiwan for the first time, inviting teams to build AI solutions for real-life and industry scenarios.",
+      "content": [
+        "Sea has teamed up with OpenAI to bring the “Sea X OpenAI Hackathon APAC Series” to Taiwan for the first time.",
+        "The event focuses on applied artificial intelligence, technological innovation, and practical problem solving, inviting participants to use AI to address real-life and industry scenarios.",
+        "For registration, competition rules, prizes, and judging, the organizers' official event page is the authoritative source."
+      ],
+      "category": "competition",
+      "category_label": "Competitions & calls",
+      "source_type": "external",
+      "publish_date": "2026-08-08",
+      "event_date": "2026-09-12",
+      "deadline": "2026-08-26",
+      "location": "Taipei International Convention Center (TICC)",
+      "eligibility": "Age 18 or above; teams welcome",
+      "organizers": ["Sea", "OpenAI"],
+      "tags": ["OpenAI", "Sea", "Hackathon", "AI applications", "competition"],
+      "external_url": "https://shopee.tw/m/seaxopenai-hackathon-tw",
+      "source_name": "Sea X OpenAI Hackathon official event page",
+      "featured": true,
+      "priority": 100
+    },
+    {
+      "id": "2026-08-01-center-launch",
+      "slug": "center-launch",
+      "title": "AI4X Research Center officially began operations on August 1, 2026",
+      "summary": "The university-level Advanced Research Center for Cross-Disciplinary AI is now officially operational, with its governance structure in place and first-wave initiatives under way.",
+      "content": [
+        "The Advanced Research Center for Cross-Disciplinary AI (AI4X Research Center), a university-level research center of National Taipei University, has been officially operational since August 1, 2026.",
+        "The center connects research strengths in law, business, public affairs, humanities and social sciences, sustainability, and information technology. Its governance structure is in place and the first-wave initiatives are under way; the remaining research, resource, and collaboration mechanisms will be launched in phases.",
+        "Center Director: Prof. Min-Yuh Day (Professor & Director, Graduate Institute of Information Management, NTPU). Administrative window: Ms. Szu-Yin Chen, Administrative Specialist (sychen@gm.ntpu.edu.tw, ext. 66894)."
+      ],
+      "category": "announcement",
+      "category_label": "Center announcement",
+      "source_type": "internal",
+      "publish_date": "2026-08-01",
+      "organizers": ["AI4X Research Center, National Taipei University"],
+      "tags": ["launch", "announcement", "AI4X"],
+      "featured": true,
+      "priority": 95
+    },
+    {
+      "id": "2026-08-01-ai-services-online",
+      "slug": "ai-services-online",
+      "title": "AI platforms & teams already in service",
+      "summary": "NTPU AI, the NTPU AI Assistant, and the NTPU AI Aquila Project technical R&D team are now available to the NTPU community.",
+      "content": [
+        "Campus AI platforms and the student technical R&D team are now available to the NTPU community.",
+        "NTPU AI: the university AI platform, offering AI conversation, web search, campus search, and file analysis.",
+        "NTPU AI Assistant: the campus question-answering assistant, currently covering the Physical Education Office, the Center for General Education, and the Language Center.",
+        "NTPU AI Aquila Project: the technical R&D team, providing technology development, project implementation support, and education & training."
+      ],
+      "category": "announcement",
+      "category_label": "Center announcement",
+      "source_type": "internal",
+      "publish_date": "2026-08-01",
+      "organizers": ["AI4X Research Center, National Taipei University"],
+      "tags": ["AI services", "NTPU AI", "AI Assistant", "Aquila"],
+      "external_url": "https://ai4x.ntpu.edu.tw/aiservices.html",
+      "source_name": "AI4X — AI services",
+      "featured": true,
+      "priority": 80
+    },
+    {
+      "id": "2026-08-01-members-announced",
+      "slug": "members-announced",
+      "title": "Center leadership and division heads announced",
+      "summary": "The center director, the three division heads (Industrial Technology, Cross-Domain Application, Education & Innovation), and the administrative window are now listed on the members page.",
+      "content": [
+        "The center director, the heads of the Industrial Technology, Cross-Domain Application, and Education & Innovation divisions, and the administrative window are now published on the members page."
+      ],
+      "category": "announcement",
+      "category_label": "Center announcement",
+      "source_type": "internal",
+      "publish_date": "2026-08-01",
+      "organizers": ["AI4X Research Center, National Taipei University"],
+      "tags": ["members", "organization"],
+      "external_url": "https://ai4x.ntpu.edu.tw/members.html",
+      "source_name": "AI4X — Members",
+      "featured": true,
+      "priority": 70
+    },
+    {
+      "id": "2026-07-18-mission-first-wave",
+      "slug": "mission-first-wave",
+      "title": "Center mission and first-wave initiatives published",
+      "summary": "The center's founding mission and its first-wave work items (research matchmaking, capacity mapping, data governance, and seed projects) are now published on this site.",
+      "content": [
+        "The center's founding mission (cross-domain research, shared resources, industry-academia collaboration, and responsible AI) and its first-wave work items are now published on this site.",
+        "Early work includes cross-college research matchmaking, mapping of on-campus AI research capacity, a management framework for research data and computing resources, cross-domain seed research projects, faculty workshops, and a single window for external collaboration; every item carries its current status and expected timeline."
+      ],
+      "category": "announcement",
+      "category_label": "Center announcement",
+      "source_type": "internal",
+      "publish_date": "2026-07-18",
+      "organizers": ["AI4X Research Center, National Taipei University"],
+      "tags": ["mission", "first-wave", "seed projects"],
+      "external_url": "https://ai4x.ntpu.edu.tw/index.html#first-wave",
+      "source_name": "AI4X — First-wave initiatives",
+      "featured": true,
+      "priority": 65
+    },
+    {
+      "id": "2026-07-18-collaboration-survey",
+      "slug": "collaboration-survey",
+      "title": "Cross-domain collaboration and research needs survey",
+      "summary": "Faculty and research teams are invited to share collaboration interests and research needs, which will inform the first wave of matchmaking and the seed project call.",
+      "content": [
+        "The center invites faculty members and research teams to share their cross-domain collaboration interests and research needs, which will inform the first wave of research matchmaking and the design of the seed project call.",
+        "Please email your name, unit, type of collaboration, and a summary of your needs to ai4x@gm.ntpu.edu.tw; see the contact page for details."
+      ],
+      "category": "collaboration",
+      "category_label": "Collaboration",
+      "source_type": "internal",
+      "publish_date": "2026-07-18",
+      "eligibility": "NTPU faculty members and research teams",
+      "organizers": ["AI4X Research Center, National Taipei University"],
+      "tags": ["collaboration", "survey", "research matchmaking"],
+      "external_url": "https://ai4x.ntpu.edu.tw/contact.html",
+      "source_name": "AI4X — Contact & collaboration",
+      "featured": false,
+      "priority": 60
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "$schema": "./news.schema.json",
+  "items": [
+    {
+      "id": "2026-sea-openai-hackathon-taiwan",
+      "slug": "sea-openai-hackathon-taiwan",
+      "title": "Sea X OpenAI 黑客松亞太區系列賽 — 台灣站",
+      "summary": "Sea 攜手 OpenAI，首度將亞太區系列黑客松帶到台灣，邀請參賽者運用 AI 技術針對真實生活與產業情境提出創新解決方案。",
+      "content": [
+        "Sea 攜手 OpenAI，首度將「Sea X OpenAI 黑客松亞太區系列賽」帶到台灣。",
+        "本次活動聚焦人工智慧應用、科技創新與實務問題解決，邀請參賽者運用 AI 技術，針對真實生活及產業情境提出創新解決方案。",
+        "報名與競賽規則、獎項及評審方式，請以主辦單位官方活動頁公告為準。"
+      ],
+      "category": "competition",
+      "category_label": "競賽與徵件",
+      "source_type": "external",
+      "publish_date": "2026-08-08",
+      "event_date": "2026-09-12",
+      "deadline": "2026-08-26",
+      "location": "台北國際會議中心（TICC）",
+      "eligibility": "年滿 18 歲，可組隊參加",
+      "organizers": ["Sea", "OpenAI"],
+      "tags": ["OpenAI", "Sea", "Hackathon", "黑客松", "AI 應用", "競賽"],
+      "external_url": "https://shopee.tw/m/seaxopenai-hackathon-tw",
+      "source_name": "Sea X OpenAI Hackathon 官方活動頁",
+      "featured": true,
+      "priority": 100
+    },
+    {
+      "id": "2026-08-01-center-launch",
+      "slug": "center-launch",
+      "title": "跨域人工智慧前瞻研究中心已於 2026 年 8 月 1 日正式營運",
+      "summary": "國立臺北大學校級「跨域人工智慧前瞻研究中心」已於 2026 年 8 月 1 日正式營運，治理架構完備，首波工作項目同步展開。",
+      "content": [
+        "國立臺北大學校級研究中心「跨域人工智慧前瞻研究中心」（AI4X Research Center）已於 2026 年 8 月 1 日正式營運。",
+        "中心串聯法律、商學、公共事務、人文社會、永續與資訊科技研究能量；治理架構完備，首波任務同步展開，其餘研究、資源與合作機制將分階段啟動。",
+        "中心主任：戴敏育教授（國立臺北大學資訊管理研究所教授兼所長）。行政窗口：陳思因 行政專員（sychen@gm.ntpu.edu.tw，分機 66894）。"
+      ],
+      "category": "announcement",
+      "category_label": "中心公告",
+      "source_type": "internal",
+      "publish_date": "2026-08-01",
+      "organizers": ["國立臺北大學跨域人工智慧前瞻研究中心"],
+      "tags": ["正式營運", "中心公告", "AI4X"],
+      "featured": true,
+      "priority": 95
+    },
+    {
+      "id": "2026-08-01-ai-services-online",
+      "slug": "ai-services-online",
+      "title": "已上線的 AI 平台與團隊",
+      "summary": "NTPU AI 平台、NTPU AI Assistant 校園智慧問答助理與 NTPU AI Aquila 技術研發團隊，現已對全校師生提供服務。",
+      "content": [
+        "校園 AI 平台與學生技術研發團隊，現已對全校師生提供服務。",
+        "NTPU AI：國立臺北大學 AI 平台，提供 AI 對話、網路搜尋、校內搜尋與檔案分析。",
+        "NTPU AI Assistant：校園智慧問答助理，目前涵蓋體育室、通識中心及語言中心。",
+        "NTPU AI Aquila Project：技術研發團隊，提供技術開發、專案實作支援與教育訓練。"
+      ],
+      "category": "announcement",
+      "category_label": "中心公告",
+      "source_type": "internal",
+      "publish_date": "2026-08-01",
+      "organizers": ["國立臺北大學跨域人工智慧前瞻研究中心"],
+      "tags": ["AI 服務", "NTPU AI", "AI Assistant", "Aquila"],
+      "external_url": "https://ai4x.ntpu.edu.tw/zh/aiservices.html",
+      "source_name": "AI4X — AI 服務",
+      "featured": true,
+      "priority": 80
+    },
+    {
+      "id": "2026-08-01-members-announced",
+      "slug": "members-announced",
+      "title": "中心主任與三大分組組長名單公布",
+      "summary": "中心主任、產業技術組、跨域應用組、教育創新組組長及行政窗口，均已公布於「中心成員」頁面。",
+      "content": [
+        "中心主任、產業技術組、跨域應用組、教育創新組組長及行政窗口，均已公布於「中心成員」頁面。"
+      ],
+      "category": "announcement",
+      "category_label": "中心公告",
+      "source_type": "internal",
+      "publish_date": "2026-08-01",
+      "organizers": ["國立臺北大學跨域人工智慧前瞻研究中心"],
+      "tags": ["中心成員", "組織架構"],
+      "external_url": "https://ai4x.ntpu.edu.tw/zh/members.html",
+      "source_name": "AI4X — 中心成員",
+      "featured": true,
+      "priority": 70
+    },
+    {
+      "id": "2026-07-18-mission-first-wave",
+      "slug": "mission-first-wave",
+      "title": "中心成立宗旨與首波工作項目公布",
+      "summary": "中心成立宗旨與首波工作（跨院研究媒合、研究能量盤點、資料治理與種子研究計畫）已於本網站公布。",
+      "content": [
+        "中心成立宗旨（跨域研究、共享資源、產學合作與負責任 AI），以及首波工作項目已於本網站公布。",
+        "初期工作包含跨院研究媒合、校內 AI 研究能量盤點、研究資料與運算資源管理制度、跨域種子研究計畫、教師工作坊，以及對外合作單一窗口；每一項目均標示目前狀態與預計時程。"
+      ],
+      "category": "announcement",
+      "category_label": "中心公告",
+      "source_type": "internal",
+      "publish_date": "2026-07-18",
+      "organizers": ["國立臺北大學跨域人工智慧前瞻研究中心"],
+      "tags": ["成立宗旨", "首波工作", "種子計畫"],
+      "external_url": "https://ai4x.ntpu.edu.tw/zh/index.html#first-wave",
+      "source_name": "AI4X — 首波工作項目",
+      "featured": true,
+      "priority": 65
+    },
+    {
+      "id": "2026-07-18-collaboration-survey",
+      "slug": "collaboration-survey",
+      "title": "跨域合作與研究需求調查",
+      "summary": "誠摯邀請校內教師與研究團隊提供跨域合作意向與研究需求，作為首波研究媒合與種子計畫徵件設計的依據。",
+      "content": [
+        "中心誠摯邀請校內教師與研究團隊提供跨域合作意向與研究需求，作為首波研究媒合與種子計畫徵件設計的依據。",
+        "請以 Email 提供姓名、單位、合作類型與需求摘要至 ai4x@gm.ntpu.edu.tw，詳見「合作聯絡」頁面。"
+      ],
+      "category": "collaboration",
+      "category_label": "合作機會",
+      "source_type": "internal",
+      "publish_date": "2026-07-18",
+      "eligibility": "本校教師與研究團隊",
+      "organizers": ["國立臺北大學跨域人工智慧前瞻研究中心"],
+      "tags": ["跨域合作", "需求調查", "研究媒合"],
+      "external_url": "https://ai4x.ntpu.edu.tw/zh/contact.html",
+      "source_name": "AI4X — 合作聯絡",
+      "featured": false,
+      "priority": 60
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "$schema": "./news.schema.json",
+  "_comment": "開發用測試資料（development fixture），涵蓋各種欄位缺漏與日期狀態組合。正式網站不會載入本檔；於消息頁加上 ?dataset=dev 才會使用。",
+  "items": [
+    {
+      "id": "dev-academic-external-upcoming",
+      "slug": "dev-academic-external-upcoming",
+      "title": "【測試】跨域 AI 治理國際研討會",
+      "summary": "測試資料：外部學術活動，只有活動日期、沒有報名截止日，狀態應顯示「即將舉行」。",
+      "content": [
+        "測試資料：用於驗證外部學術活動的呈現方式與免責說明。"
+      ],
+      "category": "academic",
+      "category_label": "學術活動",
+      "source_type": "external",
+      "publish_date": "2026-08-05",
+      "event_date": "2099-12-01",
+      "location": "線上（Zoom）",
+      "organizers": ["測試主辦單位"],
+      "tags": ["研討會", "AI 治理", "測試"],
+      "external_url": "https://example.org/dev-academic",
+      "source_name": "測試主辦單位官方網站",
+      "featured": false,
+      "priority": 40
+    },
+    {
+      "id": "dev-competition-closed",
+      "slug": "dev-competition-closed",
+      "title": "【測試】報名已截止的競賽",
+      "summary": "測試資料：截止日已過但活動尚未舉行，狀態應顯示「報名已截止」。",
+      "category": "competition",
+      "category_label": "競賽與徵件",
+      "source_type": "external",
+      "publish_date": "2026-01-10",
+      "event_date": "2099-11-01",
+      "deadline": "2026-02-01",
+      "organizers": ["測試主辦單位"],
+      "tags": ["競賽", "測試"],
+      "external_url": "https://example.org/dev-competition",
+      "source_name": "測試競賽官方頁",
+      "featured": false,
+      "priority": 30
+    },
+    {
+      "id": "dev-collaboration-ended",
+      "slug": "dev-collaboration-ended",
+      "title": "【測試】已結束的合作說明會",
+      "summary": "測試資料：活動日期已過，狀態應顯示「活動已結束」。",
+      "category": "collaboration",
+      "category_label": "合作機會",
+      "source_type": "internal",
+      "publish_date": "2026-02-01",
+      "event_date": "2026-03-01",
+      "deadline": "2026-02-20",
+      "location": "三峽校區",
+      "organizers": ["國立臺北大學跨域人工智慧前瞻研究中心"],
+      "tags": ["說明會", "測試"],
+      "featured": false,
+      "priority": 20
+    },
+    {
+      "id": "dev-resource-info-only",
+      "slug": "dev-resource-info-only",
+      "title": "【測試】外部 AI 學習資源彙整",
+      "summary": "測試資料：沒有活動日期也沒有截止日，狀態應顯示「一般資訊」；缺少 location、eligibility 等欄位時不得出現空白標籤。",
+      "category": "resource",
+      "category_label": "外部資源",
+      "source_type": "external",
+      "publish_date": "2026-06-15",
+      "tags": ["資源", "自學", "測試"],
+      "external_url": "https://example.org/dev-resource",
+      "source_name": "測試資源網站",
+      "featured": false,
+      "priority": 10
+    }
+  ]
+}
