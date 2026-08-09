@@ -2,6 +2,41 @@
   "$schema": "./news.schema.json",
   "items": [
     {
+      "id": "2026-taai-2026",
+      "slug": "taai-2026",
+      "title": "TAAI 2026 — The 31st International Conference on Technologies and Applications of Artificial Intelligence",
+      "summary": "TAAI 2026 will be held on November 20–21, 2026, at The Great Roots Forestry Spa Resort in Sanxia, New Taipei City, under the theme “Agentic AI and Physical AI for Cross-Disciplinary Sustainable Innovation.”",
+      "content": [
+        "The 31st International Conference on Technologies and Applications of Artificial Intelligence (TAAI 2026) is jointly organized by the Taiwanese Association for Artificial Intelligence (TAAI) and National Taipei University (NTPU).",
+        "The conference theme is “Agentic AI and Physical AI for Cross-Disciplinary Sustainable Innovation,” highlighting autonomous AI agents, embodied intelligence, real-world AI applications, and interdisciplinary sustainable innovation.",
+        "TAAI 2026 will take place on November 20–21, 2026, at The Great Roots Forestry Spa Resort in Sanxia, New Taipei City. The paper submission deadline is September 14, 2026; please refer to the official conference website for submission, program, and registration details."
+      ],
+      "category": "academic",
+      "category_label": "Academic events",
+      "source_type": "external",
+      "publish_date": "2026-08-08",
+      "event_date": "2026-11-20",
+      "deadline": "2026-09-14",
+      "location": "The Great Roots Forestry Spa Resort, Sanxia, New Taipei City",
+      "eligibility": "Researchers, practitioners, students, and anyone interested in artificial intelligence",
+      "organizers": [
+        "Taiwanese Association for Artificial Intelligence (TAAI)",
+        "National Taipei University (NTPU)"
+      ],
+      "tags": [
+        "TAAI 2026",
+        "Artificial Intelligence",
+        "Conference",
+        "Agentic AI",
+        "Physical AI",
+        "Academic event"
+      ],
+      "external_url": "https://taai2026.github.io/",
+      "source_name": "TAAI 2026: ttps://taai2026.github.io/",
+      "featured": true,
+      "priority": 100
+    },
+    {
       "id": "2026-sea-openai-hackathon-taiwan",
       "slug": "sea-openai-hackathon-taiwan",
       "title": "Sea X OpenAI Hackathon APAC Series — Taiwan",
@@ -24,7 +59,7 @@
       "external_url": "https://shopee.tw/m/seaxopenai-hackathon-tw",
       "source_name": "Sea X OpenAI Hackathon official event page",
       "featured": true,
-      "priority": 100
+      "priority": 96
     },
     {
       "id": "2026-08-01-center-launch",

@@ -2,6 +2,41 @@
   "$schema": "./news.schema.json",
   "items": [
     {
+      "id": "2026-taai-2026",
+      "slug": "taai-2026",
+      "title": "TAAI 2026 第 31 屆人工智慧技術與應用國際研討會",
+      "summary": "TAAI 2026 將於 2026 年 11 月 20–21 日在新北市三峽區大板根森林溫泉酒店舉行，本屆以「代理式 AI 與實體 AI 跨域永續創新」為主題。",
+      "content": [
+        "第 31 屆人工智慧技術與應用國際研討會（TAAI 2026）由中華民國人工智慧學會（TAAI）與國立臺北大學（NTPU）共同主辦。",
+        "本屆主題為「代理式 AI 與實體 AI 跨域永續創新」，聚焦自主 AI 代理、具身智慧、真實世界 AI 應用，以及跨領域永續創新。",
+        "研討會將於 2026 年 11 月 20–21 日在新北市三峽區大板根森林溫泉酒店舉行；論文投稿截止日為 2026 年 9 月 14 日，詳細投稿、議程與報名資訊請以官方網站公告為準。"
+      ],
+      "category": "academic",
+      "category_label": "學術活動",
+      "source_type": "external",
+      "publish_date": "2026-08-08",
+      "event_date": "2026-11-20",
+      "deadline": "2026-09-14",
+      "location": "新北市三峽區大板根森林溫泉酒店",
+      "eligibility": "研究者、實務工作者、學生及對人工智慧議題有興趣者",
+      "organizers": [
+        "中華民國人工智慧學會（TAAI）",
+        "國立臺北大學（NTPU）"
+      ],
+      "tags": [
+        "TAAI 2026",
+        "人工智慧",
+        "研討會",
+        "Agentic AI",
+        "Physical AI",
+        "學術活動"
+      ],
+      "external_url": "https://taai2026.github.io/zh/index.html",
+      "source_name": "TAAI 2026 官方網站",
+      "featured": true,
+      "priority": 100
+    },
+    {
       "id": "2026-sea-openai-hackathon-taiwan",
       "slug": "sea-openai-hackathon-taiwan",
       "title": "Sea X OpenAI 黑客松亞太區系列賽 — 台灣站",
@@ -24,7 +59,7 @@
       "external_url": "https://shopee.tw/m/seaxopenai-hackathon-tw",
       "source_name": "Sea X OpenAI Hackathon 官方活動頁",
       "featured": true,
-      "priority": 100
+      "priority": 96
     },
     {
       "id": "2026-08-01-center-launch",
