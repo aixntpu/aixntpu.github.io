@@ -4,6 +4,9 @@
    ========================================================================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+/* Rounded face for the hero mark only. `text=` subsets the file down to the
+   eight glyphs of NTPU AI4X, so the extra request stays a couple of kilobytes. */
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@800&text=NTPUAI4X&display=swap');
 
 :root {
   --ink: #0c1a2a;
@@ -24,6 +27,7 @@
   --nav-height: 76px;
   --font-body: 'Manrope', 'Noto Sans TC', system-ui, sans-serif;
   --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  --font-round: 'M PLUS Rounded 1c', 'Varela Round', 'Arial Rounded MT Bold', var(--font-body);
   --gradient: linear-gradient(135deg, var(--blue), var(--cyan) 52%, var(--violet));
 }
 
@@ -281,6 +285,9 @@ section { position: relative; padding: 2rem 0; }
   box-shadow: var(--shadow); overflow: hidden;
 }
 .hero-visual svg { width: 100%; height: 100%; }
+/* The NTPU AI4X mark in the core circle. Set here rather than as an SVG
+   font-family attribute so both language editions share one definition. */
+.hero-core-text { font-family: var(--font-round); font-weight: 800; letter-spacing: 0.02em; }
 
 /* Page hero */
 .page-hero { padding: 1.25rem 0 1.6rem; background: rgba(255, 255, 255, 0.34); }
