@@ -3,17 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>消息與活動 | NTPU AI4X</title>
-  <meta name="description" content="NTPU AI4X 中心消息與活動：正式營運公告、中心成立宗旨與首波工作、跨域合作與研究需求調查。" />
-  <link rel="canonical" href="https://ai4x.ntpu.edu.tw/zh/news.html" />
-  <link rel="alternate" hreflang="zh-Hant-TW" href="https://ai4x.ntpu.edu.tw/zh/news.html" />
+  <title>消息詳情 | 消息與活動 | NTPU AI4X</title>
+  <meta name="description" content="NTPU AI4X 消息與活動詳細內容：活動日期、報名截止、地點、參加資格與資訊來源。" />
+  <meta name="robots" content="noindex, follow" />
+  <link rel="canonical" href="https://ai4x.ntpu.edu.tw/zh/news-detail.html" />
+  <link rel="alternate" hreflang="zh-Hant-TW" href="https://ai4x.ntpu.edu.tw/zh/news-detail.html" />
   <link rel="alternate" hreflang="en" href="https://ai4x.ntpu.edu.tw/news.html" />
   <link rel="alternate" hreflang="x-default" href="https://ai4x.ntpu.edu.tw/news.html" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="NTPU AI4X" />
-  <meta property="og:title" content="消息與活動 | 國立臺北大學跨域人工智慧前瞻研究中心" />
-  <meta property="og:description" content="中心正式營運公告、首波工作與合作徵詢。" />
-  <meta property="og:url" content="https://ai4x.ntpu.edu.tw/zh/news.html" />
+  <meta property="og:title" content="消息詳情 | 國立臺北大學跨域人工智慧前瞻研究中心" />
+  <meta property="og:description" content="AI4X 消息與活動詳細內容。" />
+  <meta property="og:url" content="https://ai4x.ntpu.edu.tw/zh/news-detail.html" />
   <meta property="og:image" content="https://ai4x.ntpu.edu.tw/assets/launch-cover.png" />
   <link rel="icon" href="../assets/ai4xntpu_logo_s.png" />
   <link rel="stylesheet" href="../assets/styles.css" />
@@ -63,70 +64,16 @@
 
   <section id="main-content" class="page-hero" tabindex="-1">
     <div class="wrap">
-      <p class="breadcrumb"><a href="index.html">首頁</a><span class="sep">/</span>消息與活動</p>
-      <span class="eyebrow">消息與活動</span>
-      <h1><em class="grad-text">AI4X</em> 中心公告</h1>
-      <p class="lede">
-        中心正式公告、合作徵詢與活動訊息。中心已於 2026 年 8 月 1 日正式營運，
-        活動報名與計畫徵件將陸續於本頁公布。
-      </p>
+      <p class="breadcrumb"><a href="index.html">首頁</a><span class="sep">/</span><a href="news.html">消息與活動</a><span class="sep">/</span>消息詳情</p>
     </div>
   </section>
 
   <section>
     <div class="wrap">
-      <div class="news-hub" data-news-list
+      <div data-news-detail
            data-news-src="../assets/data/news.zh.json"
            data-news-src-dev="../assets/data/news.dev.json">
-        <div class="news-hub__toolbar">
-          <div class="news-search">
-            <label class="news-search__label" for="news-search">搜尋消息與活動</label>
-            <input class="news-search__input" id="news-search" type="search" name="q"
-                   autocomplete="off" placeholder="搜尋活動、主辦單位、關鍵字…" data-news-search />
-          </div>
-          <div class="news-filters">
-            <div class="news-filter">
-              <label class="news-filter__label" for="news-filter-category">分類</label>
-              <select id="news-filter-category" data-news-filter="category">
-                <option value="">全部分類</option>
-              </select>
-            </div>
-            <div class="news-filter">
-              <label class="news-filter__label" for="news-filter-source">來源</label>
-              <select id="news-filter-source" data-news-filter="source">
-                <option value="">全部來源</option>
-              </select>
-            </div>
-            <div class="news-filter">
-              <label class="news-filter__label" for="news-filter-status">活動狀態</label>
-              <select id="news-filter-status" data-news-filter="status">
-                <option value="">全部狀態</option>
-              </select>
-            </div>
-          </div>
-          <div class="news-hub__status">
-            <p class="news-hub__count" data-news-count aria-live="polite"></p>
-            <button type="button" class="news-hub__clear" data-news-clear hidden>清除篩選條件</button>
-          </div>
-        </div>
-
-        <div class="news-hub__results" data-news-results>
-          <p class="news-message">資料載入中…</p>
-        </div>
-      </div>
-      <p class="contact-note mt-3">
-        更多公告（包含第一批研究群、跨域種子計畫徵件與首場學術活動）將於確認後陸續於本頁公布。
-      </p>
-    </div>
-  </section>
-
-  <section class="section-tint">
-    <div class="wrap tc">
-      <span class="eyebrow" style="justify-content:center">下一步</span>
-      <h2 class="mt-1" style="margin-inline:auto;max-width:24ch">想與中心展開合作嗎？</h2>
-      <div class="cta-actions" style="justify-content:center">
-        <a href="contact.html" class="btn btn-primary">合作聯絡 <span class="arrow">→</span></a>
-        <a href="index.html#first-wave" class="btn btn-ghost">首波工作項目</a>
+        <p class="news-message">資料載入中…</p>
       </div>
     </div>
   </section>
@@ -164,6 +111,6 @@
   </footer>
 
   <script src="../assets/main.js" defer></script>
-  <script type="module" src="../assets/js/news-list.js"></script>
+  <script type="module" src="../assets/js/news-detail.js"></script>
 </body>
 </html>

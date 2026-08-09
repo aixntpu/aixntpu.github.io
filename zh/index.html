@@ -20,6 +20,7 @@
   <meta name="twitter:card" content="summary_large_image" />
   <link rel="icon" href="../assets/ai4xntpu_logo_s.png" />
   <link rel="stylesheet" href="../assets/styles.css" />
+  <link rel="stylesheet" href="../assets/css/news-hub.css" />
 </head>
 <body>
   <a class="skip-link" href="#main-content">跳至主要內容</a>
@@ -186,47 +187,9 @@
         <span class="num-label">2 / 公告</span>
         <h2>最新公告</h2>
       </div>
-      <div class="news-list">
-        <article class="news-item reveal">
-          <span class="news-date">2026-08-01</span>
-          <div>
-            <span class="status-tag st-done">AI 服務</span>
-            <h3><a href="aiservices.html">已上線的 AI 平台與團隊</a></h3>
-            <p>NTPU AI 平台、NTPU AI Assistant 校園智慧問答助理與 NTPU AI Aquila 技術研發團隊，現已對全校師生提供服務。</p>
-          </div>
-        </article>
-        <article class="news-item reveal">
-          <span class="news-date">2026-08-01</span>
-          <div>
-            <span class="status-tag st-done">中心成員</span>
-            <h3><a href="members.html">中心主任與三大分組組長名單公布</a></h3>
-            <p>中心主任、產業技術組、跨域應用組、教育創新組組長及行政窗口，均已公布於「中心成員」頁面。</p>
-          </div>
-        </article>
-        <article class="news-item reveal">
-          <span class="news-date">2026-08-01</span>
-          <div>
-            <span class="status-tag st-done">正式公告</span>
-            <h3><a href="news.html#launch">跨域人工智慧前瞻研究中心已於 2026 年 8 月 1 日正式營運</a></h3>
-            <p>國立臺北大學校級「跨域人工智慧前瞻研究中心」已於 2026 年 8 月 1 日正式營運，治理架構完備，首波工作項目同步展開。</p>
-          </div>
-        </article>
-        <article class="news-item reveal">
-          <span class="news-date">2026-07-18</span>
-          <div>
-            <span class="status-tag st-soon">中心宗旨</span>
-            <h3><a href="news.html#mission">中心成立宗旨與首波工作項目公布</a></h3>
-            <p>中心成立宗旨與首波工作（跨院研究媒合、研究能量盤點、資料治理與種子研究計畫）已於本網站公布。</p>
-          </div>
-        </article>
-        <article class="news-item reveal">
-          <span class="news-date">2026-07-18</span>
-          <div>
-            <span class="status-tag st-planned">需求調查</span>
-            <h3><a href="news.html#survey">跨域合作與研究需求調查</a></h3>
-            <p>誠摯邀請校內教師與研究團隊提供跨域合作意向與研究需求，作為正式營運後首波媒合的依據。</p>
-          </div>
-        </article>
+      <div class="news-list" data-news-home
+           data-news-src="../assets/data/news.zh.json">
+        <p class="news-message">資料載入中…</p>
       </div>
       <div class="tc mt-3 reveal">
         <a href="news.html" class="btn btn-ghost">所有消息與活動 <span class="arrow">→</span></a>
@@ -567,5 +530,6 @@
   </footer>
 
   <script src="../assets/main.js" defer></script>
+  <script type="module" src="../assets/js/home-news.js"></script>
 </body>
 </html>
