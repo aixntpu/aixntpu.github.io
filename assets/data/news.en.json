@@ -13,7 +13,7 @@
       ],
       "category": "academic",
       "category_label": "Academic events",
-      "source_type": "external",
+      "source_type": "internal",
       "publish_date": "2026-08-08",
       "event_date": "2026-11-20",
       "deadline": "2026-09-14",
@@ -32,7 +32,7 @@
         "Academic event"
       ],
       "external_url": "https://taai2026.github.io/",
-      "source_name": "TAAI 2026: ttps://taai2026.github.io/",
+      "source_name": "TAAI 2026: https://taai2026.github.io/",
       "featured": true,
       "priority": 100
     },
@@ -60,6 +60,36 @@
       "source_name": "Sea X OpenAI Hackathon official event page",
       "featured": true,
       "priority": 96
+    },
+    {
+      "id": "2026-napai",
+      "slug": "napai",
+      "title": "Advanced AI Talent Cultivation Program: Agentic & Physical AI Robotics Curriculum Initiative",
+      "summary": "NAPAI (National Agentic & Physical AI Initiative) focuses on Agentic AI and Physical AI, integrating course co-creation, faculty development, pilot courses, student competitions, and professional communities to cultivate forward-looking AI talent.",
+      "content": [
+        "The Advanced AI Talent Cultivation Program centers on the Agentic & Physical AI Robotics Curriculum Initiative, focusing on the two forward-looking pillars of Agentic AI and Physical AI.",
+        "The initiative integrates seed-teacher training, co-creation of course modules, pilot demonstration courses, student hands-on competitions, and community building to strengthen AI education and practical capabilities.",
+        "The official website provides news, course resources, community activities, partners, and related learning resources. Please refer to the NAPAI website for the latest information."
+      ],
+      "category": "resource",
+      "category_label": "AI talent development",
+      "source_type": "external",
+      "publish_date": "2026-08-07",
+      "organizers": [
+        "National Agentic & Physical AI Initiative (NAPAI)"
+      ],
+      "tags": [
+        "NAPAI",
+        "Agentic AI",
+        "Physical AI",
+        "AI talent development",
+        "Curriculum",
+        "Educational resources"
+      ],
+      "external_url": "https://napaincu.github.io/",
+      "source_name": "NAPAI official website",
+      "featured": true,
+      "priority": 95
     },
     {
       "id": "2026-08-01-center-launch",
