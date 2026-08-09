@@ -91,33 +91,42 @@
       </div>
 
       <div class="hero-visual reveal" aria-hidden="true">
-        <svg viewBox="0 0 420 360" xmlns="http://www.w3.org/2000/svg">
+        <!-- 核心 (230,200) r=78，六個領域節點 r=48、距核心 152，
+             每條連線都會露出 26 的可見線段。幾何與英文版完全相同，只換標籤文字。 -->
+        <svg viewBox="0 0 460 400" xmlns="http://www.w3.org/2000/svg">
           <defs>
             <linearGradient id="hg" x1="0" y1="0" x2="1" y2="1">
               <stop offset="0" stop-color="#0d4a9e"/>
               <stop offset="0.5" stop-color="#11a8a0"/>
               <stop offset="1" stop-color="#6d4ad9"/>
             </linearGradient>
+            <!-- 連線需使用 userSpaceOnUse：水平線的邊界框高度為 0，
+                 objectBoundingBox 漸層在該情況下不會被繪製。 -->
+            <linearGradient id="hg-line" gradientUnits="userSpaceOnUse" x1="30" y1="20" x2="430" y2="380">
+              <stop offset="0" stop-color="#0d4a9e"/>
+              <stop offset="0.5" stop-color="#11a8a0"/>
+              <stop offset="1" stop-color="#6d4ad9"/>
+            </linearGradient>
           </defs>
-          <g stroke="url(#hg)" stroke-width="1.6" opacity="0.45">
-            <line x1="210" y1="180" x2="70" y2="70"/>
-            <line x1="210" y1="180" x2="350" y2="66"/>
-            <line x1="210" y1="180" x2="48" y2="200"/>
-            <line x1="210" y1="180" x2="372" y2="196"/>
-            <line x1="210" y1="180" x2="92" y2="312"/>
-            <line x1="210" y1="180" x2="330" y2="312"/>
+          <g stroke="url(#hg-line)" stroke-width="3.5" stroke-linecap="round" opacity="0.6">
+            <line x1="230" y1="200" x2="154" y2="68"/>
+            <line x1="230" y1="200" x2="306" y2="68"/>
+            <line x1="230" y1="200" x2="78" y2="200"/>
+            <line x1="230" y1="200" x2="382" y2="200"/>
+            <line x1="230" y1="200" x2="154" y2="332"/>
+            <line x1="230" y1="200" x2="306" y2="332"/>
           </g>
-          <g font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#0c1a2a" text-anchor="middle">
-            <g><circle cx="70" cy="70" r="26" fill="#fff" stroke="#0d4a9e" stroke-width="1.5"/><text x="70" y="74">法律</text></g>
-            <g><circle cx="350" cy="66" r="26" fill="#fff" stroke="#11a8a0" stroke-width="1.5"/><text x="350" y="70">醫療</text></g>
-            <g><circle cx="48" cy="200" r="26" fill="#fff" stroke="#6d4ad9" stroke-width="1.5"/><text x="48" y="204">商學</text></g>
-            <g><circle cx="372" cy="196" r="26" fill="#fff" stroke="#e8a838" stroke-width="1.5"/><text x="372" y="200">公共</text></g>
-            <g><circle cx="92" cy="312" r="26" fill="#fff" stroke="#11a8a0" stroke-width="1.5"/><text x="92" y="316">人文</text></g>
-            <g><circle cx="330" cy="312" r="26" fill="#fff" stroke="#0d4a9e" stroke-width="1.5"/><text x="330" y="316">永續</text></g>
+          <g font-family="'Noto Sans TC', sans-serif" font-size="19" font-weight="500" fill="#0c1a2a" text-anchor="middle">
+            <g><circle cx="154" cy="68" r="48" fill="#fff" stroke="#0d4a9e" stroke-width="1.8"/><text x="154" y="75">法律</text></g>
+            <g><circle cx="306" cy="68" r="48" fill="#fff" stroke="#11a8a0" stroke-width="1.8"/><text x="306" y="75">商學</text></g>
+            <g><circle cx="78" cy="200" r="48" fill="#fff" stroke="#6d4ad9" stroke-width="1.8"/><text x="78" y="207">人文</text></g>
+            <g><circle cx="382" cy="200" r="48" fill="#fff" stroke="#e8a838" stroke-width="1.8"/><text x="382" y="207">公共</text></g>
+            <g><circle cx="154" cy="332" r="48" fill="#fff" stroke="#11a8a0" stroke-width="1.8"/><text x="154" y="339">社會</text></g>
+            <g><circle cx="306" cy="332" r="48" fill="#fff" stroke="#0d4a9e" stroke-width="1.8"/><text x="306" y="339">永續</text></g>
           </g>
-          <circle cx="210" cy="180" r="46" fill="url(#hg)"/>
-          <text x="210" y="178" text-anchor="middle" font-family="'Manrope', sans-serif" font-size="22" font-weight="800" fill="#fff">AI</text>
-          <text x="210" y="196" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" fill="#eaf2fb">4X CORE</text>
+          <circle cx="230" cy="200" r="78" fill="url(#hg)"/>
+          <text x="230" y="194" text-anchor="middle" font-family="'Manrope', sans-serif" font-size="26" font-weight="800" fill="#fff" textLength="86" lengthAdjust="spacingAndGlyphs">NTPU</text>
+          <text x="230" y="226" text-anchor="middle" font-family="'Manrope', sans-serif" font-size="26" font-weight="800" fill="#fff" textLength="86" lengthAdjust="spacingAndGlyphs">AI4X</text>
         </svg>
       </div>
     </div>
