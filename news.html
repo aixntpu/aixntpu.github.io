@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>News &amp; Events | NTPU AI4X</title>
-  <meta name="description" content="News and events of the NTPU AI4X Research Center: the official launch announcement, center mission and first-wave initiatives, and the cross-domain collaboration survey." />
+  <meta name="description" content="News and events of the NTPU AI4X Research Center: center announcements, academic events, competitions and calls, collaboration opportunities, and external resources." />
   <link rel="canonical" href="https://ai4x.ntpu.edu.tw/news.html" />
   <link rel="alternate" hreflang="en" href="https://ai4x.ntpu.edu.tw/news.html" />
   <link rel="alternate" hreflang="zh-Hant-TW" href="https://ai4x.ntpu.edu.tw/zh/news.html" />
@@ -12,7 +12,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="NTPU AI4X" />
   <meta property="og:title" content="News &amp; Events | NTPU AI4X" />
-  <meta property="og:description" content="Official announcements from the Advanced Research Center for Cross-Disciplinary AI, National Taipei University." />
+  <meta property="og:description" content="Center announcements, academic events, competitions and calls, collaboration opportunities, and external resources." />
   <meta property="og:url" content="https://ai4x.ntpu.edu.tw/news.html" />
   <meta property="og:image" content="https://ai4x.ntpu.edu.tw/assets/launch-cover.png" />
   <link rel="icon" href="assets/ai4xntpu_logo_s.png" />
@@ -65,11 +65,11 @@
     <div class="wrap">
       <p class="breadcrumb"><a href="index.html">Home</a><span class="sep">/</span>News &amp; Events</p>
       <span class="eyebrow">News &amp; Events</span>
-      <h1>Announcements from the <em class="grad-text">AI4X</em> center.</h1>
+      <h1><em class="grad-text">News</em> &amp; Events</h1>
       <p class="lede">
-        Official announcements, calls for collaboration, and upcoming events.
-        The center has been officially operating since August 1, 2026; event registration
-        and the first project call will follow here.
+        Center announcements, academic events, competitions and calls, collaboration
+        opportunities, and external resources, gathered in one place.
+        For external events, the organizer's own announcement is the authoritative source.
       </p>
     </div>
   </section>
@@ -77,20 +77,17 @@
   <section>
     <div class="wrap">
       <div class="news-hub" data-news-list
-           data-news-src="assets/data/news.en.json">
+           data-news-src="assets/data/news.en.json"
+           data-news-src-dev="assets/data/news.dev.json">
         <div class="news-hub__toolbar">
           <div class="news-search">
             <label class="news-search__label" for="news-search">Search news &amp; events</label>
             <input class="news-search__input" id="news-search" type="search" name="q"
                    autocomplete="off" placeholder="Search events, organizers, keywords…" data-news-search />
           </div>
-          <div class="news-filters">
-            <div class="news-filter">
-              <label class="news-filter__label" for="news-filter-category">Category</label>
-              <select id="news-filter-category" data-news-filter="category">
-                <option value="">All categories</option>
-              </select>
-            </div>
+          <!-- Category chips are built by news-list.js from the shared label map. -->
+          <div class="news-chips" data-news-chips></div>
+          <div class="news-filters news-filters--secondary">
             <div class="news-filter">
               <label class="news-filter__label" for="news-filter-source">Source</label>
               <select id="news-filter-source" data-news-filter="source">
@@ -115,8 +112,8 @@
         </div>
       </div>
       <p class="contact-note mt-3">
-        Further announcements — including the first research groups, the cross-domain seed
-        project call, and the first academic event — will be published here once confirmed.
+        Further announcements, including the first research groups, the cross-domain seed
+        project call, and the first academic event, will be published here once confirmed.
       </p>
     </div>
   </section>
@@ -159,7 +156,7 @@
         <span>© <span data-year>2026</span> NTPU AI4X Research Center</span>
         <span>Advanced Research Center for Cross-Disciplinary AI, National Taipei University (NTPU)</span>
         <span><a href="https://ai4x.ntpu.edu.tw/" target="_blank" rel="noopener">https://ai4x.ntpu.edu.tw/</a></span>
-        <span class="last-updated">Last updated: August 3, 2026</span>
+        <span class="last-updated">Last updated: August 9, 2026</span>
       </div>
     </div>
   </footer>
