@@ -5,8 +5,8 @@
    can be reloaded, shared and navigated with the browser Back button.
    ========================================================================== */
 import {
-  loadNews, getEventStatus, categoryLabel, sourceLabel, isExternal, detailHref,
-  formatDate, sortItems, el, clear, renderMessage, strings
+  loadNews, getNewsStatus, displayStatus, categoryLabel, sourceLabel, isExternal,
+  detailHref, formatDate, timeEl, sortItems, el, clear, renderMessage, strings
 } from './news-core.js';
 
 /* Fuse.js is pinned to an exact version — never @latest, so a CDN release can
@@ -39,6 +39,7 @@ async function init(container) {
     results: container.querySelector('[data-news-results]'),
     count: container.querySelector('[data-news-count]'),
     search: container.querySelector('[data-news-search]'),
+    chips: container.querySelector('[data-news-chips]'),
     category: container.querySelector('[data-news-filter="category"]'),
     source: container.querySelector('[data-news-filter="source"]'),
     status: container.querySelector('[data-news-filter="status"]'),
@@ -46,6 +47,7 @@ async function init(container) {
   };
 
   const s = strings();
+  buildChips(dom.chips, s);
   fillOptions(dom.category, s.categories);
   fillOptions(dom.source, s.sources);
   fillOptions(dom.status, s.statuses);
@@ -123,6 +125,24 @@ function isEmptyState(state) {
    Controls
    ------------------------------------------------------------------------- */
 
+/* Category chips. Built here rather than in the HTML so the labels come from
+   the one mapping in news-core.js and both language editions stay in sync.
+   Real <button>s: keyboard and screen-reader support come for free, and
+   aria-pressed carries the selected state. */
+function buildChips(group, s) {
+  if (!group) return;
+  group.setAttribute('role', 'group');
+  group.setAttribute('aria-label', s.filterAllAria);
+  const entries = [['', s.filterAll], ...Object.entries(s.categories)];
+  entries.forEach(([value, label]) => {
+    const chip = el('button', 'news-chip', label);
+    chip.type = 'button';
+    chip.dataset.category = value;
+    chip.setAttribute('aria-pressed', 'false');
+    group.append(chip);
+  });
+}
+
 function fillOptions(select, dictionary) {
   if (!select) return;
   Object.entries(dictionary).forEach(([value, label]) => {
@@ -147,6 +167,14 @@ function bindControls(dom, render) {
       render();
     });
   }
+  if (dom.chips) {
+    dom.chips.addEventListener('click', (e) => {
+      const chip = e.target.closest('.news-chip');
+      if (!chip || !dom.chips.contains(chip)) return;
+      writeState({ category: chip.dataset.category });
+      render();
+    });
+  }
   [['category', dom.category], ['source', dom.source], ['status', dom.status]].forEach(([key, select]) => {
     if (!select) return;
     select.addEventListener('change', () => { writeState({ [key]: select.value }); render(); });
@@ -162,6 +190,13 @@ function bindControls(dom, render) {
 
 function syncControls(dom, state) {
   if (dom.search && dom.search.value.trim() !== state.q) dom.search.value = state.q;
+  if (dom.chips) {
+    dom.chips.querySelectorAll('.news-chip').forEach(chip => {
+      const active = chip.dataset.category === state.category;
+      chip.setAttribute('aria-pressed', active ? 'true' : 'false');
+      chip.classList.toggle('is-active', active);
+    });
+  }
   if (dom.category) dom.category.value = state.category;
   if (dom.source) dom.source.value = state.source;
   if (dom.status) dom.status.value = state.status;
@@ -199,7 +234,7 @@ function applyFilters(items, state, search) {
   return base.filter(item => {
     if (state.category && item.category !== state.category) return false;
     if (state.source && item.source_type !== state.source) return false;
-    if (state.status && getEventStatus(item, now).key !== state.status) return false;
+    if (state.status && getNewsStatus(item, now).key !== state.status) return false;
     return true;
   });
 }
@@ -230,16 +265,19 @@ function renderResults(node, items) {
   items.forEach(item => node.append(card(item)));
 }
 
+/* Card order: category / source / status → title → summary → the dates and
+   place → the call to action. Only fields the item actually has are rendered,
+   so an item without a deadline or a location never shows an empty label. */
 function card(item) {
   const article = el('article', 'news-card');
 
   const meta = el('div', 'news-card__meta');
-  const date = formatDate(item.publish_date);
-  if (date) meta.append(el('span', 'news-date', date));
   meta.append(el('span', 'status-tag st-soon', categoryLabel(item)));
-  meta.append(el('span', `news-badge news-badge--${item.source_type}`, sourceLabel(item)));
-  const st = getEventStatus(item);
-  meta.append(el('span', `news-status news-status--${st.key}`, st.label));
+  if (isExternal(item)) {
+    meta.append(el('span', 'news-badge news-badge--external', sourceLabel(item)));
+  }
+  const st = displayStatus(item);
+  if (st) meta.append(el('span', `news-status news-status--${st.key}`, st.label));
   article.append(meta);
 
   const heading = el('h2', 'news-card__title');
@@ -261,6 +299,9 @@ function card(item) {
   more.append(detail);
   article.append(more);
 
+  // One quiet line, not a boxed disclaimer — the full notice is on the detail page.
+  if (isExternal(item)) article.append(el('p', 'news-card__note', s.externalNote));
+
   return article;
 }
 
@@ -268,15 +309,26 @@ function card(item) {
 function factList(item) {
   const { facts } = strings();
   const rows = [
-    [facts.event_date, formatDate(item.event_date)],
-    [facts.deadline, formatDate(item.deadline)],
-    [facts.location, item.location]
+    [facts.deadline, formatDate(item.deadline), true],
+    [facts.event_date, formatDate(item.event_date), true],
+    [facts.location, item.location, false]
   ].filter(([, value]) => !!value);
-  if (!rows.length) return null;
+  if (!rows.length) {
+    // No event dates at all: fall back to when AI4X published the item.
+    const published = formatDate(item.publish_date);
+    if (!published) return null;
+    rows.push([facts.publish_date, published, true]);
+  }
 
   const dl = el('dl', 'news-card__facts');
-  rows.forEach(([label, value]) => {
-    dl.append(el('dt', null, label), el('dd', null, value));
+  rows.forEach(([label, value, isDate]) => {
+    dl.append(el('dt', null, label), wrapValue(value, isDate));
   });
   return dl;
+}
+
+function wrapValue(value, isDate) {
+  const dd = el('dd');
+  dd.append(isDate ? timeEl(value) : document.createTextNode(value));
+  return dd;
 }

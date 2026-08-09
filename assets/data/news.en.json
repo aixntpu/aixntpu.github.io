@@ -72,7 +72,7 @@
         "The official website provides news, course resources, community activities, partners, and related learning resources. Please refer to the NAPAI website for the latest information."
       ],
       "category": "resource",
-      "category_label": "AI talent development",
+      "category_label": "External resources",
       "source_type": "external",
       "publish_date": "2026-08-07",
       "organizers": [
@@ -89,7 +89,7 @@
       "external_url": "https://napaincu.github.io/",
       "source_name": "NAPAI official website",
       "featured": true,
-      "priority": 95
+      "priority": 90
     },
     {
       "id": "2026-08-01-center-launch",

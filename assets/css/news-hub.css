@@ -44,11 +44,40 @@
   outline-offset: 2px;
 }
 
+/* Category chips: the primary filter, above the secondary select controls.
+   Real buttons, so keyboard focus and activation are the browser's own. */
+.news-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+.news-chip {
+  padding: 0.42rem 0.95rem;
+  min-height: 40px;
+  color: var(--ink-soft);
+  font: inherit;
+  font-size: 0.92rem;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.news-chip:hover { color: var(--blue); border-color: rgba(13, 74, 158, 0.4); }
+.news-chip:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+.news-chip[aria-pressed="true"] {
+  color: #fff;
+  font-weight: 700;
+  background: var(--blue);
+  border-color: var(--blue);
+}
+
 .news-filters {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.8rem;
 }
+.news-filters--secondary { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .news-filter { display: grid; gap: 0.35rem; min-width: 0; }
 
 .news-hub__status {
@@ -121,6 +150,8 @@
 
 .news-card__more { margin: 0.2rem 0 0; }
 .news-card__link { color: var(--blue); font-size: 0.95rem; font-weight: 700; }
+/* Deliberately quiet: the full notice lives on the detail page. */
+.news-card__note { margin: 0; color: var(--ink-soft); font-size: 0.85rem; }
 
 /* ---- Badges & status ---------------------------------------------------- */
 .news-badge,
@@ -227,6 +258,18 @@
 @media (max-width: 600px) {
   .news-hub__toolbar { padding: 1rem; }
   .news-filters { grid-template-columns: 1fr; }
+  /* Chips scroll sideways inside their own strip rather than pushing the page
+     wide; tabbing to a chip scrolls it into view, so keyboard use is unaffected. */
+  .news-chips {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    padding-bottom: 0.3rem;
+    margin-inline: -0.15rem;
+    padding-inline: 0.15rem;
+  }
+  .news-chip { flex: 0 0 auto; }
   .news-card__facts,
   .news-detail__facts { grid-template-columns: 1fr; gap: 0.1rem; }
   .news-card__facts dd,

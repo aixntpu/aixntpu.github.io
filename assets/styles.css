@@ -479,19 +479,26 @@ table.data tfoot td { font-weight: 800; background: rgba(17, 168, 160, 0.1); }
 .work-item h3 { font-size: 1.05rem; }
 .work-item p { margin: 0; color: var(--ink-soft); font-size: 0.96rem; }
 
-/* News */
+/* News (home page cards; the list page adds assets/css/news-hub.css) */
 .news-list { display: grid; gap: 0.9rem; }
 .news-item {
-  display: grid; grid-template-columns: 130px minmax(0,1fr); gap: 1.2rem;
-  align-items: start; padding: 1.2rem 1.35rem;
+  display: grid; gap: 0.45rem; align-items: start;
+  padding: 1.2rem 1.35rem;
   background: var(--panel); border: 1px solid var(--line);
   border-radius: var(--radius); box-shadow: var(--shadow);
 }
-.news-date { color: var(--blue); font-family: var(--font-mono); font-size: 0.95rem; font-weight: 500; letter-spacing: 0.05em; }
-.news-item h3 { font-size: 1.08rem; margin-bottom: 0.3rem; }
+.news-item__tags { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; }
+.news-date { color: var(--ink-soft); font-family: var(--font-mono); font-size: 0.9rem; font-weight: 500; letter-spacing: 0.05em; }
+/* An open deadline is the one date allowed to draw the eye — never more than the title. */
+.news-date--deadline { color: var(--blue); }
+.news-item h3 { font-size: 1.08rem; margin: 0; }
 .news-item h3 a:hover { color: var(--blue); }
 .news-item p { margin: 0; color: var(--ink-soft); font-size: 0.98rem; }
-.news-item .status-tag { margin-bottom: 0.45rem; }
+/* Home page stays scan-friendly: long summaries are clamped, in full on news.html. */
+.news-item__summary {
+  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3;
+  line-clamp: 3; overflow: hidden;
+}
 
 /* Preparation progress (cards, mobile friendly) */
 .progress-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 0.9rem; }
@@ -730,7 +737,7 @@ table.data tfoot td { font-weight: 800; background: rgba(17, 168, 160, 0.1); }
   .pillar { grid-template-columns: 44px minmax(0,1fr); }
   .work-list, .progress-grid, .contact-grid { grid-template-columns: 1fr; }
   .fact-grid { grid-template-columns: 1fr; }
-  .news-item { grid-template-columns: 1fr; gap: 0.35rem; }
+  .news-item { gap: 0.35rem; }
 }
 @media (max-width: 600px) {
   .brand-text small { display: none; }

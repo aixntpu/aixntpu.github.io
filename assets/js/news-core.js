@@ -22,7 +22,10 @@ const I18N = {
       collaboration: '合作機會',
       resource: '外部資源'
     },
-    sources: { internal: '中心資訊', external: '外部活動' },
+    sources: { internal: '中心資訊', external: '外部資訊' },
+    filterAll: '全部',
+    filterAllAria: '依分類篩選',
+    externalNote: '詳細資訊請以主辦單位官方網站公告為準。',
     statuses: {
       open: '報名中',
       closing: '即將截止',
@@ -32,6 +35,7 @@ const I18N = {
       info: '一般資訊'
     },
     listSeparator: '、',
+    primaryDates: { deadline: '報名截止', event_date: '活動日期', publish_date: '發布' },
     loading: '資料載入中…',
     error: '目前無法載入消息資料，請稍後再試。',
     noFeatured: '目前沒有最新公告。',
@@ -54,9 +58,7 @@ const I18N = {
     sourceHead: '資訊來源',
     relatedHead: '相關連結',
     disclaimerTitle: '外部資訊說明',
-    disclaimerBody:
-      '本頁內容由國立臺北大學跨域人工智慧前瞻研究中心（AI4X Research Center）彙整轉知。' +
-      '本中心非本活動主辦單位；活動內容、資格、時程及報名方式如有異動，請以主辦單位最新公告為準。',
+    disclaimerBody: '外部資訊由 NTPU AI4X 彙整轉知，詳細資訊請以主辦單位官方網站公告為準。',
     detailTitle: title => `${title} | 消息與活動 | NTPU AI4X`,
     missingTitle: '找不到這則消息',
     missingBody: '這則消息可能已下架，或網址中的編號有誤。',
@@ -64,13 +66,16 @@ const I18N = {
   },
   en: {
     categories: {
-      announcement: 'Center announcement',
-      academic: 'Academic event',
-      competition: 'Competitions & calls',
+      announcement: 'Center Announcements',
+      academic: 'Academic Events',
+      competition: 'Competitions & Calls',
       collaboration: 'Collaboration',
-      resource: 'External resource'
+      resource: 'External Resources'
     },
-    sources: { internal: 'Center information', external: 'External event' },
+    sources: { internal: 'Center information', external: 'External' },
+    filterAll: 'All',
+    filterAllAria: 'Filter by category',
+    externalNote: 'Please refer to the organizer’s official website for the latest information.',
     statuses: {
       open: 'Registration open',
       closing: 'Closing soon',
@@ -80,6 +85,7 @@ const I18N = {
       info: 'General information'
     },
     listSeparator: ', ',
+    primaryDates: { deadline: 'Deadline', event_date: 'Event date', publish_date: 'Published' },
     loading: 'Loading…',
     error: 'News data could not be loaded right now. Please try again later.',
     noFeatured: 'No announcements yet.',
@@ -103,10 +109,8 @@ const I18N = {
     relatedHead: 'Related link',
     disclaimerTitle: 'About this external information',
     disclaimerBody:
-      'This page is compiled and shared by the Advanced Research Center for Cross-Disciplinary AI ' +
-      '(AI4X Research Center), National Taipei University. The center is not the organizer of this event; ' +
-      'for any change to its content, eligibility, schedule, or registration, the organizer’s latest ' +
-      'announcement prevails.',
+      'External information compiled and shared by NTPU AI4X. Please refer to the organizer’s ' +
+      'official website for the latest information.',
     detailTitle: title => `${title} | News & Events | NTPU AI4X`,
     missingTitle: 'News item not found',
     missingBody: 'This item may have been removed, or the id in the address is incorrect.',
@@ -169,11 +173,19 @@ function daysBetween(from, to) {
 }
 
 /**
- * Derive the registration / event status of an item.
+ * Derive the registration / event status of an item from its dates alone —
+ * never stored in the data file.
+ *
+ *   event_date in the past                      → ended
+ *   deadline today or later                     → open / closing (≤ 7 days)
+ *   deadline in the past, event still to come   → closed
+ *   event_date in the future, no deadline       → upcoming
+ *   neither date (announcements, resources)     → info
+ *
  * `now` is injectable so the rules can be tested at arbitrary dates.
  * @returns {{key: string, label: string}}
  */
-export function getEventStatus(item, now = new Date()) {
+export function getNewsStatus(item, now = new Date()) {
   const today = startOfDay(now);
   const eventDate = parseLocalDate(item && item.event_date);
   const deadline = parseLocalDate(item && item.deadline);
@@ -187,8 +199,46 @@ export function getEventStatus(item, now = new Date()) {
   return status('info');
 }
 
+/** Previous name of {@link getNewsStatus}; kept so older imports keep working. */
+export const getEventStatus = getNewsStatus;
+
+/**
+ * The status worth showing as a chip, or null when it would add nothing.
+ * A center announcement has no registration and no event, so tagging it
+ * 「一般資訊」 is noise — its category and publish date already say everything.
+ */
+export function displayStatus(item, now = new Date()) {
+  const st = getNewsStatus(item, now);
+  if (st.key === 'info' && item && item.category === 'announcement') return null;
+  return st;
+}
+
 function status(key) {
   return { key, label: strings().statuses[key] };
+}
+
+/**
+ * The single most useful date for an item, by falling urgency:
+ * an open deadline, then an upcoming event, then the publication date.
+ * @returns {{key: string, label: string, value: string}|null}
+ */
+export function primaryDate(item, now = new Date()) {
+  const today = startOfDay(now);
+  const { primaryDates } = strings();
+  const deadline = parseLocalDate(item && item.deadline);
+  const eventDate = parseLocalDate(item && item.event_date);
+
+  if (deadline && today <= deadline) return dateFact('deadline', item.deadline, primaryDates);
+  if (eventDate && today <= eventDate) return dateFact('event_date', item.event_date, primaryDates);
+  if (deadline) return dateFact('deadline', item.deadline, primaryDates);
+  if (eventDate) return dateFact('event_date', item.event_date, primaryDates);
+  return formatDate(item && item.publish_date)
+    ? dateFact('publish_date', item.publish_date, primaryDates)
+    : null;
+}
+
+function dateFact(key, value, labels) {
+  return { key, label: labels[key], value: formatDate(value) };
 }
 
 /** `2026-08-26` → `2026-08-26`; anything unparsable → '' (never Invalid Date). */
@@ -200,10 +250,14 @@ export function formatDate(value) {
    Labels & links
    ------------------------------------------------------------------------- */
 
-/** Prefers the explicit `category_label`, falls back to the shared mapping. */
+/**
+ * The shared mapping wins over the data file's `category_label`, so a card and
+ * the category filter chips can never disagree; `category_label` stays in the
+ * schema and is used only for categories the mapping does not know.
+ */
 export function categoryLabel(item) {
   if (!item) return '';
-  return item.category_label || strings().categories[item.category] || '';
+  return strings().categories[item.category] || item.category_label || '';
 }
 
 export function sourceLabel(item) {
@@ -253,6 +307,117 @@ function toPriority(item) {
 }
 
 /* -------------------------------------------------------------------------
+   Home page selection
+   --------------------------------------------------------------------------
+   Two data fields drive this, and they mean different things:
+
+     featured — editorial opt-in: may this item appear on the home page at all?
+     priority — manual ordering weight *between featured items* (0–100).
+
+   priority is the main term but never the only one: a call closing this week
+   should outrank a higher-priority item with nothing happening, and an event
+   that is over should drop off the home page even if its priority is high.
+   ------------------------------------------------------------------------- */
+
+/** How many items the home page shows. 4 by design; 5 is the sane maximum. */
+export const HOME_NEWS_LIMIT = 4;
+
+/** Score bonuses, all additive on top of `priority`. Tuned to stay small
+    relative to the 0–100 priority range so editors keep the final say. */
+const HOME_SCORE = {
+  deadlineWithin7: 40,
+  deadlineWithin30: 25,
+  deadlineLater: 10,
+  eventWithin30: 20,
+  eventWithin90: 10,
+  registrationClosed: -15, // event still to come, but nobody can sign up any more
+  publishedWithin30: 8,
+  publishedWithin90: 4
+};
+
+/** At most this many items of one category / from external sources in the set,
+    so the home page never turns into a wall of outside events. */
+const HOME_DIVERSITY = { perCategory: 2, external: 2 };
+
+function homeScore(item, now) {
+  const today = startOfDay(now);
+  const deadline = parseLocalDate(item.deadline);
+  const eventDate = parseLocalDate(item.event_date);
+  const publish = parseLocalDate(item.publish_date);
+  let score = toPriority(item);
+
+  if (deadline && today <= deadline) {
+    const days = daysBetween(today, deadline);
+    score += days <= CLOSING_SOON_DAYS ? HOME_SCORE.deadlineWithin7
+      : days <= 30 ? HOME_SCORE.deadlineWithin30
+        : HOME_SCORE.deadlineLater;
+  } else if (deadline) {
+    score += HOME_SCORE.registrationClosed;
+  }
+
+  if (eventDate && today <= eventDate) {
+    const days = daysBetween(today, eventDate);
+    if (days <= 30) score += HOME_SCORE.eventWithin30;
+    else if (days <= 90) score += HOME_SCORE.eventWithin90;
+  }
+
+  if (publish && publish <= today) {
+    const age = daysBetween(publish, today);
+    if (age <= 30) score += HOME_SCORE.publishedWithin30;
+    else if (age <= 90) score += HOME_SCORE.publishedWithin90;
+  }
+
+  return score;
+}
+
+/**
+ * The items the home page should show: featured, still relevant, ranked by
+ * urgency-aware score, then spread across categories.
+ *
+ * Items with no event_date and no deadline (a launch announcement, a standing
+ * resource) never expire — only a finished event is dropped.
+ *
+ * @param {Array} items every news item (already sorted or not)
+ * @param {{now?: Date, limit?: number}} [options]
+ */
+export function getHomepageNews(items, options = {}) {
+  const now = options.now || new Date();
+  const limit = options.limit || HOME_NEWS_LIMIT;
+
+  const ranked = (Array.isArray(items) ? items : [])
+    .filter(item => item && item.featured === true)
+    .filter(item => getNewsStatus(item, now).key !== 'ended')
+    .map(item => ({ item, score: homeScore(item, now) }))
+    .sort((a, b) =>
+      b.score - a.score ||
+      String(b.item.publish_date || '').localeCompare(String(a.item.publish_date || '')) ||
+      String(a.item.id).localeCompare(String(b.item.id))
+    )
+    .map(entry => entry.item);
+
+  // Pass 1: best items, subject to the diversity caps.
+  const picked = [];
+  const perCategory = new Map();
+  let external = 0;
+  for (const item of ranked) {
+    if (picked.length >= limit) break;
+    const used = perCategory.get(item.category) || 0;
+    if (used >= HOME_DIVERSITY.perCategory) continue;
+    if (isExternal(item) && external >= HOME_DIVERSITY.external) continue;
+    picked.push(item);
+    perCategory.set(item.category, used + 1);
+    if (isExternal(item)) external += 1;
+  }
+
+  // Pass 2: if the caps left the home page short, fill it back up by score.
+  for (const item of ranked) {
+    if (picked.length >= limit) break;
+    if (!picked.includes(item)) picked.push(item);
+  }
+  return picked;
+}
+
+/* -------------------------------------------------------------------------
    Data loading
    ------------------------------------------------------------------------- */
 
@@ -286,6 +451,14 @@ export function el(tag, className, text) {
   const node = document.createElement(tag);
   if (className) node.className = className;
   if (text != null && text !== '') node.textContent = String(text);
+  return node;
+}
+
+/** `<time datetime="2026-08-26">2026-08-26</time>`, optionally label-prefixed. */
+export function timeEl(value, className, label) {
+  const iso = formatDate(value);
+  const node = el('time', className, label ? `${label} ${iso}` : iso);
+  node.setAttribute('datetime', iso);
   return node;
 }
 

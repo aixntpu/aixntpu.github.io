@@ -3,8 +3,8 @@
    One HTML page renders every item: /zh/news-detail.html?id=<item id>
    ========================================================================== */
 import {
-  loadNews, getEventStatus, categoryLabel, sourceLabel, isExternal,
-  formatDate, safeUrl, el, clear, renderMessage, externalLink, strings
+  loadNews, displayStatus, categoryLabel, sourceLabel, isExternal,
+  formatDate, timeEl, safeUrl, el, clear, renderMessage, externalLink, strings
 } from './news-core.js';
 
 const root = document.querySelector('[data-news-detail]');
@@ -50,8 +50,8 @@ function renderItem(container, item) {
   const meta = el('div', 'news-detail__meta');
   meta.append(el('span', 'status-tag st-soon', categoryLabel(item)));
   meta.append(el('span', `news-badge news-badge--${item.source_type}`, sourceLabel(item)));
-  const st = getEventStatus(item);
-  meta.append(el('span', `news-status news-status--${st.key}`, st.label));
+  const st = displayStatus(item);
+  if (st) meta.append(el('span', `news-status news-status--${st.key}`, st.label));
   article.append(meta);
 
   article.append(el('h1', 'news-detail__title', item.title));
@@ -83,18 +83,20 @@ function renderItem(container, item) {
 function factList(item) {
   const { facts } = strings();
   const rows = [
-    [facts.publish_date, formatDate(item.publish_date)],
-    [facts.event_date, formatDate(item.event_date)],
-    [facts.deadline, formatDate(item.deadline)],
-    [facts.location, item.location],
-    [facts.eligibility, item.eligibility],
-    [facts.organizers, joinList(item.organizers)]
+    [facts.publish_date, formatDate(item.publish_date), true],
+    [facts.event_date, formatDate(item.event_date), true],
+    [facts.deadline, formatDate(item.deadline), true],
+    [facts.location, item.location, false],
+    [facts.eligibility, item.eligibility, false],
+    [facts.organizers, joinList(item.organizers), false]
   ].filter(([, value]) => !!value);
   if (!rows.length) return null;
 
   const dl = el('dl', 'news-detail__facts');
-  rows.forEach(([label, value]) => {
-    dl.append(el('dt', null, label), el('dd', null, value));
+  rows.forEach(([label, value, isDate]) => {
+    const dd = el('dd');
+    dd.append(isDate ? timeEl(value) : document.createTextNode(value));
+    dl.append(el('dt', null, label), dd);
   });
   return dl;
 }
