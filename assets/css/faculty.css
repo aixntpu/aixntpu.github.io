@@ -1,0 +1,250 @@
+/* ==========================================================================
+   NTPU AI4X | AI faculty directory
+   Add-on stylesheet for the JSON-driven NTPU AI 教師群 section on the members
+   pages. Loaded after assets/styles.css; every selector is namespaced under
+   `faculty-` so the shared design system is left untouched, and the cards
+   themselves keep reusing .member-grid / .member-card.
+   ========================================================================== */
+
+/* ---- Toolbar: search + filters ------------------------------------------ */
+.faculty-toolbar {
+  display: grid;
+  gap: 0.95rem;
+  padding: 1.15rem 1.3rem;
+  margin: 1.4rem 0;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.faculty-search { display: grid; gap: 0.35rem; }
+.faculty-search__label,
+.faculty-chips__label {
+  color: var(--ink-soft);
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+}
+.faculty-search__input {
+  width: 100%;
+  min-height: 44px;
+  padding: 0.45rem 0.75rem;
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.98rem;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+.faculty-search__input::placeholder { color: rgba(74, 93, 110, 0.75); }
+.faculty-search__input:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
+}
+
+/* Every filter is a row of chips — research domain, college, rank — so they
+   read the same way and are one click apart. Real buttons, so keyboard focus
+   and activation are the browser's own. */
+.faculty-chips-block { display: grid; gap: 0.45rem; }
+.faculty-chips { display: flex; flex-wrap: wrap; gap: 0.45rem; }
+.faculty-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.42rem 0.95rem;
+  min-height: 40px;
+  color: var(--ink-soft);
+  font: inherit;
+  font-size: 0.92rem;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  cursor: pointer;
+  text-align: left;
+}
+.faculty-chip:hover { color: var(--blue); border-color: rgba(13, 74, 158, 0.4); }
+.faculty-chip:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+.faculty-chip__count {
+  padding: 0 0.45rem;
+  border-radius: 999px;
+  background: rgba(13, 74, 158, 0.1);
+  color: var(--blue);
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+}
+.faculty-chip[aria-pressed="true"] {
+  color: #fff;
+  font-weight: 700;
+  background: var(--blue);
+  border-color: var(--blue);
+}
+.faculty-chip[aria-pressed="true"] .faculty-chip__count {
+  background: rgba(255, 255, 255, 0.22);
+  color: #fff;
+}
+
+/* College and rank are secondary to the domains: same shape, quieter weight,
+   so the eye still lands on the research domains first. */
+.faculty-chips--sub .faculty-chip {
+  min-height: 34px;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.88rem;
+}
+.faculty-chips--sub .faculty-chip__count { font-size: 0.78rem; }
+
+/* Any / all switch. Hidden until at least two domains are selected, because
+   with one domain the two modes are the same query. */
+.faculty-mode {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+.faculty-mode[hidden] { display: none; }
+.faculty-mode__btn {
+  padding: 0.32rem 0.85rem;
+  color: var(--ink-soft);
+  font: inherit;
+  font-size: 0.9rem;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  cursor: pointer;
+}
+.faculty-mode__btn:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+.faculty-mode__btn[aria-pressed="true"] {
+  color: var(--blue);
+  font-weight: 700;
+  background: rgba(13, 74, 158, 0.1);
+  border-color: rgba(13, 74, 158, 0.4);
+}
+
+.faculty-switches {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem 1.4rem;
+}
+.faculty-check {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+.faculty-check input { width: 18px; height: 18px; accent-color: var(--blue); }
+
+.faculty-status {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+}
+.faculty-count {
+  color: var(--ink-soft);
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+}
+.faculty-clear {
+  padding: 0.35rem 0.9rem;
+  color: var(--blue);
+  font: inherit;
+  font-size: 0.92rem;
+  background: none;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  cursor: pointer;
+}
+.faculty-clear:hover { background: rgba(13, 74, 158, 0.07); }
+.faculty-clear[hidden] { display: none; }
+
+/* ---- Results ------------------------------------------------------------ */
+
+/* Rank chip and college sit on one line at the top of a card. The college is a
+   button: it filters, and it repeats what the College select offers. */
+.faculty-card__labels {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+}
+.faculty-college {
+  padding: 0.22rem 0.72rem;
+  color: var(--ink-soft);
+  font: inherit;
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.5;
+  background: rgba(12, 26, 42, 0.05);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  cursor: pointer;
+}
+.faculty-college::before {
+  content: "";
+  display: inline-block;
+  width: 0.44rem;
+  height: 0.44rem;
+  margin-inline-end: 0.42rem;
+  border-radius: 50%;
+  background: currentColor;
+  vertical-align: 0.08em;
+  opacity: 0.55;
+}
+.faculty-college:hover { color: var(--blue); border-color: rgba(13, 74, 158, 0.4); }
+.faculty-college:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+.member-card.a2 .faculty-college:hover { color: var(--cyan); border-color: rgba(17, 168, 160, 0.45); }
+.member-card.a3 .faculty-college:hover { color: var(--violet); border-color: rgba(109, 74, 217, 0.45); }
+.member-card.a4 .faculty-college:hover { color: var(--clay); border-color: rgba(184, 92, 58, 0.45); }
+
+/* Domain chips inside a card double as filters, so they are buttons styled to
+   sit alongside the plain .member-tags pills above them. */
+.faculty-domains {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.38rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.faculty-domain {
+  padding: 0.22rem 0.7rem;
+  color: var(--blue);
+  font: inherit;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  background: rgba(13, 74, 158, 0.08);
+  border: 1px dashed rgba(13, 74, 158, 0.35);
+  border-radius: 999px;
+  cursor: pointer;
+}
+.faculty-domain:hover { background: rgba(13, 74, 158, 0.16); }
+.faculty-domain:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+.member-card.a2 .faculty-domain { color: var(--cyan); background: rgba(17, 168, 160, 0.12); border-color: rgba(17, 168, 160, 0.4); }
+.member-card.a3 .faculty-domain { color: var(--violet); background: rgba(109, 74, 217, 0.1); border-color: rgba(109, 74, 217, 0.4); }
+.member-card.a4 .faculty-domain { color: var(--clay); background: rgba(184, 92, 58, 0.1); border-color: rgba(184, 92, 58, 0.4); }
+
+/* Both live inside the results grid, so they span every column instead of
+   sitting in a single card-width cell. */
+.faculty-empty,
+.faculty-message {
+  grid-column: 1 / -1;
+  padding: 1.6rem 1.3rem;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  color: var(--ink-soft);
+  text-align: center;
+}
+.faculty-empty__title { margin: 0 0 0.3rem; color: var(--ink); font-weight: 700; }
+.faculty-empty__hint { margin: 0; font-size: 0.95rem; }
+.faculty-message--error { color: var(--clay); }
+
+@media (max-width: 700px) {
+  .faculty-toolbar { padding: 1rem; }
+  .faculty-status { justify-content: flex-start; }
+}

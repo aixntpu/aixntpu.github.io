@@ -609,36 +609,10 @@ table.data tfoot td { font-weight: 800; background: rgba(17, 168, 160, 0.1); }
 .member-meta strong { color: var(--ink); font-weight: 600; }
 .member-meta a { color: var(--blue); text-decoration: underline; text-underline-offset: 3px; }
 
-/* Faculty roster (members page) — section chrome only; the cards themselves
-   reuse .member-grid / .member-card so every type size matches the rest of the page */
-.faculty-jump { margin: 1.2rem 0 0.4rem; }
-.faculty-jump ul {
-  display: flex; flex-wrap: wrap; gap: 0.45rem;
-  margin: 0; padding: 0; list-style: none;
-}
-.faculty-jump a {
-  display: inline-flex; align-items: center; gap: 0.55rem;
-  padding: 0.4rem 0.95rem; border: 1px solid var(--line); border-radius: 999px;
-  background: var(--panel); color: var(--ink-soft);
-  font-size: 1.02rem; font-weight: 600;
-}
-.faculty-jump a:hover { color: var(--blue); border-color: rgba(13, 74, 158, 0.4); }
-.faculty-jump a span {
-  padding: 0 0.45rem; border-radius: 999px;
-  background: rgba(13, 74, 158, 0.1); color: var(--blue);
-  font-family: var(--font-mono); font-size: 0.88rem;
-}
-
-.faculty-group-head {
-  display: flex; align-items: baseline; flex-wrap: wrap; gap: 0.8rem;
-  margin: 1.8rem 0 0.85rem; padding-bottom: 0.5rem;
-  border-bottom: 1px solid var(--line);
-}
-.faculty-group-head h3 { font-size: 1.5rem; }
-.faculty-count {
-  font-family: var(--font-mono); font-size: 0.88rem; letter-spacing: 0.08em;
-  color: var(--cyan);
-}
+/* The AI faculty roster on the members pages is rendered from
+   assets/data/faculty.json; its search, filter and card chrome lives in
+   assets/css/faculty.css. The cards themselves reuse .member-grid /
+   .member-card above, so every type size matches the rest of the page. */
 
 /* Footer contact & meta */
 .footer-contact { margin: 0.35rem 0 0; padding: 0; list-style: none; }
