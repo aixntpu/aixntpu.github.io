@@ -1651,10 +1651,10 @@
       "college": "business",
       "rank": "associate",
       "domains": [
-        "ai-core",
+        "data",
+        "fintech",
         "business",
-        "society",
-        "law"
+        "education"
       ],
       "photo": "assets/faculty/claudiapan_photo.jpg",
       "initials": null,
