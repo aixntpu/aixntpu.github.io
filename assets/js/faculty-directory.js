@@ -27,6 +27,7 @@ const FUSE_OPTIONS = {
     { name: 'expertise', weight: 0.24 },
     { name: 'courses', weight: 0.14 },
     { name: 'affiliation', weight: 0.1 },
+    { name: 'degree', weight: 0.06 },
     { name: 'domain_labels', weight: 0.06 },
     { name: 'college_label', weight: 0.04 }
   ]
@@ -62,6 +63,7 @@ const I18N = {
     emptyTitle: '找不到符合條件的教師。',
     emptyHint: '請嘗試其他關鍵字，或清除篩選條件後重新瀏覽。',
     expertise: '研究專長',
+    degree: '最高學歷',
     courses: '開設 AI 課程',
     domains: '研究領域',
     email: 'Email：',
@@ -90,6 +92,7 @@ const I18N = {
     emptyTitle: 'No faculty match these filters.',
     emptyHint: 'Try another keyword, or clear the filters and browse the full list.',
     expertise: 'Expertise',
+    degree: 'Highest degree',
     courses: 'AI courses taught',
     domains: 'Research domains',
     email: 'Email: ',
@@ -206,6 +209,7 @@ function view(person, data) {
     alt_lang: code === 'zh' ? 'en' : 'zh-Hant',
     role: local.role,
     affiliation: local.affiliation,
+    degree: local.degree || '',
     expertise: local.expertise || [],
     courses: local.courses || ''
   };
@@ -552,7 +556,7 @@ function searchAllTerms(list, people, matchOne) {
    on purpose: they are matched as vocabulary instead, which keeps "金融科技"
    ranking the professor who lists it above the rest of that domain. */
 function searchableText(person) {
-  return [person.name, person.alt_name, person.affiliation, person.courses]
+  return [person.name, person.alt_name, person.affiliation, person.degree, person.courses]
     .concat(person.expertise)
     .filter(Boolean).join(' ').toLowerCase();
 }
@@ -642,6 +646,16 @@ function card(person, index) {
     heading.append(alt);
   }
   body.append(heading, el('p', 'member-affil', person.affiliation));
+
+  /* Highest degree sits where the core member cards keep it: straight under
+     the affiliation, in the same fact row styling. */
+  if (person.degree) {
+    const facts = el('div', 'member-facts');
+    const row = el('div');
+    row.append(el('strong', null, s.degree), document.createTextNode(person.degree));
+    facts.append(row);
+    body.append(facts);
+  }
 
   if (person.expertise.length) {
     const areas = el('div', 'member-areas');
