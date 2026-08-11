@@ -1,0 +1,2889 @@
+{
+  "updated": "2026-08-11",
+  "source": "members.html / zh/members.html",
+  "ranks": [
+    {
+      "key": "professor",
+      "en": "Professor",
+      "zh": "教授"
+    },
+    {
+      "key": "associate",
+      "en": "Associate Professor",
+      "zh": "副教授"
+    },
+    {
+      "key": "assistant",
+      "en": "Assistant Professor",
+      "zh": "助理教授"
+    },
+    {
+      "key": "director",
+      "en": "Director",
+      "zh": "主任"
+    }
+  ],
+  "colleges": [
+    {
+      "key": "eecs",
+      "en": "Electrical Engineering & Computer Science",
+      "zh": "電機資訊學院",
+      "aliases": [
+        "電資",
+        "電機資訊",
+        "資工",
+        "資訊工程",
+        "通訊工程",
+        "電機工程",
+        "eecs",
+        "csie",
+        "computer science",
+        "communication engineering",
+        "electrical engineering"
+      ]
+    },
+    {
+      "key": "business",
+      "en": "Business",
+      "zh": "商學院",
+      "aliases": [
+        "商學",
+        "商院",
+        "企管",
+        "企業管理",
+        "統計",
+        "資訊管理",
+        "資管",
+        "business administration",
+        "statistics",
+        "information management"
+      ]
+    },
+    {
+      "key": "social",
+      "en": "Social Sciences",
+      "zh": "社會科學學院",
+      "aliases": [
+        "社科",
+        "社會科學",
+        "經濟",
+        "經濟學",
+        "社會學",
+        "社會工作",
+        "社工",
+        "economics",
+        "sociology",
+        "social work"
+      ]
+    },
+    {
+      "key": "public",
+      "en": "Public Affairs",
+      "zh": "公共事務學院",
+      "aliases": [
+        "公事",
+        "公共事務",
+        "公共行政",
+        "公共政策",
+        "不動產",
+        "都市計劃",
+        "public administration",
+        "public policy",
+        "real estate"
+      ]
+    },
+    {
+      "key": "humanities",
+      "en": "Humanities",
+      "zh": "人文學院",
+      "aliases": [
+        "人文",
+        "中文",
+        "中國文學",
+        "應用外語",
+        "chinese literature",
+        "applied foreign languages"
+      ]
+    },
+    {
+      "key": "law",
+      "en": "Law",
+      "zh": "法律學院",
+      "aliases": [
+        "法學",
+        "法律學",
+        "法律系"
+      ]
+    },
+    {
+      "key": "university",
+      "en": "University-wide centers & degree programs",
+      "zh": "全校性中心與學位學程",
+      "aliases": [
+        "全校",
+        "校級",
+        "通識",
+        "通識中心",
+        "計算機中心",
+        "計中",
+        "語言中心",
+        "師資培育",
+        "學位學程",
+        "computer center",
+        "general education",
+        "language center",
+        "teacher education",
+        "degree program"
+      ]
+    }
+  ],
+  "domains": [
+    {
+      "key": "ai-core",
+      "en": "AI, machine learning & deep learning",
+      "zh": "人工智慧與機器學習",
+      "aliases": [
+        "機器學習",
+        "深度學習",
+        "類神經網路",
+        "machine learning",
+        "deep learning",
+        "ml"
+      ]
+    },
+    {
+      "key": "nlp",
+      "en": "Language, speech & generative AI",
+      "zh": "語言、語音與生成式 AI",
+      "aliases": [
+        "自然語言處理",
+        "語音",
+        "大型語言模型",
+        "生成式",
+        "nlp",
+        "llm",
+        "speech"
+      ]
+    },
+    {
+      "key": "vision",
+      "en": "Computer vision, graphics & XR",
+      "zh": "電腦視覺、圖學與延展實境",
+      "aliases": [
+        "電腦視覺",
+        "影像",
+        "圖學",
+        "延展實境",
+        "cv",
+        "computer vision",
+        "image",
+        "xr"
+      ]
+    },
+    {
+      "key": "data",
+      "en": "Data science, statistics & big data",
+      "zh": "資料科學、統計與大數據",
+      "aliases": [
+        "資料科學",
+        "統計",
+        "大數據",
+        "資料探勘",
+        "data science",
+        "big data",
+        "statistics",
+        "data mining"
+      ]
+    },
+    {
+      "key": "systems",
+      "en": "Networks, IoT & computing systems",
+      "zh": "網路、物聯網與運算系統",
+      "aliases": [
+        "網路",
+        "物聯網",
+        "邊緣運算",
+        "雲端",
+        "aiot",
+        "iot",
+        "networks",
+        "cloud",
+        "edge computing"
+      ]
+    },
+    {
+      "key": "security",
+      "en": "Security, privacy & blockchain",
+      "zh": "資安、隱私與區塊鏈",
+      "aliases": [
+        "資安",
+        "資訊安全",
+        "隱私",
+        "區塊鏈",
+        "security",
+        "privacy",
+        "blockchain"
+      ]
+    },
+    {
+      "key": "fintech",
+      "en": "Finance, economics & FinTech",
+      "zh": "金融、經濟與金融科技",
+      "aliases": [
+        "金融",
+        "金融科技",
+        "經濟",
+        "財務",
+        "fintech",
+        "finance",
+        "economics"
+      ]
+    },
+    {
+      "key": "business",
+      "en": "Business, marketing & supply chain",
+      "zh": "商業、行銷與供應鏈",
+      "aliases": [
+        "商業",
+        "行銷",
+        "供應鏈",
+        "電子商務",
+        "marketing",
+        "supply chain",
+        "e-commerce"
+      ]
+    },
+    {
+      "key": "health",
+      "en": "Smart healthcare & biomedicine",
+      "zh": "智慧醫療與生醫",
+      "aliases": [
+        "智慧醫療",
+        "醫療",
+        "生醫",
+        "健康",
+        "healthcare",
+        "biomedicine",
+        "medical"
+      ]
+    },
+    {
+      "key": "society",
+      "en": "Society, public policy & space",
+      "zh": "社會、公共政策與空間",
+      "aliases": [
+        "社會",
+        "公共政策",
+        "空間",
+        "都市",
+        "society",
+        "public policy",
+        "urban"
+      ]
+    },
+    {
+      "key": "law",
+      "en": "Law, governance & AI ethics",
+      "zh": "法律、治理與 AI 倫理",
+      "aliases": [
+        "法律",
+        "治理",
+        "倫理",
+        "law",
+        "governance",
+        "ethics"
+      ]
+    },
+    {
+      "key": "education",
+      "en": "Education, language & digital humanities",
+      "zh": "教育、語言與數位人文",
+      "aliases": [
+        "教育",
+        "語言教學",
+        "數位人文",
+        "education",
+        "digital humanities",
+        "teaching"
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "id": "dalton",
+      "college": "eecs",
+      "rank": "professor",
+      "domains": [
+        "ai-core",
+        "vision"
+      ],
+      "photo": "assets/faculty/dalton_photo.jpg",
+      "initials": null,
+      "email": "dalton@mail.ntpu.edu.tw",
+      "web": "http://www.csie.ntpu.edu.tw/~dalton/",
+      "en": {
+        "name": "Dalton Lin",
+        "alt_name": "林道通",
+        "role": "Professor",
+        "affiliation": "Department of Computer Science and Information Engineering, National Taipei University",
+        "degree": "Ph.D. in Electrical Engineering, University of Maryland",
+        "expertise": [
+          "Image processing",
+          "Computer vision",
+          "Pattern recognition",
+          "Intelligent computing",
+          "Neural networks",
+          "Deep learning"
+        ],
+        "courses": "Artificial Neural Networks and Deep Learning; Computer Vision"
+      },
+      "zh": {
+        "name": "林道通",
+        "alt_name": "Dalton Lin",
+        "role": "教授",
+        "affiliation": "國立臺北大學資訊工程學系",
+        "degree": "美國馬里蘭大學電機工程博士",
+        "expertise": [
+          "影像處理",
+          "電腦視覺",
+          "圖形識別",
+          "智慧計算",
+          "類神經網路",
+          "深度學習"
+        ],
+        "courses": "人工神經網路與深度學習、電腦視覺"
+      }
+    },
+    {
+      "id": "ysc",
+      "college": "eecs",
+      "rank": "professor",
+      "domains": [
+        "ai-core",
+        "data",
+        "systems"
+      ],
+      "photo": "assets/faculty/ysc_photo.jpg",
+      "initials": null,
+      "email": "ysc@mail.ntpu.edu.tw",
+      "web": "http://web.ntpu.edu.tw/~ysc/",
+      "en": {
+        "name": "Yue-Shan Chang",
+        "alt_name": "張玉山",
+        "role": "Professor",
+        "affiliation": "Department of Computer Science and Information Engineering, National Taipei University",
+        "degree": "Ph.D. in Computer Science, National Chiao Tung University",
+        "expertise": [
+          "Cloud computing",
+          "Mobile computing",
+          "Intelligent computing"
+        ],
+        "courses": "Cloud Computing and Big Data Programming"
+      },
+      "zh": {
+        "name": "張玉山",
+        "alt_name": "Yue-Shan Chang",
+        "role": "教授",
+        "affiliation": "國立臺北大學資訊工程學系",
+        "degree": "國立交通大學資訊科學博士",
+        "expertise": [
+          "雲端計算",
+          "行動計算",
+          "智慧計算"
+        ],
+        "courses": "雲端計算與大數據程式設計"
+      }
+    },
+    {
+      "id": "yschen",
+      "college": "eecs",
+      "rank": "professor",
+      "domains": [
+        "ai-core",
+        "systems"
+      ],
+      "photo": "assets/faculty/yschen_photo.jpg",
+      "initials": null,
+      "email": "yschen@gm.ntpu.edu.tw",
+      "web": "http://www.csie.ntpu.edu.tw/~yschen/",
+      "en": {
+        "name": "Yuh-Shyan Chen",
+        "alt_name": "陳裕賢",
+        "role": "Professor",
+        "affiliation": "Department of Computer Science and Information Engineering, National Taipei University",
+        "degree": "Ph.D. in Computer Science and Information Engineering, National Central University",
+        "expertise": [
+          "AIoT",
+          "Deep learning for communication networks",
+          "Wireless networks",
+          "Next-generation mobile networks",
+          "Edge computing"
+        ],
+        "courses": "Computer Networks"
+      },
+      "zh": {
+        "name": "陳裕賢",
+        "alt_name": "Yuh-Shyan Chen",
+        "role": "教授",
+        "affiliation": "國立臺北大學資訊工程學系",
+        "degree": "國立中央大學資訊工程博士",
+        "expertise": [
+          "人工智慧物聯網",
+          "深度學習於通訊網路",
+          "無線網路",
+          "次世代行動網路",
+          "邊緣計算"
+        ],
+        "courses": "電腦網路"
+      }
+    },
+    {
+      "id": "bslin",
+      "college": "eecs",
+      "rank": "professor",
+      "domains": [
+        "systems",
+        "health"
+      ],
+      "photo": "assets/faculty/bslin_photo.jpg",
+      "initials": null,
+      "email": "bslin@mail.ntpu.edu.tw",
+      "web": "http://web.ntpu.edu.tw/~bslin/",
+      "en": {
+        "name": "Bor-Shing Lin",
+        "alt_name": "林伯星",
+        "role": "Professor",
+        "affiliation": "Department of Computer Science and Information Engineering, National Taipei University",
+        "degree": "Ph.D. in Electrical Engineering, National Taiwan University",
+        "expertise": [
+          "Smart healthcare",
+          "Embedded systems",
+          "Wearable systems",
+          "Biomedical signal processing",
+          "Portable biomedical electronic system design"
+        ],
+        "courses": "Computer Programming"
+      },
+      "zh": {
+        "name": "林伯星",
+        "alt_name": "Bor-Shing Lin",
+        "role": "教授",
+        "affiliation": "國立臺北大學資訊工程學系",
+        "degree": "國立臺灣大學電機工程博士",
+        "expertise": [
+          "智慧醫療",
+          "嵌入式系統",
+          "穿戴式系統",
+          "生醫訊號處理",
+          "可攜式生醫電子系統設計"
+        ],
+        "courses": "計算機程式設計"
+      }
+    },
+    {
+      "id": "hsinlung",
+      "college": "eecs",
+      "rank": "professor",
+      "domains": [
+        "ai-core",
+        "security"
+      ],
+      "photo": "assets/faculty/hsinlung_photo.jpg",
+      "initials": null,
+      "email": "hsinlung@mail.ntpu.edu.tw",
+      "web": "http://web.ntpu.edu.tw/~hsinlung/",
+      "en": {
+        "name": "Hsin-Lung Wu",
+        "alt_name": "吳信龍",
+        "role": "Professor",
+        "affiliation": "Department of Computer Science and Information Engineering, National Taipei University",
+        "degree": "Ph.D. in Computer Science, National Chiao Tung University",
+        "expertise": [
+          "Machine learning",
+          "Algorithms",
+          "Theory of computation",
+          "Reversible information hiding"
+        ],
+        "courses": "Algorithms; Theory of Generative Artificial Intelligence"
+      },
+      "zh": {
+        "name": "吳信龍",
+        "alt_name": "Hsin-Lung Wu",
+        "role": "教授",
+        "affiliation": "國立臺北大學資訊工程學系",
+        "degree": "國立交通大學資訊工程博士",
+        "expertise": [
+          "機器學習",
+          "演算法",
+          "計算理論",
+          "可逆式資訊隱藏"
+        ],
+        "courses": "演算法、生成式人工智慧理論"
+      }
+    },
+    {
+      "id": "jcchen",
+      "college": "eecs",
+      "rank": "professor",
+      "domains": [
+        "ai-core"
+      ],
+      "photo": "assets/faculty/jcchen_photo.jpg",
+      "initials": null,
+      "email": "jcchen@gm.ntpu.edu.tw",
+      "web": "http://web.ntpu.edu.tw/~jcchen/",
+      "en": {
+        "name": "Jr-Chang Chen",
+        "alt_name": "陳志昌",
+        "role": "Professor",
+        "affiliation": "Department of Computer Science and Information Engineering, National Taipei University",
+        "degree": "Ph.D. in Computer Science and Information Engineering, National Taiwan University",
+        "expertise": [
+          "Computer game playing",
+          "Artificial intelligence"
+        ],
+        "courses": "Introduction to Computers and Programming; Computer Programming"
+      },
+      "zh": {
+        "name": "陳志昌",
+        "alt_name": "Jr-Chang Chen",
+        "role": "教授",
+        "affiliation": "國立臺北大學資訊工程學系",
+        "degree": "國立臺灣大學資訊工程博士",
+        "expertise": [
+          "電腦對局",
+          "人工智慧"
+        ],
+        "courses": "電腦概論與程式設計、計算機程式設計"
+      }
+    },
+    {
+      "id": "jcchang",
+      "college": "eecs",
+      "rank": "professor",
+      "domains": [
+        "ai-core",
+        "security"
+      ],
+      "photo": "assets/faculty/jcchang_photo.jpg",
+      "initials": null,
+      "email": "jcchang@mail.ntpu.edu.tw",
+      "web": "https://web.ntpu.edu.tw/~jcchang/",
+      "en": {
+        "name": "Jen-Chun Chang",
+        "alt_name": "張仁俊",
+        "role": "Professor",
+        "affiliation": "Department of Computer Science and Information Engineering, National Taipei University",
+        "degree": "Ph.D. in Computer Science, National Chiao Tung University",
+        "expertise": [
+          "Coding theory",
+          "Cryptography",
+          "System reliability analysis",
+          "Algorithms"
+        ],
+        "courses": "Advanced Algorithms"
+      },
+      "zh": {
+        "name": "張仁俊",
+        "alt_name": "Jen-Chun Chang",
+        "role": "教授",
+        "affiliation": "國立臺北大學資訊工程學系",
+        "degree": "國立交通大學資訊工程博士",
+        "expertise": [
+          "編碼技術",
+          "密碼技術",
+          "系統可靠度分析",
+          "演算法"
+        ],
+        "courses": "高等演算法"
+      }
+    },
+    {
+      "id": "tsengcyt",
+      "college": "eecs",
+      "rank": "associate",
+      "domains": [
+        "ai-core",
+        "systems",
+        "security"
+      ],
+      "photo": "assets/faculty/tsengcyt_photo.jpg",
+      "initials": null,
+      "email": "tsengcyt@gm.ntpu.edu.tw",
+      "web": "http://web.ntpu.edu.tw/~tsengcyt/",
+      "en": {
+        "name": "Chinyang Henry Tseng",
+        "alt_name": "曾俊元",
+        "role": "Associate Professor",
+        "affiliation": "Department of Computer Science and Information Engineering, National Taipei University",
+        "degree": "Ph.D. in Computer Science, University of California, Davis",
+        "expertise": [
+          "Network intrusion prevention",
+          "Deep-learning quality",
+          "Blockchain smart contracts",
+          "IoT routing"
+        ],
+        "courses": "Programming for AI Network Dataset Analysis"
+      },
+      "zh": {
+        "name": "曾俊元",
+        "alt_name": "Chinyang Henry Tseng",
+        "role": "副教授",
+        "affiliation": "國立臺北大學資訊工程學系",
+        "degree": "美國加州大學戴維斯分校計算機科學博士",
+        "expertise": [
+          "網路入侵防禦",
+          "深度學習品質",
+          "區塊鏈智慧合約",
+          "物聯網路由"
+        ],
+        "courses": "人工智慧網路資料集分析程式設計"
+      }
+    },
+    {
+      "id": "zfyang",
+      "college": "eecs",
+      "rank": "associate",
+      "domains": [
+        "ai-core",
+        "vision"
+      ],
+      "photo": "assets/faculty/zfyang_photo.jpg",
+      "initials": null,
+      "email": "zfyang@mail.ntpu.edu.tw",
+      "web": "http://web.ntpu.edu.tw/~zfyang/",
+      "en": {
+        "name": "Zhi-Fang Yang",
+        "alt_name": "楊致芳",
+        "role": "Associate Professor",
+        "affiliation": "Department of Computer Science and Information Engineering, National Taipei University",
+        "degree": "Ph.D. in Computer Science, National Chiao Tung University",
+        "expertise": [
+          "Pattern recognition",
+          "Image processing",
+          "Computer vision"
+        ],
+        "courses": "Machine Learning; Robot Navigation and Exploration"
+      },
+      "zh": {
+        "name": "楊致芳",
+        "alt_name": "Zhi-Fang Yang",
+        "role": "副教授",
+        "affiliation": "國立臺北大學資訊工程學系",
+        "degree": "國立交通大學資訊科學博士",
+        "expertise": [
+          "圖形識別",
+          "影像處理",
+          "電腦視覺"
+        ],
+        "courses": "機器學習、機器導航與探索"
+      }
+    },
+    {
+      "id": "hanatai",
+      "college": "eecs",
+      "rank": "associate",
+      "domains": [
+        "data",
+        "security",
+        "society"
+      ],
+      "photo": "assets/faculty/hanatai_photo.jpg",
+      "initials": null,
+      "email": "hanatai@gmail.com",
+      "web": "http://web.ntpu.edu.tw/~hanatai/",
+      "en": {
+        "name": "Chih-Hua Tai",
+        "alt_name": "戴志華",
+        "role": "Associate Professor",
+        "affiliation": "Department of Computer Science and Information Engineering, National Taipei University",
+        "degree": "Ph.D. in Electrical Engineering, National Taiwan University",
+        "expertise": [
+          "Database management",
+          "Large-scale data mining",
+          "Privacy-preserving data analytics",
+          "Social computing"
+        ],
+        "courses": "Object-Oriented Programming; Data Mining"
+      },
+      "zh": {
+        "name": "戴志華",
+        "alt_name": "Chih-Hua Tai",
+        "role": "副教授",
+        "affiliation": "國立臺北大學資訊工程學系",
+        "degree": "國立臺灣大學電機工程博士",
+        "expertise": [
+          "資料庫管理",
+          "巨量資料探勘",
+          "隱私保護資料分析",
+          "社交計算"
+        ],
+        "courses": "物件導向程式設計、資料探勘"
+      }
+    },
+    {
+      "id": "hongshianglin",
+      "college": "eecs",
+      "rank": "assistant",
+      "domains": [
+        "vision"
+      ],
+      "photo": "assets/faculty/hongshianglin_photo.jpg",
+      "initials": null,
+      "email": "HongShiangLin@mail.ntpu.edu.tw",
+      "web": "https://sites.google.com/gm.ntpu.edu.tw/hslin",
+      "en": {
+        "name": "Hong-Shiang Lin",
+        "alt_name": "林宏祥",
+        "role": "Assistant Professor",
+        "affiliation": "Department of Computer Science and Information Engineering, National Taipei University",
+        "degree": "Ph.D. in Computer Science and Information Engineering, National Taiwan University",
+        "expertise": [
+          "Multi-view 3D scene reconstruction",
+          "Multi-view geometry",
+          "Camera calibration",
+          "Computational photography",
+          "Automotive augmented-reality navigation"
+        ],
+        "courses": null
+      },
+      "zh": {
+        "name": "林宏祥",
+        "alt_name": "Hong-Shiang Lin",
+        "role": "助理教授",
+        "affiliation": "國立臺北大學資訊工程學系",
+        "degree": "國立臺灣大學資訊工程博士",
+        "expertise": [
+          "多視角三維場景重建",
+          "多視角幾何學",
+          "相機校正",
+          "計算攝影學",
+          "車用擴增實境導航"
+        ],
+        "courses": null
+      }
+    },
+    {
+      "id": "yutingwu",
+      "college": "eecs",
+      "rank": "assistant",
+      "domains": [
+        "ai-core",
+        "vision"
+      ],
+      "photo": "assets/faculty/yutingwu_photo.jpg",
+      "initials": null,
+      "email": "yutingwu@mail.ntpu.edu.tw",
+      "web": "https://kevincosner.github.io/",
+      "en": {
+        "name": "Yu-Ting Wu",
+        "alt_name": "吳昱霆",
+        "role": "Assistant Professor",
+        "affiliation": "Department of Computer Science and Information Engineering, National Taipei University",
+        "degree": "Ph.D. in Computer Science and Information Engineering, National Taiwan University",
+        "expertise": [
+          "Computer graphics",
+          "Extended reality",
+          "Digital visual effects",
+          "Artificial intelligence"
+        ],
+        "courses": "Data Structures"
+      },
+      "zh": {
+        "name": "吳昱霆",
+        "alt_name": "Yu-Ting Wu",
+        "role": "助理教授",
+        "affiliation": "國立臺北大學資訊工程學系",
+        "degree": "國立臺灣大學資訊工程博士",
+        "expertise": [
+          "電腦圖學",
+          "延展實境",
+          "數位視覺效果",
+          "人工智慧"
+        ],
+        "courses": "資料結構"
+      }
+    },
+    {
+      "id": "cywei",
+      "college": "eecs",
+      "rank": "professor",
+      "domains": [
+        "systems"
+      ],
+      "photo": "assets/faculty/cywei_photo.jpg",
+      "initials": null,
+      "email": "cywei@gm.ntpu.edu.tw",
+      "web": "https://drcywei.wordpress.com/",
+      "en": {
+        "name": "Chun-Yi Wei",
+        "alt_name": "魏存毅",
+        "role": "Professor",
+        "affiliation": "Department of Communication Engineering, National Taipei University",
+        "degree": "Ph.D. in Electrical Engineering, University of Southampton",
+        "expertise": [
+          "Wireless communication systems",
+          "Signal detection",
+          "Channel estimation"
+        ],
+        "courses": "Wireless Communications"
+      },
+      "zh": {
+        "name": "魏存毅",
+        "alt_name": "Chun-Yi Wei",
+        "role": "教授",
+        "affiliation": "國立臺北大學通訊工程學系",
+        "degree": "英國南安普頓大學電機工程博士",
+        "expertise": [
+          "無線通訊系統",
+          "信號偵測",
+          "通道估計"
+        ],
+        "courses": "無線通訊"
+      }
+    },
+    {
+      "id": "htpai",
+      "college": "eecs",
+      "rank": "professor",
+      "domains": [
+        "systems"
+      ],
+      "photo": "assets/faculty/htpai_photo.jpg",
+      "initials": null,
+      "email": "htpai@mail.ntpu.edu.tw",
+      "web": "https://web.ntpu.edu.tw/~htpai/",
+      "en": {
+        "name": "Hong-Da Pai",
+        "alt_name": "白宏達",
+        "role": "Professor",
+        "affiliation": "Department of Communication Engineering, National Taipei University",
+        "degree": "Ph.D. in Electrical and Computer Engineering, University of Texas at Austin",
+        "expertise": [
+          "Signal processing",
+          "Communication systems",
+          "Digital system design"
+        ],
+        "courses": "Computer Programming; Advanced Computer Programming"
+      },
+      "zh": {
+        "name": "白宏達",
+        "alt_name": "Hong-Da Pai",
+        "role": "教授",
+        "affiliation": "國立臺北大學通訊工程學系",
+        "degree": "美國德州大學奧斯汀分校電機與電腦工程博士",
+        "expertise": [
+          "訊號處理",
+          "通訊系統",
+          "數位系統設計"
+        ],
+        "courses": "計算機程式設計、進階計算機程式設計"
+      }
+    },
+    {
+      "id": "cychiang",
+      "college": "eecs",
+      "rank": "associate",
+      "domains": [
+        "ai-core",
+        "nlp"
+      ],
+      "photo": "assets/faculty/cychiang_photo.jpg",
+      "initials": null,
+      "email": "cychiang@mail.ntpu.edu.tw",
+      "web": "https://www.ce.ntpu.edu.tw/mods/basic/content_top.php?top=26",
+      "en": {
+        "name": "Chen-Yu Chiang",
+        "alt_name": "江振宇",
+        "role": "Associate Professor",
+        "affiliation": "Department of Communication Engineering, National Taipei University",
+        "degree": "Ph.D. in Communication Engineering, National Chiao Tung University",
+        "expertise": [
+          "Speech processing",
+          "Natural language processing",
+          "Pattern recognition",
+          "Audio processing"
+        ],
+        "courses": "Natural Language Processing"
+      },
+      "zh": {
+        "name": "江振宇",
+        "alt_name": "Chen-Yu Chiang",
+        "role": "副教授",
+        "affiliation": "國立臺北大學通訊工程學系",
+        "degree": "國立交通大學電信工程博士",
+        "expertise": [
+          "語音處理",
+          "自然語言處理",
+          "圖形辨識",
+          "音訊處理"
+        ],
+        "courses": "自然語言處理"
+      }
+    },
+    {
+      "id": "yupinhsu",
+      "college": "eecs",
+      "rank": "associate",
+      "domains": [
+        "data",
+        "systems"
+      ],
+      "photo": "assets/faculty/yupinhsu_photo.jpg",
+      "initials": null,
+      "email": "yupinhsu@mail.ntpu.edu.tw",
+      "web": "https://www.ce.ntpu.edu.tw/mods/basic/content_top.php?top=26",
+      "en": {
+        "name": "Yu-Pin Hsu",
+        "alt_name": "許裕彬",
+        "role": "Associate Professor",
+        "affiliation": "Department of Communication Engineering, National Taipei University",
+        "degree": "Ph.D. in Electrical and Computer Engineering, Texas A&M University",
+        "expertise": [
+          "Stochastic networks",
+          "Queueing theory",
+          "Game theory and mechanism design",
+          "Approximation algorithms and competitive analysis"
+        ],
+        "courses": null
+      },
+      "zh": {
+        "name": "許裕彬",
+        "alt_name": "Yu-Pin Hsu",
+        "role": "副教授",
+        "affiliation": "國立臺北大學通訊工程學系",
+        "degree": "美國德州農工大學電機與電腦工程博士",
+        "expertise": [
+          "隨機網路",
+          "排隊理論",
+          "賽局理論與機制設計",
+          "近似演算法與競爭分析"
+        ],
+        "courses": null
+      }
+    },
+    {
+      "id": "jcshen",
+      "college": "eecs",
+      "rank": "assistant",
+      "domains": [
+        "systems"
+      ],
+      "photo": "assets/faculty/jcshen_photo.jpg",
+      "initials": null,
+      "email": "jcshen@mail.ntpu.edu.tw",
+      "web": "https://www.ce.ntpu.edu.tw/mods/basic/content_top.php?top=26",
+      "en": {
+        "name": "Jui-Chin Shen",
+        "alt_name": "沈瑞欽",
+        "role": "Assistant Professor",
+        "affiliation": "Department of Communication Engineering, National Taipei University",
+        "degree": "Ph.D. in Electrical Engineering, University of Manchester",
+        "expertise": [
+          "Digital signal processing",
+          "Wireless/wired communications",
+          "Mixed-signal processing"
+        ],
+        "courses": "Data Structures"
+      },
+      "zh": {
+        "name": "沈瑞欽",
+        "alt_name": "Jui-Chin Shen",
+        "role": "助理教授",
+        "affiliation": "國立臺北大學通訊工程學系",
+        "degree": "英國曼徹斯特大學電機工程博士",
+        "expertise": [
+          "Digital Signal Processing",
+          "Wireless/Wire Communications",
+          "Mixed Signal Processing"
+        ],
+        "courses": "資料結構"
+      }
+    },
+    {
+      "id": "cyyang",
+      "college": "eecs",
+      "rank": "professor",
+      "domains": [
+        "ai-core",
+        "systems",
+        "health"
+      ],
+      "photo": "assets/faculty/cyyang_photo.jpg",
+      "initials": null,
+      "email": "cyyang@mail.ntpu.edu.tw",
+      "web": "https://web.ntpu.edu.tw/~cyyang/#/director",
+      "en": {
+        "name": "Chan-Yun Yang",
+        "alt_name": "楊棧雲",
+        "role": "Professor",
+        "affiliation": "Department of Electrical Engineering, National Taipei University",
+        "degree": "Ph.D. in Bio-Industrial Mechatronics Engineering, National Taiwan University",
+        "expertise": [
+          "Machine learning",
+          "Human-machine interaction modeling and control",
+          "Robotics",
+          "Vehicle navigation and path planning",
+          "Biomechatronics",
+          "Intelligent control"
+        ],
+        "courses": "Machine Learning; Machine Learning and Industry 4.0; Programming"
+      },
+      "zh": {
+        "name": "楊棧雲",
+        "alt_name": "Chan-Yun Yang",
+        "role": "教授",
+        "affiliation": "國立臺北大學電機工程學系",
+        "degree": "國立臺灣大學生物產業機電工程博士",
+        "expertise": [
+          "機器學習",
+          "人機互動建模與控制",
+          "機器人",
+          "載具導航與路徑 規劃",
+          "生物機電",
+          "智慧控制"
+        ],
+        "courses": "機器學習、機器學習及工業4.0、程式設計"
+      }
+    },
+    {
+      "id": "haobijambasanta",
+      "college": "eecs",
+      "rank": "assistant",
+      "domains": [
+        "ai-core",
+        "vision",
+        "data",
+        "systems",
+        "health"
+      ],
+      "photo": "assets/faculty/haobijambasanta_photo.jpg",
+      "initials": null,
+      "email": "haobijambasanta@mail.ntpu.edu.tw",
+      "web": "https://seillab.org/",
+      "en": {
+        "name": "Haobijam Basanta",
+        "alt_name": "巴桑塔",
+        "role": "Assistant Professor",
+        "affiliation": "Department of Electrical Engineering, National Taipei University",
+        "degree": "Ph.D. in Electrical Engineering, National Taipei University of Technology",
+        "expertise": [
+          "Computer vision",
+          "AIoT",
+          "Machine learning",
+          "Deep learning",
+          "Big-data analytics",
+          "Image processing",
+          "Edge computing",
+          "Medical-system design",
+          "Intelligent control systems",
+          "Human-computer interaction"
+        ],
+        "courses": "Deep Learning for Image Analysis; Artificial Intelligence of Things (AIoT)"
+      },
+      "zh": {
+        "name": "巴桑塔",
+        "alt_name": "Haobijam Basanta",
+        "role": "助理教授",
+        "affiliation": "國立臺北大學電機工程學系",
+        "degree": "國立臺北科技大學電機工程博士",
+        "expertise": [
+          "【電腦工程組/系統工程組】電腦視覺",
+          "人工智慧物聯網",
+          "機器學習",
+          "深度學習",
+          "大數據分析",
+          "影像處理",
+          "邊緣運算",
+          "醫療系統設計",
+          "智慧控制系統",
+          "人機互動"
+        ],
+        "courses": "圖像分析的深度學習、人工智慧物聯網"
+      }
+    },
+    {
+      "id": "wlchang",
+      "college": "business",
+      "rank": "professor",
+      "domains": [
+        "ai-core",
+        "nlp",
+        "business"
+      ],
+      "photo": "assets/faculty/wlchang_photo.jpg",
+      "initials": null,
+      "email": "wlchang@gm.ntpu.edu.tw",
+      "web": "https://www.dba.ntpu.edu.tw/teacher.php?ids=MjM3Njhf5by155GL5YCr",
+      "en": {
+        "name": "Wei-Lun Chang",
+        "alt_name": "張瑋倫",
+        "role": "Professor",
+        "affiliation": "Department of Business Administration, National Taipei University",
+        "degree": "Ph.D. in Management Information Systems, National Chengchi University",
+        "expertise": [
+          "Enterprise digital transformation",
+          "Artificial intelligence and applications",
+          "Text and sentiment analysis"
+        ],
+        "courses": "Artificial Intelligence, Business and Society"
+      },
+      "zh": {
+        "name": "張瑋倫",
+        "alt_name": "Wei-Lun Chang",
+        "role": "教授",
+        "affiliation": "國立臺北大學企業管理學系",
+        "degree": "國立政治大學資訊管理博士",
+        "expertise": [
+          "企業數位轉型",
+          "人工智慧與應用",
+          "文字與情感分析"
+        ],
+        "courses": "人工智慧企業與社會"
+      }
+    },
+    {
+      "id": "yhhsiao",
+      "college": "business",
+      "rank": "professor",
+      "domains": [
+        "ai-core",
+        "data",
+        "business"
+      ],
+      "photo": "assets/faculty/yhhsiao_photo.jpg",
+      "initials": null,
+      "email": "yhhsiao@mail.ntpu.edu.tw",
+      "web": "https://www.dba.ntpu.edu.tw/teacher.php?ids=NTQzNzdf6JWt5a6H57%2BU",
+      "en": {
+        "name": "Yu-Hsiang Hsiao",
+        "alt_name": "蕭宇翔",
+        "role": "Professor",
+        "affiliation": "Department of Business Administration, National Taipei University",
+        "degree": "Ph.D. in Industrial Engineering and Engineering Management, National Tsing Hua University",
+        "expertise": [
+          "Artificial intelligence applications",
+          "Business analytics",
+          "Data and text mining",
+          "Quality engineering and management",
+          "Operations and supply chain management"
+        ],
+        "courses": "Business Analytics A"
+      },
+      "zh": {
+        "name": "蕭宇翔",
+        "alt_name": "Yu-Hsiang Hsiao",
+        "role": "教授",
+        "affiliation": "國立臺北大學企業管理學系",
+        "degree": "國立清華大學工業工程與工程管理博士",
+        "expertise": [
+          "人工智慧應用",
+          "商業分析",
+          "資料與文字大數據探勘",
+          "品質工程與管理",
+          "作業與供應鏈管理"
+        ],
+        "courses": "商業分析A"
+      }
+    },
+    {
+      "id": "slhuang",
+      "college": "business",
+      "rank": "professor",
+      "domains": [
+        "business"
+      ],
+      "photo": "assets/faculty/slhuang_photo.jpg",
+      "initials": null,
+      "email": "slhuang@gm.ntpu.edu.tw",
+      "web": "https://www.dba.ntpu.edu.tw/teacher.php?ids=NTI4Mjdf6buD5pet56uL",
+      "en": {
+        "name": "Shu-Li Huang",
+        "alt_name": "黃旭立",
+        "role": "Professor",
+        "affiliation": "Department of Business Administration, National Taipei University",
+        "degree": "Ph.D. in Information Management, National Sun Yat-sen University",
+        "expertise": [
+          "E-commerce",
+          "Information management",
+          "Internet marketing",
+          "Sharing economy"
+        ],
+        "courses": "Introduction to Computers and Programming"
+      },
+      "zh": {
+        "name": "黃旭立",
+        "alt_name": "Shu-Li Huang",
+        "role": "教授",
+        "affiliation": "國立臺北大學企業管理學系",
+        "degree": "國立中山大學資訊管理博士",
+        "expertise": [
+          "電子商務",
+          "資訊管理",
+          "網路行銷",
+          "共享經濟"
+        ],
+        "courses": "電腦概論與程式設計"
+      }
+    },
+    {
+      "id": "hsiehjk",
+      "college": "business",
+      "rank": "professor",
+      "domains": [
+        "business"
+      ],
+      "photo": "assets/faculty/hsiehjk_photo.jpg",
+      "initials": null,
+      "email": "hsiehjk@gm.ntpu.edu.tw",
+      "web": "https://www.dba.ntpu.edu.tw/teacher.php?ids=NzU3MTBf6Kyd5qau5qGC",
+      "en": {
+        "name": "Jung-Kuei Hsieh",
+        "alt_name": "謝榮桂",
+        "role": "Professor",
+        "affiliation": "Department of Business Administration, National Taipei University",
+        "degree": "Ph.D. in Information Management, National Central University",
+        "expertise": [
+          "Mobile and electronic commerce",
+          "Digital marketing",
+          "Service science and innovation"
+        ],
+        "courses": "Introduction to Computers and Programming"
+      },
+      "zh": {
+        "name": "謝榮桂",
+        "alt_name": "Jung-Kuei Hsieh",
+        "role": "教授",
+        "affiliation": "國立臺北大學企業管理學系",
+        "degree": "國立中央大學資訊管理博士",
+        "expertise": [
+          "行動與電子商務",
+          "數位行銷",
+          "服務科學與創新"
+        ],
+        "courses": "電腦概論與程式設計"
+      }
+    },
+    {
+      "id": "ptyang",
+      "college": "business",
+      "rank": "associate",
+      "domains": [
+        "data",
+        "business"
+      ],
+      "photo": "assets/faculty/ptyang_photo.jpg",
+      "initials": null,
+      "email": "ptyang@gm.ntpu.edu.tw",
+      "web": "https://www.dba.ntpu.edu.tw/teacher.php?ids=ODAwOTdf5qWK5rql5rOw",
+      "en": {
+        "name": "Pu-Tai Yang",
+        "alt_name": "楊溥泰",
+        "role": "Associate Professor",
+        "affiliation": "Department of Business Administration, National Taipei University",
+        "degree": "Ph.D. in Industrial Engineering, Purdue University",
+        "expertise": [
+          "Business data analytics",
+          "Marketing big data",
+          "Operations and supply chain management",
+          "Decision support systems"
+        ],
+        "courses": "Seminar on Artificial Intelligence; Marketing Data Science"
+      },
+      "zh": {
+        "name": "楊溥泰",
+        "alt_name": "Pu-Tai Yang",
+        "role": "副教授",
+        "affiliation": "國立臺北大學企業管理學系",
+        "degree": "美國普渡大學工業工程博士",
+        "expertise": [
+          "商務資料分析",
+          "行銷大數據",
+          "作業與供應鏈管理",
+          "決策支援系統"
+        ],
+        "courses": "人工智慧專題研討、行銷資料科學"
+      }
+    },
+    {
+      "id": "chwei",
+      "college": "business",
+      "rank": "associate",
+      "domains": [
+        "vision",
+        "data",
+        "business"
+      ],
+      "photo": "assets/faculty/chwei_photo.jpg",
+      "initials": null,
+      "email": "chwei@gm.ntpu.edu.tw",
+      "web": "https://www.dba.ntpu.edu.tw/teacher.php?ids=OTM1NDVf6a2P5ZiJ5a6P",
+      "en": {
+        "name": "Chia-Hung Wei",
+        "alt_name": "魏嘉宏",
+        "role": "Associate Professor",
+        "affiliation": "Department of Business Administration, National Taipei University",
+        "degree": "Ph.D. in Computer Science, University of Warwick",
+        "expertise": [
+          "Information management",
+          "Data mining",
+          "Image retrieval",
+          "Business intelligence"
+        ],
+        "courses": "Business Programming; Seminar on Artificial Intelligence"
+      },
+      "zh": {
+        "name": "魏嘉宏",
+        "alt_name": "Chia-Hung Wei",
+        "role": "副教授",
+        "affiliation": "國立臺北大學企業管理學系",
+        "degree": "英國華威大學電腦科學博士",
+        "expertise": [
+          "資訊管理",
+          "資料探勘",
+          "影像檢索",
+          "商業智慧"
+        ],
+        "courses": "商業程式設計、人工智慧專題研討"
+      }
+    },
+    {
+      "id": "htlee",
+      "college": "business",
+      "rank": "associate",
+      "domains": [
+        "data",
+        "business"
+      ],
+      "photo": "assets/faculty/htlee_photo.jpg",
+      "initials": null,
+      "email": "htlee@mail.ntpu.edu.tw",
+      "web": "https://www.dba.ntpu.edu.tw/teacher.php?ids=MzMyMThf5p2O57eS5p2x",
+      "en": {
+        "name": "Hsu-Tung Lee",
+        "alt_name": "李緖東",
+        "role": "Associate Professor",
+        "affiliation": "Department of Business Administration, National Taipei University",
+        "degree": "Ph.D. in Industrial, Manufacturing and Systems Engineering, University of Windsor",
+        "expertise": [
+          "Operations research",
+          "Supply chain management",
+          "Quality management"
+        ],
+        "courses": "Data Mining"
+      },
+      "zh": {
+        "name": "李緖東",
+        "alt_name": "Hsu-Tung Lee",
+        "role": "副教授",
+        "affiliation": "國立臺北大學企業管理學系",
+        "degree": "加拿大溫莎大學工業工程、製造與系統博士",
+        "expertise": [
+          "作業研究",
+          "供應鏈管理",
+          "品質管理"
+        ],
+        "courses": "資料探勘"
+      }
+    },
+    {
+      "id": "kochiayu",
+      "college": "business",
+      "rank": "assistant",
+      "domains": [
+        "fintech",
+        "law"
+      ],
+      "photo": "assets/faculty/kochiayu_photo.jpg",
+      "initials": null,
+      "email": "kochiayu@gm.ntpu.edu.tw",
+      "web": "https://www.dba.ntpu.edu.tw/pages.php",
+      "en": {
+        "name": "Ko-Chia Yu",
+        "alt_name": "游擱嘉",
+        "role": "Assistant Professor",
+        "affiliation": "Department of Business Administration, National Taipei University",
+        "degree": "Ph.D. in Finance and Economics, Erasmus University Rotterdam",
+        "expertise": [
+          "Executive compensation",
+          "Corporate governance",
+          "Empirical asset pricing"
+        ],
+        "courses": "Ethics of Artificial Intelligence"
+      },
+      "zh": {
+        "name": "游擱嘉",
+        "alt_name": "Ko-Chia Yu",
+        "role": "助理教授",
+        "affiliation": "國立臺北大學企業管理學系",
+        "degree": "荷蘭鹿特丹伊拉斯莫斯大學財務經濟博士",
+        "expertise": [
+          "管理層薪酬",
+          "公司治理",
+          "實證資產定價"
+        ],
+        "courses": "人工智慧倫理"
+      }
+    },
+    {
+      "id": "cfwu",
+      "college": "business",
+      "rank": "assistant",
+      "domains": [
+        "data",
+        "business",
+        "health"
+      ],
+      "photo": "assets/faculty/cfwu_photo.jpg",
+      "initials": null,
+      "email": "cfwu@gm.ntpu.edu.tw",
+      "web": "https://www.dba.ntpu.edu.tw/teacher.php?ids=Nzc3Njdf5ZCz5oiQ5bOv",
+      "en": {
+        "name": "Cheng-Feng Wu",
+        "alt_name": "吳成峯",
+        "role": "Assistant Professor",
+        "affiliation": "Department of Business Administration, National Taipei University",
+        "degree": "Ph.D. in Business Administration, National Taiwan University",
+        "expertise": [
+          "Operations and supply chain management",
+          "Applied econometric time-series analysis",
+          "Data mining",
+          "Patient safety"
+        ],
+        "courses": null
+      },
+      "zh": {
+        "name": "吳成峯",
+        "alt_name": "Cheng-Feng Wu",
+        "role": "助理教授",
+        "affiliation": "國立臺北大學企業管理學系",
+        "degree": "國立臺灣大學商學博士",
+        "expertise": [
+          "作業與供應鏈管理",
+          "應用計量時間數列分析",
+          "資料探勘",
+          "病人安全"
+        ],
+        "courses": null
+      }
+    },
+    {
+      "id": "sunanchen",
+      "college": "business",
+      "rank": "professor",
+      "domains": [
+        "data"
+      ],
+      "photo": "assets/faculty/sunanchen_photo.jpg",
+      "initials": null,
+      "email": "sunanchen@gmail.com",
+      "web": "http://sunc-web.blogspot.tw/",
+      "en": {
+        "name": "Nan-Cheng Su",
+        "alt_name": "蘇南誠",
+        "role": "Professor",
+        "affiliation": "Department of Statistics, National Taipei University",
+        "degree": "Ph.D. in Applied Mathematics, National Sun Yat-sen University",
+        "expertise": [
+          "Distribution theory",
+          "Mathematical statistics",
+          "Stochastic processes",
+          "Quality control"
+        ],
+        "courses": "Introduction to Computers and Programming; Computational Statistics and Probability"
+      },
+      "zh": {
+        "name": "蘇南誠",
+        "alt_name": "Nan-Cheng Su",
+        "role": "教授",
+        "affiliation": "國立臺北大學統計學系",
+        "degree": "國立中山大學應用數學博士",
+        "expertise": [
+          "分佈理論",
+          "數理統計",
+          "隨機過程",
+          "品質管制"
+        ],
+        "courses": "電腦概論與程式設計、計算統計與機率"
+      }
+    },
+    {
+      "id": "ccw",
+      "college": "business",
+      "rank": "professor",
+      "domains": [
+        "ai-core",
+        "data",
+        "systems"
+      ],
+      "photo": "assets/faculty/ccw_photo.jpg",
+      "initials": null,
+      "email": "ccw@gm.ntpu.edu.tw",
+      "web": "https://ntpuccw.blog/",
+      "en": {
+        "name": "Chun-Chao Wang",
+        "alt_name": "汪群超",
+        "role": "Professor",
+        "affiliation": "Department of Statistics, National Taipei University",
+        "degree": "Ph.D. in Electrical Engineering, Vanderbilt University",
+        "expertise": [
+          "Signal processing",
+          "Numerical parameter estimation",
+          "Statistical computing"
+        ],
+        "courses": "Shallow Machine Learning"
+      },
+      "zh": {
+        "name": "汪群超",
+        "alt_name": "Chun-Chao Wang",
+        "role": "教授",
+        "affiliation": "國立臺北大學統計學系",
+        "degree": "美國范德堡大學電機工程博士",
+        "expertise": [
+          "訊號處理",
+          "數值參數估計",
+          "統計計算"
+        ],
+        "courses": "淺度機器學習"
+      }
+    },
+    {
+      "id": "hwangyt",
+      "college": "business",
+      "rank": "professor",
+      "domains": [
+        "data"
+      ],
+      "photo": "assets/faculty/hwangyt_photo.jpg",
+      "initials": null,
+      "email": "hwangyt@gm.ntpu.edu.tw",
+      "web": "https://hwangytntpu.wordpress.com/",
+      "en": {
+        "name": "Yi-Ting Huang",
+        "alt_name": "黃怡婷",
+        "role": "Professor",
+        "affiliation": "Department of Statistics, National Taipei University",
+        "degree": "Ph.D. in Mathematics, University of Maryland, College Park",
+        "expertise": [
+          "Survival analysis",
+          "Categorical data analysis",
+          "Statistical computing",
+          "Longitudinal data analysis"
+        ],
+        "courses": "Statistical Software Packages"
+      },
+      "zh": {
+        "name": "黃怡婷",
+        "alt_name": "Yi-Ting Huang",
+        "role": "教授",
+        "affiliation": "國立臺北大學統計學系",
+        "degree": "美國馬里蘭大學數學博士",
+        "expertise": [
+          "存活分析",
+          "類別資料分析",
+          "統計計算",
+          "縱貫資料分析"
+        ],
+        "courses": "統計套裝軟體"
+      }
+    },
+    {
+      "id": "hcchuang",
+      "college": "business",
+      "rank": "associate",
+      "domains": [
+        "data",
+        "fintech"
+      ],
+      "photo": "assets/faculty/hcchuang_photo.jpg",
+      "initials": null,
+      "email": "hcchuang@gm.ntpu.edu.tw",
+      "web": "https://hcchuang.github.io/",
+      "en": {
+        "name": "Hui-Ching Chuang",
+        "alt_name": "莊惠菁",
+        "role": "Associate Professor",
+        "affiliation": "Department of Statistics, National Taipei University",
+        "degree": "Ph.D. in Finance, National Taiwan University",
+        "expertise": [
+          "Econometrics",
+          "Investments"
+        ],
+        "courses": "Financial Data Analytics"
+      },
+      "zh": {
+        "name": "莊惠菁",
+        "alt_name": "Hui-Ching Chuang",
+        "role": "副教授",
+        "affiliation": "國立臺北大學統計學系",
+        "degree": "國立臺灣大學財務金融博士",
+        "expertise": [
+          "計量經濟學",
+          "投資學"
+        ],
+        "courses": "金融數據分析"
+      }
+    },
+    {
+      "id": "pychen",
+      "college": "business",
+      "rank": "assistant",
+      "domains": [
+        "ai-core",
+        "data"
+      ],
+      "photo": "assets/faculty/pychen_photo.jpg",
+      "initials": null,
+      "email": "pychen@gm.ntpu.edu.tw",
+      "web": "https://hiiampingyang.notion.site/hiiampingyang/Ping-Yang-Chen-0f7492e2efc64c398631b8fcc0e3a582",
+      "en": {
+        "name": "Ping-Yang Chen",
+        "alt_name": "陳秉洋",
+        "role": "Assistant Professor",
+        "affiliation": "Department of Statistics, National Taipei University",
+        "degree": "Ph.D. in Statistics, National Cheng Kung University",
+        "expertise": [
+          "Optimal experimental design",
+          "Statistical computing",
+          "Machine learning"
+        ],
+        "courses": "Data Mining"
+      },
+      "zh": {
+        "name": "陳秉洋",
+        "alt_name": "Ping-Yang Chen",
+        "role": "助理教授",
+        "affiliation": "國立臺北大學統計學系",
+        "degree": "國立成功大學統計博士",
+        "expertise": [
+          "Optimal Experimental Design",
+          "Statistical Computing",
+          "Machine Learning"
+        ],
+        "courses": "資料探勘"
+      }
+    },
+    {
+      "id": "myday",
+      "college": "business",
+      "rank": "professor",
+      "domains": [
+        "ai-core",
+        "nlp",
+        "data",
+        "fintech",
+        "business",
+        "health"
+      ],
+      "photo": "assets/faculty/myday_photo.jpg",
+      "initials": null,
+      "email": "myday@gm.ntpu.edu.tw",
+      "web": "https://web.ntpu.edu.tw/~myday/",
+      "en": {
+        "name": "Min-Yuh Day",
+        "alt_name": "戴敏育",
+        "role": "Professor",
+        "affiliation": "Graduate Institute of Information Management, National Taipei University",
+        "degree": "Ph.D. in Information Management, National Taiwan University",
+        "expertise": [
+          "Artificial Intelligence",
+          "Agentic AI",
+          "ESG and Green Financial Technology",
+          "Big Data Analytics",
+          "Electronic Commerce",
+          "Information Systems Evaluation",
+          "Biomedical Informatics"
+        ],
+        "courses": "Artificial Intelligence; Innovative Applications of Generative AI; Generative AI: Principles and Practice of Text and Image Generation"
+      },
+      "zh": {
+        "name": "戴敏育",
+        "alt_name": "Min-Yuh Day",
+        "role": "教授",
+        "affiliation": "國立臺北大學資訊管理研究所",
+        "degree": "國立臺灣大學資訊管理博士",
+        "expertise": [
+          "人工智慧",
+          "代理式AI",
+          "永續綠色金融科技",
+          "大數據分析",
+          "電子商務",
+          "資訊系統評量",
+          "生物醫學資訊"
+        ],
+        "courses": "人工智慧、生成式AI創新應用、生成式AI:文字與圖像生成的原理與實務"
+      }
+    },
+    {
+      "id": "claudiapan",
+      "college": "business",
+      "rank": "associate",
+      "domains": [
+        "data",
+        "fintech",
+        "business",
+        "education"
+      ],
+      "photo": "assets/faculty/claudiapan_photo.jpg",
+      "initials": null,
+      "email": "claudiapan@mail.ntpu.edu.tw",
+      "web": "https://claudiapan.cc/status",
+      "en": {
+        "name": "Ling-Yen Pan",
+        "alt_name": "潘令妍",
+        "role": "Associate Professor",
+        "affiliation": "Graduate Institute of Information Management, National Taipei University",
+        "degree": "Ph.D. in International Business, National Taiwan University",
+        "expertise": [
+          "Social media and marketing communication",
+          "Digital transformation and technology acceptance",
+          "Consumer psychology and behavior",
+          "Human–AI interaction",
+          "Human-centered AI"
+        ],
+        "courses": null
+      },
+      "zh": {
+        "name": "潘令妍",
+        "alt_name": "Ling-Yen Pan",
+        "role": "副教授",
+        "affiliation": "國立臺北大學資訊管理研究所",
+        "degree": "國立臺灣大學國際企業博士",
+        "expertise": [
+          "社群媒體與行銷溝通",
+          "數位轉型與科技接受",
+          "消費者心理與行為",
+          "人機互動",
+          "人本人工智慧"
+        ],
+        "courses": null
+      }
+    },
+    {
+      "id": "shimiin",
+      "college": "social",
+      "rank": "professor",
+      "domains": [
+        "data",
+        "fintech"
+      ],
+      "photo": "assets/faculty/shimiin_photo.jpg",
+      "initials": null,
+      "email": "shimiin@mail.ntpu.edu.tw",
+      "web": "https://econ.ntpu.edu.tw/p/405-1001-480,c108.php?Lang=zh-tw",
+      "en": {
+        "name": "Hsi-Min Liu",
+        "alt_name": "劉曦敏",
+        "role": "Professor",
+        "affiliation": "Department of Economics, National Taipei University",
+        "degree": "Ph.D. in Agricultural Economics, University of Illinois at Urbana-Champaign",
+        "expertise": [
+          "Financial economics",
+          "Applied econometrics",
+          "Environmental economics"
+        ],
+        "courses": "Data Science Programming (II)"
+      },
+      "zh": {
+        "name": "劉曦敏",
+        "alt_name": "Hsi-Min Liu",
+        "role": "教授",
+        "affiliation": "國立臺北大學經濟學系",
+        "degree": "美國伊利諾大學香檳分校農業經濟學博士",
+        "expertise": [
+          "Financial Economics",
+          "Applied Econometrics",
+          "Environmental Economics"
+        ],
+        "courses": "資料科學程式設計(二)"
+      }
+    },
+    {
+      "id": "jychioua",
+      "college": "social",
+      "rank": "associate",
+      "domains": [
+        "fintech",
+        "society"
+      ],
+      "photo": "assets/faculty/jychioua_photo.jpg",
+      "initials": null,
+      "email": "jychioua@gmail.com",
+      "web": "https://econ.ntpu.edu.tw/p/405-1001-556,c107.php?Lang=zh-tw",
+      "en": {
+        "name": "Jing-Yuan Chiou",
+        "alt_name": "邱敬淵",
+        "role": "Associate Professor",
+        "affiliation": "Department of Economics, National Taipei University",
+        "degree": "Ph.D. in Economics, University of Toulouse",
+        "expertise": [
+          "Industrial and public economics",
+          "Economic theory and methods"
+        ],
+        "courses": "Learning Game Theory with AI"
+      },
+      "zh": {
+        "name": "邱敬淵",
+        "alt_name": "Jing-Yuan Chiou",
+        "role": "副教授",
+        "affiliation": "國立臺北大學經濟學系",
+        "degree": "法國土魯斯大學經濟學博士",
+        "expertise": [
+          "產業與公共經濟",
+          "經濟理論與方法"
+        ],
+        "courses": "用AI學賽局"
+      }
+    },
+    {
+      "id": "syyin",
+      "college": "social",
+      "rank": "assistant",
+      "domains": [
+        "ai-core",
+        "data",
+        "fintech"
+      ],
+      "photo": "assets/faculty/syyin_photo.jpg",
+      "initials": null,
+      "email": "syyin@mail.ntpu.edu.tw",
+      "web": "https://econ.ntpu.edu.tw/p/412-1001-178.php?Lang=zh-tw",
+      "en": {
+        "name": "Shou-Yung Yin",
+        "alt_name": "殷壽鏞",
+        "role": "Assistant Professor",
+        "affiliation": "Department of Economics, National Taipei University",
+        "degree": "Ph.D. in Economics, National Central University",
+        "expertise": [
+          "Econometric theory",
+          "Empirical macroeconomics",
+          "High-dimensional data analysis"
+        ],
+        "courses": "Machine Learning"
+      },
+      "zh": {
+        "name": "殷壽鏞",
+        "alt_name": "Shou-Yung Yin",
+        "role": "助理教授",
+        "affiliation": "國立臺北大學經濟學系",
+        "degree": "國立中央大學經濟學博士",
+        "expertise": [
+          "Econometric Theory",
+          "Empirical Macroeconomics",
+          "High-dimensional Data Analysis"
+        ],
+        "courses": "機器學習"
+      }
+    },
+    {
+      "id": "cchu",
+      "college": "social",
+      "rank": "assistant",
+      "domains": [
+        "data",
+        "fintech"
+      ],
+      "photo": "assets/faculty/cchu_photo.jpg",
+      "initials": null,
+      "email": "cchu@mail.ntpu.edu.tw",
+      "web": "https://econ.ntpu.edu.tw/p/405-1001-561,c107.php?Lang=zh-tw",
+      "en": {
+        "name": "Chi-Yang Chu",
+        "alt_name": "朱紀仰",
+        "role": "Assistant Professor",
+        "affiliation": "Department of Economics, National Taipei University",
+        "degree": "Ph.D. in Economics, University of Alabama",
+        "expertise": [
+          "Applied nonparametric econometrics"
+        ],
+        "courses": "Data Science Programming (I)"
+      },
+      "zh": {
+        "name": "朱紀仰",
+        "alt_name": "Chi-Yang Chu",
+        "role": "助理教授",
+        "affiliation": "國立臺北大學經濟學系",
+        "degree": "美國阿拉巴馬大學經濟學博士",
+        "expertise": [
+          "applied nonparametric econometrics"
+        ],
+        "courses": "資料科學程式設計(一)"
+      }
+    },
+    {
+      "id": "mtlin",
+      "college": "social",
+      "rank": "assistant",
+      "domains": [
+        "data",
+        "fintech"
+      ],
+      "photo": "assets/faculty/mtlin_photo.jpg",
+      "initials": null,
+      "email": "mtlin@mail.ntpu.edu.tw",
+      "web": "https://econ.ntpu.edu.tw/p/405-1001-559,c107.php?Lang=zh-tw",
+      "en": {
+        "name": "Mao-Ting Lin",
+        "alt_name": "林茂廷",
+        "role": "Assistant Professor",
+        "affiliation": "Department of Economics, National Taipei University",
+        "degree": "Ph.D. in Economics, Boston University",
+        "expertise": [
+          "Finance",
+          "Money and economic growth",
+          "Data science"
+        ],
+        "courses": "A Humanities Introduction to Generative AI; Learning Game Theory with AI; Economic Data Visualization; Data Science Programming (I)"
+      },
+      "zh": {
+        "name": "林茂廷",
+        "alt_name": "Mao-Ting Lin",
+        "role": "助理教授",
+        "affiliation": "國立臺北大學經濟學系",
+        "degree": "美國波士頓大學經濟學博士",
+        "expertise": [
+          "金融",
+          "貨幣與經濟成長",
+          "資料科學"
+        ],
+        "courses": "生成式人工智慧的人文導論、用AI學賽局、經濟資料視覺化處理、資料科學程式設計(一)"
+      }
+    },
+    {
+      "id": "hsinyiy",
+      "college": "social",
+      "rank": "associate",
+      "domains": [
+        "society"
+      ],
+      "photo": "assets/faculty/hsinyiy_photo.jpg",
+      "initials": null,
+      "email": "hsinyiy@mail.ntpu.edu.tw",
+      "web": "https://sociology.ntpu.edu.tw/teacher/1",
+      "en": {
+        "name": "Hsin-Yi Yeh",
+        "alt_name": "葉欣怡",
+        "role": "Associate Professor",
+        "affiliation": "Department of Sociology, National Taipei University",
+        "degree": "Ph.D. in Sociology, Rutgers University",
+        "expertise": [
+          "Collective memory",
+          "National identity",
+          "Boundary work",
+          "Cognition and culture",
+          "Deliberative democracy",
+          "Nationalism",
+          "Social identity",
+          "Sociology of knowledge",
+          "Political sociology",
+          "Cultural sociology",
+          "Public participation in science and technology"
+        ],
+        "courses": null
+      },
+      "zh": {
+        "name": "葉欣怡",
+        "alt_name": "Hsin-Yi Yeh",
+        "role": "副教授",
+        "affiliation": "國立臺北大學社會學系",
+        "degree": "美國羅格斯大學社會學博士",
+        "expertise": [
+          "集體記憶",
+          "國家認同",
+          "劃界工作",
+          "認知與文化",
+          "審議民主",
+          "民族主義",
+          "社會認同",
+          "認知社會學",
+          "政治社會學",
+          "文化社會學",
+          "科技的公眾參與"
+        ],
+        "courses": null
+      }
+    },
+    {
+      "id": "linqus",
+      "college": "social",
+      "rank": "assistant",
+      "domains": [
+        "data",
+        "society"
+      ],
+      "photo": "assets/faculty/linqus_photo.jpg",
+      "initials": null,
+      "email": "linqus@mail.ntpu.edu.tw",
+      "web": "https://sociology.ntpu.edu.tw/teacher/35",
+      "en": {
+        "name": "Kuei-Hsiu Lin",
+        "alt_name": "林桂綉",
+        "role": "Assistant Professor",
+        "affiliation": "Department of Sociology, National Taipei University",
+        "degree": "Ph.D. in Sociology, Iowa State University",
+        "expertise": [
+          "Statistics and research methods",
+          "Bias"
+        ],
+        "courses": "AI Data Mining"
+      },
+      "zh": {
+        "name": "林桂綉",
+        "alt_name": "Kuei-Hsiu Lin",
+        "role": "助理教授",
+        "affiliation": "國立臺北大學社會學系",
+        "degree": "美國愛荷華州立大學社會學博士",
+        "expertise": [
+          "統計與研究方法",
+          "偏差"
+        ],
+        "courses": "AI資料探勘"
+      }
+    },
+    {
+      "id": "yuanlin",
+      "college": "social",
+      "rank": "assistant",
+      "domains": [
+        "society"
+      ],
+      "photo": "assets/faculty/yuanlin_photo.jpg",
+      "initials": null,
+      "email": "yuanlin@gm.ntpu.edu.tw",
+      "web": "https://www.sw.ntpu.edu.tw/index.php?belongid=1&id=87&index=12&lang=cht&option=members&task=pageinfo",
+      "en": {
+        "name": "Yuan-An Lin",
+        "alt_name": "林予安",
+        "role": "Assistant Professor",
+        "affiliation": "Department of Social Work, National Taipei University",
+        "degree": "Ph.D., School of Social Service Administration, University of Chicago",
+        "expertise": [
+          "Nonprofit organizations",
+          "Integrated service delivery",
+          "Substance-use prevention and treatment",
+          "Child welfare"
+        ],
+        "courses": "Programming for Social Good"
+      },
+      "zh": {
+        "name": "林予安",
+        "alt_name": "Yuan-An Lin",
+        "role": "助理教授",
+        "affiliation": "國立臺北大學社會工作學系",
+        "degree": "美國芝加哥大學社會服務行政博士",
+        "expertise": [
+          "非營利組織",
+          "整合式服務輸送",
+          "物質使用之預防與處遇",
+          "兒童福利"
+        ],
+        "courses": "程式設計於社會公益之運用"
+      }
+    },
+    {
+      "id": "jwliu",
+      "college": "public",
+      "rank": "professor",
+      "domains": [
+        "data",
+        "society"
+      ],
+      "photo": "assets/faculty/jwliu_photo.jpg",
+      "initials": null,
+      "email": "jwliu@mail.ntpu.edu.tw",
+      "web": "https://pa.ntpu.edu.tw/teacher_detail/5",
+      "en": {
+        "name": "Chia-Wei Liu",
+        "alt_name": "劉嘉薇",
+        "role": "Professor",
+        "affiliation": "Department of Public Administration and Policy, National Taipei University",
+        "degree": "Ph.D. in Political Science, National Chengchi University",
+        "expertise": [
+          "Political parties and elections",
+          "Political communication",
+          "Political behavior",
+          "Political socialization",
+          "Public-opinion surveys",
+          "Big-data analytics",
+          "Social-science research methods",
+          "Social-science statistics"
+        ],
+        "courses": null
+      },
+      "zh": {
+        "name": "劉嘉薇",
+        "alt_name": "Chia-Wei Liu",
+        "role": "教授",
+        "affiliation": "國立臺北大學公共行政暨政策學系",
+        "degree": "國立政治大學政治學博士",
+        "expertise": [
+          "政黨與選舉",
+          "政治傳播",
+          "政治行為",
+          "政治社會化",
+          "民意調查",
+          "大數據分析",
+          "社會科學研究方法",
+          "社會科學統計"
+        ],
+        "courses": null
+      }
+    },
+    {
+      "id": "cltsai",
+      "college": "public",
+      "rank": "assistant",
+      "domains": [
+        "data",
+        "society"
+      ],
+      "photo": null,
+      "initials": "CT",
+      "email": "cltsai@mail.ntpu.edu.tw",
+      "web": "https://pa.ntpu.edu.tw/teacher_detail/84",
+      "en": {
+        "name": "Chi-Lin Tsai",
+        "alt_name": "蔡奇霖",
+        "role": "Assistant Professor",
+        "affiliation": "Department of Public Administration and Policy, National Taipei University",
+        "degree": "Ph.D. in Government, University of Essex",
+        "expertise": [
+          "Research methods",
+          "Public opinion and survey methodology",
+          "Comparative politics",
+          "Elections and voting behavior"
+        ],
+        "courses": null
+      },
+      "zh": {
+        "name": "蔡奇霖",
+        "alt_name": "Chi-Lin Tsai",
+        "role": "助理教授",
+        "affiliation": "國立臺北大學公共行政暨政策學系",
+        "degree": "英國艾塞克斯大學政治學博士",
+        "expertise": [
+          "研究方法",
+          "民意與民意調查方法",
+          "比較政治",
+          "選舉與投票行為研究"
+        ],
+        "courses": null
+      }
+    },
+    {
+      "id": "tcpeng",
+      "college": "public",
+      "rank": "professor",
+      "domains": [
+        "data",
+        "fintech",
+        "society"
+      ],
+      "photo": "assets/faculty/tcpeng_photo.jpg",
+      "initials": null,
+      "email": "tcpeng@gm.ntpu.edu.tw",
+      "web": "https://www.rebe.ntpu.edu.tw/web/about/mentor_in.jsp?fp_id=FP1735007074844",
+      "en": {
+        "name": "Ti-Ching Peng",
+        "alt_name": "彭蒂菁",
+        "role": "Professor",
+        "affiliation": "Department of Real Estate and Built Environment, National Taipei University",
+        "degree": "Ph.D. in Economics, University of Queensland",
+        "expertise": [
+          "Real-estate economics",
+          "Housing economics",
+          "Econometric analysis"
+        ],
+        "courses": "R Programming and Applications"
+      },
+      "zh": {
+        "name": "彭蒂菁",
+        "alt_name": "Ti-Ching Peng",
+        "role": "教授",
+        "affiliation": "國立臺北大學不動產與城鄉環境學系",
+        "degree": "澳洲昆士蘭大學經濟學博士",
+        "expertise": [
+          "不動產經濟",
+          "住宅經濟",
+          "計量分析"
+        ],
+        "courses": "R語言程式設計與應用"
+      }
+    },
+    {
+      "id": "bclin",
+      "college": "public",
+      "rank": "assistant",
+      "domains": [
+        "vision",
+        "society"
+      ],
+      "photo": "assets/faculty/bclin_photo.jpg",
+      "initials": null,
+      "email": "bclin@mail.ntpu.edu.tw",
+      "web": "https://www.rebe.ntpu.edu.tw/web/about/mentor_in.jsp?fp_id=FP1734663649995",
+      "en": {
+        "name": "Po-Cheng Lin",
+        "alt_name": "林柏丞",
+        "role": "Assistant Professor",
+        "affiliation": "Department of Real Estate and Built Environment, National Taipei University",
+        "degree": "Ph.D. in Geomatics, National Cheng Kung University",
+        "expertise": [
+          "Surveying",
+          "Digital image processing",
+          "Geographic information systems"
+        ],
+        "courses": "Computer Programming"
+      },
+      "zh": {
+        "name": "林柏丞",
+        "alt_name": "Po-Cheng Lin",
+        "role": "助理教授",
+        "affiliation": "國立臺北大學不動產與城鄉環境學系",
+        "degree": "國立成功大學測量及空間資訊博士",
+        "expertise": [
+          "測量學",
+          "數位影像處理",
+          "地理資訊系統"
+        ],
+        "courses": "電腦程式設計"
+      }
+    },
+    {
+      "id": "yingchen0915",
+      "college": "public",
+      "rank": "assistant",
+      "domains": [
+        "society"
+      ],
+      "photo": "assets/faculty/yingchen0915_photo.jpg",
+      "initials": null,
+      "email": "yingchen0915@mail.ntpu.edu.tw",
+      "web": "https://www.rebe.ntpu.edu.tw/web/about/mentor_in.jsp?fp_id=FP1735009880085",
+      "en": {
+        "name": "Ying-Chen Lin",
+        "alt_name": "林映辰",
+        "role": "Assistant Professor",
+        "affiliation": "Department of Real Estate and Built Environment, National Taipei University",
+        "degree": "Ph.D. in Urban and Regional Planning, National Taipei University",
+        "expertise": [
+          "Urban planning",
+          "Geographic information systems and applications",
+          "Smart-city development strategies"
+        ],
+        "courses": null
+      },
+      "zh": {
+        "name": "林映辰",
+        "alt_name": "Ying-Chen Lin",
+        "role": "助理教授",
+        "affiliation": "國立臺北大學不動產與城鄉環境學系",
+        "degree": "國立臺北大學都市計劃研究所都市及區域規劃博士",
+        "expertise": [
+          "都市規劃相關領域",
+          "地理資訊系統及應用實務",
+          "智慧城市發展策略"
+        ],
+        "courses": null
+      }
+    },
+    {
+      "id": "j12093",
+      "college": "humanities",
+      "rank": "professor",
+      "domains": [
+        "education"
+      ],
+      "photo": "assets/faculty/j12093_photo.jpg",
+      "initials": null,
+      "email": "j12093@gmail.com",
+      "web": "https://www.cl.ntpu.edu.tw/faculty/",
+      "en": {
+        "name": "Kuo-Lin Yang",
+        "alt_name": "楊果霖",
+        "role": "Professor",
+        "affiliation": "Department of Chinese Language and Literature, National Taipei University",
+        "degree": "Ph.D. in Chinese Literature, Chinese Culture University",
+        "expertise": [
+          "Bibliography theory and methodology",
+          "Catalog studies",
+          "Textual compilation studies"
+        ],
+        "courses": null
+      },
+      "zh": {
+        "name": "楊果霖",
+        "alt_name": "Kuo-Lin Yang",
+        "role": "教授",
+        "affiliation": "國立臺北大學中國文學系",
+        "degree": "中國文化大學中國文學博士",
+        "expertise": [
+          "文獻學理論與方法",
+          "目錄學研究",
+          "編纂學研究"
+        ],
+        "courses": null
+      }
+    },
+    {
+      "id": "ymchou",
+      "college": "humanities",
+      "rank": "associate",
+      "domains": [
+        "nlp",
+        "education"
+      ],
+      "photo": "assets/faculty/ymchou_photo.jpg",
+      "initials": null,
+      "email": "ymchou@mail.ntpu.edu.tw",
+      "web": "https://www.cl.ntpu.edu.tw/faculty/",
+      "en": {
+        "name": "Ya-Min Chou",
+        "alt_name": "周亞民",
+        "role": "Associate Professor",
+        "affiliation": "Department of Chinese Language and Literature, National Taipei University",
+        "degree": "Ph.D. in Information Management, National Taiwan University",
+        "expertise": [
+          "Chinese-character ontology",
+          "Digital humanities",
+          "Technology-enhanced Chinese teaching",
+          "Chinese information processing",
+          "Corpus linguistics"
+        ],
+        "courses": "Introduction to Programming"
+      },
+      "zh": {
+        "name": "周亞民",
+        "alt_name": "Ya-Min Chou",
+        "role": "副教授",
+        "affiliation": "國立臺北大學中國文學系",
+        "degree": "國立臺灣大學資訊管理博士",
+        "expertise": [
+          "漢字知識本體",
+          "數位人文",
+          "華語數位教學",
+          "中文資訊處理",
+          "語料庫語言學"
+        ],
+        "courses": "程式設計概論"
+      }
+    },
+    {
+      "id": "ypchen",
+      "college": "humanities",
+      "rank": "associate",
+      "domains": [
+        "nlp",
+        "education"
+      ],
+      "photo": "assets/faculty/ypchen_photo.jpg",
+      "initials": null,
+      "email": "ypchen@gm.ntpu.edu.tw",
+      "web": "https://www.dafl.ntpu.edu.tw/teacher_detail.php?ids=1&q=534",
+      "en": {
+        "name": "Yu-Pin Chen",
+        "alt_name": "陳郁彬",
+        "role": "Associate Professor",
+        "affiliation": "Department of Applied Foreign Languages, National Taipei University",
+        "degree": "Ph.D. in Linguistics, National Chengchi University",
+        "expertise": [
+          "Linguistics",
+          "Language acquisition",
+          "Pragmatics",
+          "Syntax",
+          "English phonetics",
+          "Psycholinguistics"
+        ],
+        "courses": null
+      },
+      "zh": {
+        "name": "陳郁彬",
+        "alt_name": "Yu-Pin Chen",
+        "role": "副教授",
+        "affiliation": "國立臺北大學應用外語學系",
+        "degree": "國立政治大學語言學博士",
+        "expertise": [
+          "語言學",
+          "語言習得",
+          "語用學",
+          "句法學",
+          "英語語音學",
+          "心理語言學"
+        ],
+        "courses": null
+      }
+    },
+    {
+      "id": "chiyanglin",
+      "college": "law",
+      "rank": "assistant",
+      "domains": [
+        "fintech",
+        "law"
+      ],
+      "photo": "assets/faculty/chiyanglin_photo.jpg",
+      "initials": null,
+      "email": "chiyanglin@gm.ntpu.edu.tw",
+      "web": "https://www.law.ntpu.edu.tw/teacher/36",
+      "en": {
+        "name": "Chi-Yang Lin",
+        "alt_name": "林季陽",
+        "role": "Assistant Professor",
+        "affiliation": "Department of Law, National Taipei University",
+        "degree": "Ph.D. in Law, Hitotsubashi University",
+        "expertise": [
+          "Law and economics",
+          "Japanese legal studies",
+          "Intellectual property law"
+        ],
+        "courses": "Artificial Intelligence (AI) Credit Program"
+      },
+      "zh": {
+        "name": "林季陽",
+        "alt_name": "Chi-Yang Lin",
+        "role": "助理教授",
+        "affiliation": "國立臺北大學法律學系",
+        "degree": "日本一橋大學法學博士",
+        "expertise": [
+          "法律經濟分析",
+          "法學日文",
+          "智慧財產法"
+        ],
+        "courses": "人工智慧(AI)學分學程"
+      }
+    },
+    {
+      "id": "rgli",
+      "college": "law",
+      "rank": "professor",
+      "domains": [
+        "security",
+        "law"
+      ],
+      "photo": "assets/faculty/rgli_photo.jpg",
+      "initials": null,
+      "email": "rgli@mail.ntpu.edu.tw",
+      "web": "https://www.law.ntpu.edu.tw/teacher/21",
+      "en": {
+        "name": "Jung-Keng Lee",
+        "alt_name": "李榮耕",
+        "role": "Professor",
+        "affiliation": "Department of Law, National Taipei University",
+        "degree": "Ph.D. in Law, Indiana University Bloomington",
+        "expertise": [
+          "Criminal law",
+          "Criminal procedure",
+          "Communications surveillance law",
+          "Cybercrime",
+          "Privacy"
+        ],
+        "courses": null
+      },
+      "zh": {
+        "name": "李榮耕",
+        "alt_name": "Jung-Keng Lee",
+        "role": "教授",
+        "affiliation": "國立臺北大學法律學系",
+        "degree": "美國印第安納大學布魯明頓分校法學博士",
+        "expertise": [
+          "刑法",
+          "刑事訴訟法",
+          "通訊保障及監察法",
+          "電腦犯罪",
+          "隱私"
+        ],
+        "courses": null
+      }
+    },
+    {
+      "id": "taijan",
+      "college": "law",
+      "rank": "assistant",
+      "domains": [
+        "law",
+        "society"
+      ],
+      "photo": "assets/faculty/taijan_photo.jpg",
+      "initials": null,
+      "email": "taijan@gm.ntpu.edu.tw",
+      "web": "https://www.law.ntpu.edu.tw/teacher/137",
+      "en": {
+        "name": "Tai-Jan Huang",
+        "alt_name": "黃泰然",
+        "role": "Assistant Professor",
+        "affiliation": "Department of Law, National Taipei University",
+        "degree": "Ph.D. in Law, Stanford University",
+        "expertise": [
+          "Intellectual property law",
+          "Artificial intelligence law and regulation",
+          "Law and society"
+        ],
+        "courses": null
+      },
+      "zh": {
+        "name": "黃泰然",
+        "alt_name": "Tai-Jan Huang",
+        "role": "助理教授",
+        "affiliation": "國立臺北大學法律學系",
+        "degree": "美國史丹佛大學法學博士",
+        "expertise": [
+          "智慧財產法",
+          "人工智慧法制",
+          "法律與社會"
+        ],
+        "courses": null
+      }
+    },
+    {
+      "id": "wangson",
+      "college": "university",
+      "rank": "director",
+      "domains": [
+        "ai-core",
+        "business"
+      ],
+      "photo": "assets/faculty/wangson_photo.jpg",
+      "initials": null,
+      "email": "wangson@mail.ntpu.edu.tw",
+      "web": "https://sites.google.com/view/prof-wang/",
+      "en": {
+        "name": "Chih-Chien Wang",
+        "alt_name": "汪志堅",
+        "role": "Director",
+        "affiliation": "Computer Center, National Taipei University",
+        "degree": "Ph.D. in Business Administration, National Chung Hsing University",
+        "expertise": [
+          "Marketing management",
+          "Business strategy",
+          "Internet marketing",
+          "Social media marketing",
+          "E-commerce",
+          "AI applications",
+          "Information management"
+        ],
+        "courses": "AI Applications"
+      },
+      "zh": {
+        "name": "汪志堅",
+        "alt_name": "Chih-Chien Wang",
+        "role": "主任",
+        "affiliation": "國立臺北大學資訊中心",
+        "degree": "國立中興大學法商學院企業管理博士",
+        "expertise": [
+          "行銷管理",
+          "經營策略",
+          "網路行銷",
+          "Social Media Marketing",
+          "電子商務 E-Commerce",
+          "AI應用",
+          "資訊管理"
+        ],
+        "courses": "AI應用"
+      }
+    },
+    {
+      "id": "wjtsaur",
+      "college": "university",
+      "rank": "professor",
+      "domains": [
+        "systems",
+        "security"
+      ],
+      "photo": "assets/faculty/wjtsaur_photo.jpg",
+      "initials": null,
+      "email": "wjtsaur@yahoo.com.tw",
+      "web": "https://www.csie.ntpu.edu.tw/pages/112",
+      "en": {
+        "name": "Woei-Jiunn Tsaur",
+        "alt_name": "曹偉駿",
+        "role": "Professor",
+        "affiliation": "Computer Center, National Taipei University",
+        "degree": "Ph.D. in Electrical Engineering, National Taiwan University of Science and Technology",
+        "expertise": [
+          "Information security",
+          "Network and communication security",
+          "Cloud-system security",
+          "IoT security",
+          "Information-security management and auditing"
+        ],
+        "courses": "Advanced Algorithms"
+      },
+      "zh": {
+        "name": "曹偉駿",
+        "alt_name": "Woei-Jiunn Tsaur",
+        "role": "教授",
+        "affiliation": "國立臺北大學資訊中心",
+        "degree": "國立臺灣科技大學電機工程博士",
+        "expertise": [
+          "資訊安全防護",
+          "網路通訊安全",
+          "雲端運算系統安全",
+          "物聯網安全",
+          "資訊安全管理與稽核"
+        ],
+        "courses": "高等演算法"
+      }
+    },
+    {
+      "id": "kevin",
+      "college": "university",
+      "rank": "associate",
+      "domains": [
+        "ai-core",
+        "data",
+        "business"
+      ],
+      "photo": "assets/faculty/kevin_photo.jpg",
+      "initials": null,
+      "email": "kevin@gm.ntpu.edu.tw",
+      "web": "https://crm.ntpu.edu.tw/index.php?id=8189&lang=cht&option=module&task=pageinfo",
+      "en": {
+        "name": "Liang-Chih Yang",
+        "alt_name": "楊喨智",
+        "role": "Associate Professor",
+        "affiliation": "Center for General Education, National Taipei University",
+        "degree": "Ph.D. in Information Management, National Taiwan University of Science and Technology",
+        "expertise": [
+          "Decision science",
+          "Management science",
+          "Operations research",
+          "Quantitative methods",
+          "Knowledge management",
+          "Business intelligence and data mining",
+          "E-commerce and online communities"
+        ],
+        "courses": "Generative AI: Experience and Practice; Generative AI Practice with Python; Python Data Science: Public Affairs and Legal Applications"
+      },
+      "zh": {
+        "name": "楊喨智",
+        "alt_name": "Liang-Chih Yang",
+        "role": "副教授",
+        "affiliation": "國立臺北大學通識教育中心",
+        "degree": "國立臺灣科技大學資訊管理博士",
+        "expertise": [
+          "決策科學",
+          "管理科學",
+          "作業研究",
+          "數量方法",
+          "知識管理",
+          "商業智慧與資料探勘(含服務科學、資訊使用性)",
+          "電子商務與網路社群(含管理理論與大數據輿情分析)"
+        ],
+        "courses": "生成式AI體驗與實作、Python生成式AI實作、Python資料科學-公共事務與法學應用"
+      }
+    },
+    {
+      "id": "yiwen1024",
+      "college": "university",
+      "rank": "associate",
+      "domains": [
+        "fintech",
+        "society",
+        "education"
+      ],
+      "photo": null,
+      "initials": "YT",
+      "email": "yiwen1024@gmail.com",
+      "web": "https://new.ntpu.edu.tw/cge",
+      "en": {
+        "name": "Yi-Wen Tsai",
+        "alt_name": "蔡怡玟",
+        "role": "Associate Professor",
+        "affiliation": "Center for General Education, National Taipei University",
+        "degree": "Ph.D. in Geography, National Taiwan Normal University",
+        "expertise": [
+          "Geography education",
+          "Human geography",
+          "Landscape geography",
+          "Narrative inquiry",
+          "Geographic psychology",
+          "Environmental and resource economics"
+        ],
+        "courses": null
+      },
+      "zh": {
+        "name": "蔡怡玟",
+        "alt_name": "Yi-Wen Tsai",
+        "role": "副教授",
+        "affiliation": "國立臺北大學通識教育中心",
+        "degree": "國立臺灣師範大學地理學系博士",
+        "expertise": [
+          "地理教育",
+          "人文地理",
+          "景觀地理",
+          "敍事探究",
+          "地理-心理",
+          "環境與資源經濟"
+        ],
+        "courses": null
+      }
+    },
+    {
+      "id": "tsaihuiju",
+      "college": "university",
+      "rank": "assistant",
+      "domains": [
+        "nlp",
+        "education"
+      ],
+      "photo": "assets/faculty/tsaihuiju_photo.jpg",
+      "initials": null,
+      "email": "tsaihuiju@gm.ntpu.edu.tw",
+      "web": "https://lc.ntpu.edu.tw/web/about/team_in.jsp?dm_idDM1638120159514=&fp_id=FP1638256543350",
+      "en": {
+        "name": "Hui-Ju Tsai",
+        "alt_name": "蔡蕙如",
+        "role": "Assistant Professor",
+        "affiliation": "Language Center, National Taipei University",
+        "degree": "Ed.D. in Education, Durham University",
+        "expertise": [
+          "English for specific purposes course design and assessment",
+          "Foreign-language learning motivation",
+          "Automated writing evaluation",
+          "EMI teacher training",
+          "Computer-assisted language learning"
+        ],
+        "courses": "AI-Assisted English Writing"
+      },
+      "zh": {
+        "name": "蔡蕙如",
+        "alt_name": "Hui-Ju Tsai",
+        "role": "助理教授",
+        "affiliation": "國立臺北大學語言中心",
+        "degree": "英國德倫大學教育博士",
+        "expertise": [
+          "專業英語課程設計及評量",
+          "外語學習動機",
+          "自動寫作評量(AWE)",
+          "EMI教學訓練",
+          "電腦輔助教學等研究領域"
+        ],
+        "courses": "AI輔助英文寫作"
+      }
+    },
+    {
+      "id": "chunyilii",
+      "college": "university",
+      "rank": "associate",
+      "domains": [
+        "education"
+      ],
+      "photo": "assets/faculty/chunyilii_photo.jpg",
+      "initials": null,
+      "email": "chunyi.lii@gmail.com",
+      "web": "https://chunyilii.weebly.com/31449382632728426696.html",
+      "en": {
+        "name": "Chun-Yi Lee",
+        "alt_name": "李俊儀",
+        "role": "Associate Professor",
+        "affiliation": "Center for Teacher Education, National Taipei University",
+        "degree": "Ph.D. in Information and Computer Education, National Taiwan Normal University",
+        "expertise": [
+          "Educational technology",
+          "Mathematics education",
+          "Instructional message design"
+        ],
+        "courses": null
+      },
+      "zh": {
+        "name": "李俊儀",
+        "alt_name": "Chun-Yi Lee",
+        "role": "副教授",
+        "affiliation": "國立臺北大學師資培育中心",
+        "degree": "國立臺灣師範大學資訊教育博士",
+        "expertise": [
+          "教育科技",
+          "數學教育",
+          "教學訊息設計"
+        ],
+        "courses": null
+      }
+    },
+    {
+      "id": "gonzalez74",
+      "college": "university",
+      "rank": "assistant",
+      "domains": [
+        "ai-core",
+        "nlp",
+        "data"
+      ],
+      "photo": "assets/faculty/gonzalez74_photo.jpg",
+      "initials": null,
+      "email": "gonzalez74@gm.ntpu.edu.tw",
+      "web": "https://ssdm.ntpu.edu.tw/web/faculty/faculty.jsp",
+      "en": {
+        "name": "Lionel F. Gonzalez",
+        "alt_name": "雷中仁",
+        "role": "Assistant Professor",
+        "affiliation": "Bachelor Program in Smart Sustainable Development and Management, National Taipei University",
+        "degree": "Ph.D. in Electrical Engineering, Yuan Ze University",
+        "expertise": [
+          "Machine learning",
+          "Deep learning",
+          "Anomaly detection",
+          "Reinforcement learning",
+          "Natural language processing"
+        ],
+        "courses": "Machine Learning; Programming; Python Programming; Big Data and Data Mining"
+      },
+      "zh": {
+        "name": "雷中仁",
+        "alt_name": "Lionel F. Gonzalez",
+        "role": "助理教授",
+        "affiliation": "國立臺北大學智慧永續學士學位學程",
+        "degree": "元智大學電機工程博士",
+        "expertise": [
+          "Machine Learning",
+          "Deep Learning",
+          "Anomaly Detection",
+          "Reinforce-ment Learning",
+          "Natural Language Processing"
+        ],
+        "courses": "機器學習、程式設計、Python程式設計、大數據與資料探勘"
+      }
+    },
+    {
+      "id": "bydrmanga",
+      "college": "university",
+      "rank": "assistant",
+      "domains": [
+        "ai-core",
+        "data",
+        "health"
+      ],
+      "photo": "assets/faculty/bydrmanga_photo.jpg",
+      "initials": null,
+      "email": "bydrmanga@gm.ntpu.edu.tw",
+      "web": "https://www.shm.ntpu.edu.tw/web/people/people.jsp",
+      "en": {
+        "name": "Yankuba B. Manga",
+        "alt_name": "楊庫巴",
+        "role": "Assistant Professor",
+        "affiliation": "Master Program in Smart Healthcare Management, National Taipei University",
+        "degree": "Ph.D. in Biomedical Engineering, Taipei Medical University",
+        "expertise": [
+          "AI and data science",
+          "Data mining",
+          "Electronic medical records",
+          "Calculus"
+        ],
+        "courses": "AI Applications in Health Economics and Financial Management; Programming; Data Mining"
+      },
+      "zh": {
+        "name": "楊庫巴",
+        "alt_name": "Yankuba B. Manga",
+        "role": "助理教授",
+        "affiliation": "國立臺北大學智慧醫療碩士學位學程",
+        "degree": "臺北醫學大學生醫工程博士",
+        "expertise": [
+          "AI & Data Sciences",
+          "Data Mining",
+          "Electronic Medical Records",
+          "Calculus"
+        ],
+        "courses": "健康經濟與財務管理之人工智慧應用、程式設計、資料探勘"
+      }
+    }
+  ]
+}
