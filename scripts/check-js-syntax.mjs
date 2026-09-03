@@ -15,7 +15,8 @@ const MODULES = [
   'assets/js/news-list.js',
   'assets/js/news-detail.js',
   'assets/js/home-news.js',
-  'assets/js/faculty-directory.js'
+  'assets/js/faculty-directory.js',
+  'assets/js/inquiry-form.js'
 ];
 
 const dir = await mkdtemp(path.join(tmpdir(), 'ai4x-js-'));
