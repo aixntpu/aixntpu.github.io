@@ -17,6 +17,7 @@
   <meta property="og:image" content="https://ai4x.ntpu.edu.tw/assets/launch-cover.png" />
   <link rel="icon" href="../assets/ai4xntpu_logo_s.png" />
   <link rel="stylesheet" href="../assets/styles.css" />
+  <link rel="stylesheet" href="../assets/css/inquiry-form.css" />
 </head>
 <body>
   <a class="skip-link" href="#main-content">跳至主要內容</a>
@@ -102,8 +103,8 @@
             <p class="member-affil">跨域人工智慧前瞻研究中心 行政專員</p>
             <ul class="member-meta">
               <li><strong>Email:</strong> <a href="mailto:sychen@gm.ntpu.edu.tw">sychen@gm.ntpu.edu.tw</a></li>
-              <li><strong>電話：</strong>(02) 8674-1111 分機 66894</li>
-              <li><strong>辦公室：</strong>商學院 8 樓 42 室</li>
+              <li><strong>電話：</strong>(02) 8674-1111 分機 66977</li>
+              <li><strong>辦公室：</strong>商學院4樓 校級研究中心 R6</li>
               <li><strong>地址：</strong>23741 新北市三峽區大學路 151 號</li>
               <li><strong>可處理事項：</strong>一般洽詢、研究媒合、資源諮詢、活動及演講邀請</li>
             </ul>
@@ -198,45 +199,197 @@
   </section>
 
   <!-- 洽詢方式 -->
-  <section class="section-soft">
+  <section class="section-soft" id="inquiry">
     <div class="wrap">
       <div class="section-head reveal">
         <span class="num-label">洽詢方式</span>
-        <h2>如何提出合作需求</h2>
+        <h2>線上合作需求表單</h2>
       </div>
-      <div class="split">
-        <div class="reveal">
-          <p class="lede">
-            請以 Email 提供以下資訊，中心將先進行需求訪談，再依研究問題媒合適合的校內團隊：
-          </p>
-          <ul style="color:var(--ink-soft)">
-            <li><strong>姓名</strong></li>
-            <li><strong>單位</strong></li>
-            <li><strong>Email</strong></li>
-            <li><strong>合作類型</strong>（見右列）</li>
-            <li><strong>需求摘要</strong></li>
-          </ul>
-          <div class="cta-actions">
-            <a class="btn btn-primary" href="mailto:ai4x@gm.ntpu.edu.tw?subject=%5BAI4X%20%E5%90%88%E4%BD%9C%E6%B4%BD%E8%A9%A2%5D">Email 合作洽詢 <span class="arrow">→</span></a>
+      <p class="lede reveal">
+        請填寫以下表單，中心將先進行需求確認，再依研究問題媒合適合的校內團隊。送出後，資料將安全傳送至中心行政窗口。
+      </p>
+      <div class="inquiry mt-2">
+        <div class="inquiry-main reveal">
+          <form class="inquiry-form" novalidate
+                data-inquiry-form
+                data-endpoint="YOUR_WORKER_ENDPOINT"
+                data-subject-prefix="[AI4X 合作洽詢]"
+                data-msg-invalid="請完成標示的必填欄位。"
+                data-msg-sending="送出中…"
+                data-msg-turnstile-missing="請先完成安全驗證。"
+                data-msg-sent="已收到您的合作需求，中心將盡快與您聯繫。"
+                data-msg-copied="已複製需求內容，可貼到郵件中寄至 ai4x@gm.ntpu.edu.tw。"
+                data-msg-copyfail="複製失敗，請手動選取內容，或直接來信 ai4x@gm.ntpu.edu.tw。"
+                data-msg-err-generic="送出失敗，請稍後再試，或改以 Email 寄至 ai4x@gm.ntpu.edu.tw。"
+                data-msg-err-network="連線失敗，請確認網路後再試一次；若持續失敗，請改以 Email 寄至 ai4x@gm.ntpu.edu.tw。"
+                data-msg-err-not_configured="線上表單尚未啟用，請改以 Email 寄至 ai4x@gm.ntpu.edu.tw。"
+                data-msg-err-rate_limited="送出過於頻繁，請稍候一分鐘後再試。"
+                data-msg-err-turnstile_missing="請先完成安全驗證。"
+                data-msg-err-turnstile_failed="安全驗證未通過，請重新勾選驗證後再送出一次。"
+                data-msg-err-validation_failed="部分欄位格式有誤，請檢查標示的欄位後再送出。"
+                data-msg-err-payload_too_large="需求摘要過長，請精簡後再送出。"
+                data-msg-err-forbidden_origin="來源網域不被允許，請由官方網站 ai4x.ntpu.edu.tw 送出。"
+                data-msg-err-upstream_error="系統忙碌中，需求暫時無法送出；請稍後再試，或改以 Email 寄至 ai4x@gm.ntpu.edu.tw。">
+            <div class="inquiry-form-head">
+              <h3>您的合作需求</h3>
+              <p>標示 <span class="req" aria-hidden="true">*</span> 為必填欄位；您提供的資料僅供本次合作洽詢、需求聯繫與團隊媒合使用。</p>
+            </div>
+
+            <!-- Honeypot：一般訪客看不到也不會聚焦到這個欄位；填了值就是機器人。
+                 以離屏定位而非 display:none，讓自動填表工具仍會處理它。 -->
+            <div class="hp-field" aria-hidden="true">
+              <label for="inq-website">Website</label>
+              <input type="text" id="inq-website" name="website" data-honeypot
+                     tabindex="-1" autocomplete="off" />
+            </div>
+
+            <div class="field-grid">
+              <div class="field">
+                <label for="inq-name">姓名 <span class="req" aria-hidden="true">*</span></label>
+                <input type="text" id="inq-name" name="name" required autocomplete="name"
+                       data-label="姓名" placeholder="王大明" aria-describedby="err-name" />
+                <p class="field-error" id="err-name">請填寫姓名。</p>
+              </div>
+
+              <div class="field">
+                <label for="inq-org">單位 <span class="req" aria-hidden="true">*</span></label>
+                <input type="text" id="inq-org" name="org" required autocomplete="organization"
+                       data-label="單位" placeholder="公司、機關、學校或系所" aria-describedby="err-org" />
+                <p class="field-error" id="err-org">請填寫服務單位。</p>
+              </div>
+
+              <div class="field">
+                <label for="inq-title">職稱 <span class="optional">選填</span></label>
+                <input type="text" id="inq-title" name="title" autocomplete="organization-title"
+                       data-label="職稱" placeholder="專案經理、教授、工程師…" />
+              </div>
+
+              <div class="field">
+                <label for="inq-email">Email <span class="req" aria-hidden="true">*</span></label>
+                <input type="email" id="inq-email" name="email" required autocomplete="email"
+                       data-label="Email" placeholder="you@example.com" aria-describedby="err-email" />
+                <p class="field-error" id="err-email">請填寫有效的 Email。</p>
+              </div>
+
+              <div class="field">
+                <label for="inq-phone">聯絡電話 <span class="optional">選填</span></label>
+                <input type="tel" id="inq-phone" name="phone" autocomplete="tel"
+                       data-label="聯絡電話" placeholder="02-8674-1111 分機 66977" />
+              </div>
+
+              <div class="field">
+                <label for="inq-timeline">預計時程 <span class="optional">選填</span></label>
+                <select id="inq-timeline" name="timeline" data-label="預計時程">
+                  <option value="">暫無特定時程</option>
+                  <option value="1m">一個月內</option>
+                  <option value="1-3m">一至三個月</option>
+                  <option value="3-6m">三至六個月</option>
+                  <option value="6m+">六個月以上</option>
+                </select>
+              </div>
+
+              <fieldset class="field-set">
+                <legend class="field-legend">合作類型 <span class="req" aria-hidden="true">*</span></legend>
+                <div class="chip-options">
+                  <label class="chip-option">
+                    <input type="radio" name="type" value="campus" required
+                           data-group-label="合作類型" data-label="校內跨域研究" />
+                    <span>校內跨域研究</span>
+                  </label>
+                  <label class="chip-option">
+                    <input type="radio" name="type" value="resource"
+                           data-group-label="合作類型" data-label="中心資源諮詢" />
+                    <span>中心資源諮詢</span>
+                  </label>
+                  <label class="chip-option">
+                    <input type="radio" name="type" value="industry"
+                           data-group-label="合作類型" data-label="產學合作" />
+                    <span>產學合作</span>
+                  </label>
+                  <label class="chip-option">
+                    <input type="radio" name="type" value="government"
+                           data-group-label="合作類型" data-label="政府委託研究" />
+                    <span>政府委託研究</span>
+                  </label>
+                  <label class="chip-option">
+                    <input type="radio" name="type" value="international"
+                           data-group-label="合作類型" data-label="國際合作" />
+                    <span>國際合作</span>
+                  </label>
+                  <label class="chip-option">
+                    <input type="radio" name="type" value="event"
+                           data-group-label="合作類型" data-label="活動及演講邀請" />
+                    <span>活動及演講邀請</span>
+                  </label>
+                </div>
+                <p class="field-error">請選擇一種合作類型。</p>
+              </fieldset>
+
+              <div class="field full">
+                <label for="inq-summary">需求摘要 <span class="req" aria-hidden="true">*</span></label>
+                <textarea id="inq-summary" name="summary" required maxlength="1500"
+                          data-label="需求摘要" aria-describedby="hint-summary err-summary"
+                          placeholder="想解決的研究問題或營運課題、可提供的資料或資源，以及期待達成的成果。"></textarea>
+                <p class="field-hint" id="hint-summary">簡述數句即可，細節將於需求訪談時討論。</p>
+                <p class="char-count" data-char-count aria-hidden="true"></p>
+                <p class="field-error" id="err-summary">請簡述您的需求。</p>
+              </div>
+
+              <div class="field-check">
+                <input type="checkbox" id="inq-consent" name="consent" required aria-describedby="err-consent" />
+                <label for="inq-consent">本人同意上述資訊提供人工智慧跨域研究中心作為本次需求洽詢及團隊媒合之用。</label>
+                <p class="field-error" id="err-consent">請確認後再送出。</p>
+              </div>
+            </div>
+
+            <div class="turnstile-field">
+              <div class="cf-turnstile"
+                   data-sitekey="YOUR_TURNSTILE_SITE_KEY"
+                   data-action="contact_form"
+                   data-theme="auto"
+                   data-language="zh-TW"></div>
+              <p class="field-hint">本表單以 Cloudflare Turnstile 防止機器人濫用。</p>
+            </div>
+
+            <div class="inquiry-actions">
+              <button type="submit" class="btn btn-primary" data-submit
+                      data-label-idle="送出合作需求" data-label-busy="送出中…">
+                <span data-submit-label>送出合作需求</span> <span class="arrow">→</span>
+              </button>
+              <button type="button" class="btn btn-quiet" data-copy-inquiry>複製需求內容</button>
+              <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+            </div>
+          </form>
+
+          <div class="inquiry-success" data-inquiry-success hidden tabindex="-1" role="status">
+            <span class="success-mark" aria-hidden="true">✓</span>
+            <h3>已收到您的合作需求</h3>
+            <p>中心行政窗口將盡快與您聯繫，並安排需求確認。</p>
+            <p class="success-id">案件編號：<strong data-submission-id></strong></p>
+            <p class="field-hint">如需補充資料，請來信 <a href="mailto:ai4x@gm.ntpu.edu.tw">ai4x@gm.ntpu.edu.tw</a> 並附上案件編號。</p>
           </div>
         </div>
-        <div class="reveal">
-          <div class="contact-card">
-            <h3>合作類型</h3>
+
+        <aside class="inquiry-side">
+          <div class="contact-card card-accent a2 reveal">
+            <h3>後續流程</h3>
+            <ol class="inquiry-steps">
+              <li><strong>收到需求</strong>行政窗口確認並回覆已收到您的來信。</li>
+              <li><strong>需求訪談</strong>以簡短會談釐清研究問題與合作範圍。</li>
+              <li><strong>團隊媒合</strong>依研究問題媒合適合的校內團隊。</li>
+              <li><strong>展開合作</strong>確認範圍、資源與合作條件後啟動。</li>
+            </ol>
+          </div>
+          <div class="contact-card card-accent a4 reveal">
+            <h3>習慣用 Email？</h3>
             <ul>
-              <li>◦ 校內跨域研究</li>
-              <li>◦ 中心資源諮詢</li>
-              <li>◦ 產學合作</li>
-              <li>◦ 政府委託研究</li>
-              <li>◦ 國際合作</li>
-              <li>◦ 活動及演講邀請</li>
+              <li>可直接來信 <a href="mailto:ai4x@gm.ntpu.edu.tw?subject=%5BAI4X%20%E5%90%88%E4%BD%9C%E6%B4%BD%E8%A9%A2%5D">ai4x@gm.ntpu.edu.tw</a>，並提供上列相同資訊。</li>
+              <li>電話：02-8674-1111 分機 66977</li>
+              <li>辦公室：國立臺北大學商學院大樓 842 室</li>
             </ul>
           </div>
-        </div>
+        </aside>
       </div>
-      <p class="contact-note mt-2 reveal">
-        線上合作需求表單籌備中；在此之前仍以 Email 為主要聯絡管道。
-      </p>
     </div>
   </section>
 
@@ -267,7 +420,7 @@
           <ul class="footer-contact">
             <li>國立臺北大學 跨域人工智慧前瞻研究中心</li>
             <li>地址：23741 新北市三峽區大學路 151 號</li>
-            <li>電話：02-8674-1111 分機 66894</li>
+            <li>電話：02-8674-1111 分機 66977</li>
             <li>Email: <a href="mailto:ai4x@gm.ntpu.edu.tw">ai4x@gm.ntpu.edu.tw</a><br>Web: <a href="https://ai4x.ntpu.edu.tw/">https://ai4x.ntpu.edu.tw/</a></li>
             <li><a href="https://new.ntpu.edu.tw/" target="_blank" rel="noopener noreferrer">國立臺北大學（NTPU）</a></li>
             <li><a href="../contact.html">English site</a></li>
@@ -278,11 +431,14 @@
         <span>© <span data-year>2026</span> NTPU AI4X</span>
         <span>國立臺北大學 跨域人工智慧前瞻研究中心</span>
         <span><a href="https://ai4x.ntpu.edu.tw/" target="_blank" rel="noopener">https://ai4x.ntpu.edu.tw/</a></span>
-        <span class="last-updated">最後更新：2026 年 8 月 3 日</span>
+        <span class="last-updated">最後更新：2026 年 9 月 3 日</span>
       </div>
     </div>
   </footer>
 
   <script src="../assets/main.js" defer></script>
+  <!-- Cloudflare Turnstile：以隱式模式掛載頁面上的 .cf-turnstile 容器 -->
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+  <script src="../assets/js/inquiry-form.js" defer></script>
 </body>
 </html>
