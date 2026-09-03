@@ -190,6 +190,10 @@ button.btn[disabled] .arrow { transform: none; }
 
 /* ---- Turnstile ---- */
 .turnstile-field { display: grid; gap: 0.5rem; margin-top: 1.3rem; }
+/* display:grid above beats the UA stylesheet's [hidden]{display:none} on
+   specificity ties (author rules always win over UA rules), so the JS that
+   hides this field while Turnstile is unconfigured needs an explicit override. */
+.turnstile-field[hidden] { display: none; }
 .turnstile-field .cf-turnstile { min-height: 65px; }
 .turnstile-field .field-hint { margin: 0; }
 
