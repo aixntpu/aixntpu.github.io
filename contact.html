@@ -444,8 +444,8 @@
   </footer>
 
   <script src="assets/main.js" defer></script>
-  <!-- Cloudflare Turnstile: implicit mode, mounts the .cf-turnstile container -->
-  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+  <!-- Cloudflare Turnstile: inquiry-form.js loads challenges.cloudflare.com/turnstile/v0/api.js
+       itself, once the widget below has a real data-sitekey. -->
   <script src="assets/js/inquiry-form.js" defer></script>
 </body>
 </html>
