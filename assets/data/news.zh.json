@@ -2,6 +2,78 @@
   "$schema": "./news.schema.json",
   "items": [
     {
+      "id": "2026-napai-agentic-ai-campus-competition",
+      "slug": "napai-agentic-ai-campus-competition",
+      "title": "NAPAI Agentic AI 校園落地創新應用競賽",
+      "summary": "邀請全國大專校院學生以 Agentic AI 解決校園與場域的真實問題，成果須可操作、可評測、可控管及可落地驗證。線上報名至 2026 年 9 月 11 日截止，決賽於 11 月 21 日配合 TAAI 2026 舉行。",
+      "content": [
+        "本競賽由教育部資訊及科技教育司指導、教育部前瞻 AI 人培－智慧代理及實體 AI 課程推動計畫（NAPAI）主辦，國立中央大學資訊工程學系與國立臺北大學資訊管理研究所承辦，並與第 31 屆人工智慧技術與應用國際研討會（TAAI 2026）合作辦理。",
+        "競賽以「真實場域出題、學生團隊以 Agentic AI 解題」為核心，作品須具備目標導向與任務分解能力，並符合工具或外部系統調用、狀態管理與動態調整、權限與風險控制三者中至少二項。成果必須可操作、可評測、可控管及可落地驗證。",
+        "競賽分為「校園自主命題組」與「場域指定命題組」，場域主題涵蓋智慧教務與學習支援、校園行政與服務流程、圖書館與研究知識服務、產業與公共場域共創四大類。每隊擇一組別、擇一主題報名。",
+        "全國大專校院在學學生（含碩、博士生）均可參加，不限科系；每隊 2 至 5 人，可跨校、跨系所及跨領域組隊，並得設指導教師一名。",
+        "重要時程：線上報名截止 9 月 11 日（五）23:59；說明會暨增能工作坊 9 月 18 日（五）；初賽繳件截止 10 月 16 日（五）；入圍名單公告 11 月 6 日（五）；決賽暨成果發表 11 月 21 日（六）於新北市三峽區大板根森林溫泉酒店舉行。",
+        "總獎金新臺幣 15 萬元，兩組各取第一名 2.5 萬元、第二名 1.5 萬元、第三名 1 萬元及佳作 5 隊各 5 千元。競賽辦法、報名表、場域題目及最新公告請以競賽網站為準。"
+      ],
+      "category": "competition",
+      "category_label": "競賽與徵件",
+      "source_type": "internal",
+      "publish_date": "2026-09-03",
+      "event_date": "2026-11-21",
+      "deadline": "2026-09-11",
+      "location": "決賽：新北市三峽區大板根森林溫泉酒店（配合 TAAI 2026）",
+      "eligibility": "全國大專校院在學學生（含碩、博士生），每隊 2 至 5 人",
+      "organizers": [
+        "教育部前瞻 AI 人培－智慧代理及實體 AI 課程推動計畫（NAPAI）",
+        "國立中央大學資訊工程學系",
+        "國立臺北大學資訊管理研究所"
+      ],
+      "tags": [
+        "NAPAI",
+        "Agentic AI",
+        "競賽",
+        "校園創新",
+        "TAAI 2026",
+        "學生競賽"
+      ],
+      "external_url": "https://napaincu.github.io/aaic2026/",
+      "source_name": "NAPAI Agentic AI 校園落地創新應用競賽官方網站",
+      "featured": true,
+      "priority": 98
+    },
+    {
+      "id": "2026-ntub-ai-industry-academia-forum",
+      "slug": "ntub-ai-industry-academia-forum",
+      "title": "2026 AI 人工智慧產學發展論壇",
+      "summary": "聚焦 Agentic AI、產業 AI 化、創新應用與人才培育，2026 年 10 月 2 日於國立臺北商業大學舉行，透過五場專題演講與兩場產學圓桌論壇，探討 AI 產學合作實務與人才發展。",
+      "content": [
+        "隨著生成式 AI 持續演進，人工智慧正從「提供答案」邁向能自主理解任務、規劃流程、協同工具並執行工作的 Agentic AI 新階段。2026 AI 人工智慧產學發展論壇聚焦 Agentic AI、產業 AI 化、創新應用及人才培育四大議題。",
+        "上午安排五場專題演講，講者包括國立陽明交通大學人工智慧普適研究中心曾煜棋教授、NVIDIA Taiwan AI 研究總監王鈺強、淡江大學張志勇教授、伊雲谷數位科技台灣區技術負責人蘇嘉傑，以及資策會產業情報研究所韓揚銘主任。",
+        "下午兩場圓桌論壇分別為「AI 產學合作與實務發展」與「AI 人才培育與產業創新」。本校研發長陳裕賢特聘教授將於論壇一以「AI 智慧醫療與法律實務」為題與談；論壇二由本校張玉山副校長主持。",
+        "論壇於 2026 年 10 月 2 日（星期五）08:30 至 17:00 在國立臺北商業大學承曦樓 10 樓國際會議廳舉行，由國立臺北商業大學研究發展處主辦、教育部高等教育深耕計畫指導。議程、講者與報名方式請以論壇官方網站公告為準。"
+      ],
+      "category": "academic",
+      "category_label": "學術活動",
+      "source_type": "external",
+      "publish_date": "2026-09-03",
+      "event_date": "2026-10-02",
+      "location": "國立臺北商業大學 承曦樓 10 樓 國際會議廳",
+      "eligibility": "產業界、學術界及對 AI 產學合作有興趣者",
+      "organizers": [
+        "國立臺北商業大學 研究發展處"
+      ],
+      "tags": [
+        "Agentic AI",
+        "產學合作",
+        "論壇",
+        "人才培育",
+        "產業 AI 化"
+      ],
+      "external_url": "https://ai2026.ntub.edu.tw/",
+      "source_name": "2026 AI 人工智慧產學發展論壇官方網站",
+      "featured": true,
+      "priority": 85
+    },
+    {
       "id": "2026-taai-2026",
       "slug": "taai-2026",
       "title": "TAAI 2026 第 31 屆人工智慧技術與應用國際研討會",
@@ -54,8 +126,18 @@
       "deadline": "2026-08-26",
       "location": "台北國際會議中心（TICC）",
       "eligibility": "年滿 18 歲，可組隊參加",
-      "organizers": ["Sea", "OpenAI"],
-      "tags": ["OpenAI", "Sea", "Hackathon", "黑客松", "AI 應用", "競賽"],
+      "organizers": [
+        "Sea",
+        "OpenAI"
+      ],
+      "tags": [
+        "OpenAI",
+        "Sea",
+        "Hackathon",
+        "黑客松",
+        "AI 應用",
+        "競賽"
+      ],
       "external_url": "https://shopee.tw/m/seaxopenai-hackathon-tw",
       "source_name": "Sea X OpenAI Hackathon 官方活動頁",
       "featured": true,
@@ -99,14 +181,20 @@
       "content": [
         "國立臺北大學校級研究中心「跨域人工智慧前瞻研究中心」（AI4X Research Center）已於 2026 年 8 月 1 日正式營運。",
         "中心串聯法律、商學、公共事務、人文社會、永續與資訊科技研究能量；治理架構完備，首波任務同步展開，其餘研究、資源與合作機制將分階段啟動。",
-        "中心主任：戴敏育教授（國立臺北大學資訊管理研究所教授兼所長）。行政窗口：陳思因 行政專員（sychen@gm.ntpu.edu.tw，分機 66894）。"
+        "中心主任：戴敏育教授（國立臺北大學資訊管理研究所教授兼所長）。行政窗口：陳思因 行政專員（sychen@gm.ntpu.edu.tw，分機 66977）。"
       ],
       "category": "announcement",
       "category_label": "中心公告",
       "source_type": "internal",
       "publish_date": "2026-08-01",
-      "organizers": ["國立臺北大學跨域人工智慧前瞻研究中心"],
-      "tags": ["正式營運", "中心公告", "AI4X"],
+      "organizers": [
+        "國立臺北大學跨域人工智慧前瞻研究中心"
+      ],
+      "tags": [
+        "正式營運",
+        "中心公告",
+        "AI4X"
+      ],
       "featured": true,
       "priority": 95
     },
@@ -125,8 +213,15 @@
       "category_label": "中心公告",
       "source_type": "internal",
       "publish_date": "2026-08-01",
-      "organizers": ["國立臺北大學跨域人工智慧前瞻研究中心"],
-      "tags": ["AI 服務", "NTPU AI", "AI Assistant", "Aquila"],
+      "organizers": [
+        "國立臺北大學跨域人工智慧前瞻研究中心"
+      ],
+      "tags": [
+        "AI 服務",
+        "NTPU AI",
+        "AI Assistant",
+        "Aquila"
+      ],
       "external_url": "https://ai4x.ntpu.edu.tw/zh/aiservices.html",
       "source_name": "AI4X — AI 服務",
       "featured": true,
@@ -144,8 +239,13 @@
       "category_label": "中心公告",
       "source_type": "internal",
       "publish_date": "2026-08-01",
-      "organizers": ["國立臺北大學跨域人工智慧前瞻研究中心"],
-      "tags": ["中心成員", "組織架構"],
+      "organizers": [
+        "國立臺北大學跨域人工智慧前瞻研究中心"
+      ],
+      "tags": [
+        "中心成員",
+        "組織架構"
+      ],
       "external_url": "https://ai4x.ntpu.edu.tw/zh/members.html",
       "source_name": "AI4X — 中心成員",
       "featured": true,
@@ -164,8 +264,14 @@
       "category_label": "中心公告",
       "source_type": "internal",
       "publish_date": "2026-07-18",
-      "organizers": ["國立臺北大學跨域人工智慧前瞻研究中心"],
-      "tags": ["成立宗旨", "首波工作", "種子計畫"],
+      "organizers": [
+        "國立臺北大學跨域人工智慧前瞻研究中心"
+      ],
+      "tags": [
+        "成立宗旨",
+        "首波工作",
+        "種子計畫"
+      ],
       "external_url": "https://ai4x.ntpu.edu.tw/zh/index.html#first-wave",
       "source_name": "AI4X — 首波工作項目",
       "featured": true,
@@ -185,8 +291,14 @@
       "source_type": "internal",
       "publish_date": "2026-07-18",
       "eligibility": "本校教師與研究團隊",
-      "organizers": ["國立臺北大學跨域人工智慧前瞻研究中心"],
-      "tags": ["跨域合作", "需求調查", "研究媒合"],
+      "organizers": [
+        "國立臺北大學跨域人工智慧前瞻研究中心"
+      ],
+      "tags": [
+        "跨域合作",
+        "需求調查",
+        "研究媒合"
+      ],
       "external_url": "https://ai4x.ntpu.edu.tw/zh/contact.html",
       "source_name": "AI4X — 合作聯絡",
       "featured": false,

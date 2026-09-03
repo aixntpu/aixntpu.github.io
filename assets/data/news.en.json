@@ -2,6 +2,78 @@
   "$schema": "./news.schema.json",
   "items": [
     {
+      "id": "2026-napai-agentic-ai-campus-competition",
+      "slug": "napai-agentic-ai-campus-competition",
+      "title": "NAPAI Agentic AI Campus Innovation Competition",
+      "summary": "College students across Taiwan are invited to solve real campus and field problems with Agentic AI. Entries must be operable, measurable, controllable, and field-verifiable. Online registration closes September 11, 2026; the final takes place on November 21 alongside TAAI 2026.",
+      "content": [
+        "The competition is supervised by the Department of Information and Technology Education, Ministry of Education, organized by the National Agentic & Physical AI Initiative (NAPAI), and co-hosted by the Department of Computer Science and Information Engineering at National Central University and the Graduate Institute of Information Management at National Taipei University, in collaboration with TAAI 2026, the 31st International Conference on Technologies and Applications of Artificial Intelligence.",
+        "Teams tackle problems drawn from real campus and field settings using Agentic AI. Entries must be goal-oriented with task decomposition, and meet at least two of the following: tool or external system invocation, state management with dynamic adjustment, and permission and risk control. Results must be operable, measurable, controllable, and field-verifiable.",
+        "There are two tracks, a Campus Open Track where teams define their own problem and a Field-Assigned Track based on challenges published by partner organizations. Field themes cover smart academic affairs and learning support, campus administration and service workflows, library and research knowledge services, and industry and public-sector co-creation. Each team registers for one track and one theme.",
+        "All currently enrolled college and university students in Taiwan, including master's and doctoral students, are eligible regardless of major. Teams consist of 2 to 5 students, may be cross-school and cross-disciplinary, and may have one faculty advisor.",
+        "Key dates: online registration closes Friday, September 11 at 23:59; briefing and capacity-building workshop on Friday, September 18; preliminary submission deadline Friday, October 16; finalists announced Friday, November 6; final and showcase on Saturday, November 21 at The Great Roots Forestry Spa Resort in Sanxia, New Taipei City.",
+        "Total prize pool is NT$150,000. Each track awards first place NT$25,000, second place NT$15,000, third place NT$10,000, and five honorable mentions of NT$5,000 each. Rules, registration forms, field challenges, and updates are published on the competition website."
+      ],
+      "category": "competition",
+      "category_label": "Competitions & calls",
+      "source_type": "internal",
+      "publish_date": "2026-09-03",
+      "event_date": "2026-11-21",
+      "deadline": "2026-09-11",
+      "location": "Final: The Great Roots Forestry Spa Resort, Sanxia, New Taipei City (alongside TAAI 2026)",
+      "eligibility": "Enrolled college and university students in Taiwan, including graduate students; teams of 2 to 5",
+      "organizers": [
+        "National Agentic & Physical AI Initiative (NAPAI), Ministry of Education",
+        "Department of Computer Science and Information Engineering, National Central University",
+        "Graduate Institute of Information Management, National Taipei University"
+      ],
+      "tags": [
+        "NAPAI",
+        "Agentic AI",
+        "Competition",
+        "Campus innovation",
+        "TAAI 2026",
+        "Student competition"
+      ],
+      "external_url": "https://napaincu.github.io/aaic2026/",
+      "source_name": "NAPAI Agentic AI Campus Innovation Competition official website",
+      "featured": true,
+      "priority": 98
+    },
+    {
+      "id": "2026-ntub-ai-industry-academia-forum",
+      "slug": "ntub-ai-industry-academia-forum",
+      "title": "2026 AI Industry-Academia Development Forum",
+      "summary": "Focused on Agentic AI, industrial AI adoption, innovative applications, and talent development, the forum takes place on October 2, 2026 at National Taipei University of Business, with five keynote speeches and two industry-academia roundtables.",
+      "content": [
+        "As generative AI continues to evolve, artificial intelligence is moving from providing answers toward Agentic AI that understands tasks, plans workflows, coordinates tools, and executes work autonomously. The 2026 AI Industry-Academia Development Forum focuses on four themes: Agentic AI, industrial AI adoption, innovative applications, and talent development.",
+        "The morning features five keynote speeches by Yu-Chee Tseng of the Pervasive AI Research Center at National Yang Ming Chiao Tung University, Yu-Chiang Frank Wang, Director of AI Research at NVIDIA Taiwan, Chih-Yung Chang of Tamkang University, Chia-Chieh Su, Taiwan Technical Lead at eCloudvalley, and Yang-Ming Han of the Market Intelligence & Consulting Institute (MIC) at the Institute for Information Industry.",
+        "Two afternoon roundtables cover AI industry-academia collaboration and practice, and AI talent development and industrial innovation. NTPU Vice President for Research Yu-Hsien Chen speaks on AI in smart healthcare and legal practice in the first roundtable, and NTPU Vice President Yu-Shan Chang chairs the second.",
+        "The forum runs from 08:30 to 17:00 on Friday, October 2, 2026 at the International Conference Hall, 10F, Chengxi Building, National Taipei University of Business. It is organized by the Office of Research and Development at NTUB under the Ministry of Education Higher Education Sprout Project. Please refer to the official forum website for the program, speakers, and registration."
+      ],
+      "category": "academic",
+      "category_label": "Academic events",
+      "source_type": "external",
+      "publish_date": "2026-09-03",
+      "event_date": "2026-10-02",
+      "location": "International Conference Hall, 10F, Chengxi Building, National Taipei University of Business",
+      "eligibility": "Industry and academic professionals and anyone interested in AI industry-academia collaboration",
+      "organizers": [
+        "Office of Research and Development, National Taipei University of Business"
+      ],
+      "tags": [
+        "Agentic AI",
+        "Industry-academia collaboration",
+        "Forum",
+        "Talent development",
+        "Industrial AI"
+      ],
+      "external_url": "https://ai2026.ntub.edu.tw/",
+      "source_name": "2026 AI Industry-Academia Development Forum official website",
+      "featured": true,
+      "priority": 85
+    },
+    {
       "id": "2026-taai-2026",
       "slug": "taai-2026",
       "title": "TAAI 2026 — The 31st International Conference on Technologies and Applications of Artificial Intelligence",
@@ -54,8 +126,17 @@
       "deadline": "2026-08-26",
       "location": "Taipei International Convention Center (TICC)",
       "eligibility": "Age 18 or above; teams welcome",
-      "organizers": ["Sea", "OpenAI"],
-      "tags": ["OpenAI", "Sea", "Hackathon", "AI applications", "competition"],
+      "organizers": [
+        "Sea",
+        "OpenAI"
+      ],
+      "tags": [
+        "OpenAI",
+        "Sea",
+        "Hackathon",
+        "AI applications",
+        "competition"
+      ],
       "external_url": "https://shopee.tw/m/seaxopenai-hackathon-tw",
       "source_name": "Sea X OpenAI Hackathon official event page",
       "featured": true,
@@ -99,14 +180,20 @@
       "content": [
         "The Advanced Research Center for Cross-Disciplinary AI (AI4X Research Center), a university-level research center of National Taipei University, has been officially operational since August 1, 2026.",
         "The center connects research strengths in law, business, public affairs, humanities and social sciences, sustainability, and information technology. Its governance structure is in place and the first-wave initiatives are under way; the remaining research, resource, and collaboration mechanisms will be launched in phases.",
-        "Center Director: Prof. Min-Yuh Day (Professor & Director, Graduate Institute of Information Management, NTPU). Administrative window: Ms. Szu-Yin Chen, Administrative Specialist (sychen@gm.ntpu.edu.tw, ext. 66894)."
+        "Center Director: Prof. Min-Yuh Day (Professor & Director, Graduate Institute of Information Management, NTPU). Administrative window: Ms. Szu-Yin Chen, Administrative Specialist (sychen@gm.ntpu.edu.tw, ext. 66977)."
       ],
       "category": "announcement",
       "category_label": "Center announcement",
       "source_type": "internal",
       "publish_date": "2026-08-01",
-      "organizers": ["AI4X Research Center, National Taipei University"],
-      "tags": ["launch", "announcement", "AI4X"],
+      "organizers": [
+        "AI4X Research Center, National Taipei University"
+      ],
+      "tags": [
+        "launch",
+        "announcement",
+        "AI4X"
+      ],
       "featured": true,
       "priority": 95
     },
@@ -125,8 +212,15 @@
       "category_label": "Center announcement",
       "source_type": "internal",
       "publish_date": "2026-08-01",
-      "organizers": ["AI4X Research Center, National Taipei University"],
-      "tags": ["AI services", "NTPU AI", "AI Assistant", "Aquila"],
+      "organizers": [
+        "AI4X Research Center, National Taipei University"
+      ],
+      "tags": [
+        "AI services",
+        "NTPU AI",
+        "AI Assistant",
+        "Aquila"
+      ],
       "external_url": "https://ai4x.ntpu.edu.tw/aiservices.html",
       "source_name": "AI4X — AI services",
       "featured": true,
@@ -144,8 +238,13 @@
       "category_label": "Center announcement",
       "source_type": "internal",
       "publish_date": "2026-08-01",
-      "organizers": ["AI4X Research Center, National Taipei University"],
-      "tags": ["members", "organization"],
+      "organizers": [
+        "AI4X Research Center, National Taipei University"
+      ],
+      "tags": [
+        "members",
+        "organization"
+      ],
       "external_url": "https://ai4x.ntpu.edu.tw/members.html",
       "source_name": "AI4X — Members",
       "featured": true,
@@ -164,8 +263,14 @@
       "category_label": "Center announcement",
       "source_type": "internal",
       "publish_date": "2026-07-18",
-      "organizers": ["AI4X Research Center, National Taipei University"],
-      "tags": ["mission", "first-wave", "seed projects"],
+      "organizers": [
+        "AI4X Research Center, National Taipei University"
+      ],
+      "tags": [
+        "mission",
+        "first-wave",
+        "seed projects"
+      ],
       "external_url": "https://ai4x.ntpu.edu.tw/index.html#first-wave",
       "source_name": "AI4X — First-wave initiatives",
       "featured": true,
@@ -185,8 +290,14 @@
       "source_type": "internal",
       "publish_date": "2026-07-18",
       "eligibility": "NTPU faculty members and research teams",
-      "organizers": ["AI4X Research Center, National Taipei University"],
-      "tags": ["collaboration", "survey", "research matchmaking"],
+      "organizers": [
+        "AI4X Research Center, National Taipei University"
+      ],
+      "tags": [
+        "collaboration",
+        "survey",
+        "research matchmaking"
+      ],
       "external_url": "https://ai4x.ntpu.edu.tw/contact.html",
       "source_name": "AI4X — Contact & collaboration",
       "featured": false,
