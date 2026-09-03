@@ -437,8 +437,8 @@
   </footer>
 
   <script src="../assets/main.js" defer></script>
-  <!-- Cloudflare Turnstile：以隱式模式掛載頁面上的 .cf-turnstile 容器 -->
-  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+  <!-- Cloudflare Turnstile：inquiry-form.js 會在下方元件有真正的 data-sitekey 時，
+       才動態載入 challenges.cloudflare.com/turnstile/v0/api.js。 -->
   <script src="../assets/js/inquiry-form.js" defer></script>
 </body>
 </html>
