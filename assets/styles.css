@@ -633,6 +633,11 @@ table.data tfoot td { font-weight: 800; background: rgba(17, 168, 160, 0.1); }
 @media (max-width: 1100px) {
   .nav-links a, .nav-drop-btn { padding-inline: 0.45rem; font-size: 0.86rem; }
 }
+@media (min-width: 901px) and (max-width: 1023px) {
+  /* The two-column hero squeezes the text column just enough in this band
+     to wrap "AI for Every Domain" onto a second line; shrink to keep it on one. */
+  .hero-title { font-size: 2.3rem; }
+}
 @media (max-width: 900px) {
   :root { --gutter: 1rem; --nav-height: 72px; }
   h1 { font-size: 2rem; } .hero-title { font-size: 2.15rem; }
