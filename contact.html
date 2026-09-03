@@ -17,6 +17,7 @@
   <meta property="og:image" content="https://ai4x.ntpu.edu.tw/assets/launch-cover.png" />
   <link rel="icon" href="assets/ai4xntpu_logo_s.png" />
   <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="stylesheet" href="assets/css/inquiry-form.css" />
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to content</a>
@@ -103,8 +104,8 @@
             <p class="member-affil">Administrative Specialist, AI4X Research Center</p>
             <ul class="member-meta">
               <li><strong>Email:</strong> <a href="mailto:sychen@gm.ntpu.edu.tw">sychen@gm.ntpu.edu.tw</a></li>
-              <li><strong>Tel:</strong> +886-2-8674-1111 ext. 66894</li>
-              <li><strong>Office:</strong> Business Building 842, NTPU</li>
+              <li><strong>Tel:</strong> +886-2-8674-1111 ext. 66977</li>
+              <li><strong>Office:</strong> University-Level Research Center R6, 4F, College of Business, NTPU</li>
               <li><strong>Address:</strong> 151 University Rd., Sanshia District, New Taipei City 23741, Taiwan</li>
               <li><strong>Handles:</strong> general inquiries, research matchmaking, resource consultation, event and speaking invitations</li>
             </ul>
@@ -201,47 +202,201 @@
   </section>
 
   <!-- HOW TO INQUIRE -->
-  <section class="section-soft">
+  <section class="section-soft" id="inquiry">
     <div class="wrap">
       <div class="section-head reveal">
         <span class="num-label">Inquiry</span>
-        <h2>How to submit a collaboration inquiry.</h2>
+        <h2>Online collaboration inquiry form.</h2>
       </div>
-      <div class="split">
-        <div class="reveal">
-          <p class="lede">
-            Email the administrative window with the following information, and the center will
-            arrange a needs interview before matching you with suitable research teams:
-          </p>
-          <ul style="color:var(--ink-soft)">
-            <li><strong>Name</strong></li>
-            <li><strong>Affiliation / unit</strong></li>
-            <li><strong>Email</strong></li>
-            <li><strong>Collaboration type</strong> (see list)</li>
-            <li><strong>Brief summary of your needs</strong></li>
-          </ul>
-          <div class="cta-actions">
-            <a class="btn btn-primary" href="mailto:ai4x@gm.ntpu.edu.tw?subject=%5BAI4X%20Collaboration%20Inquiry%5D">Email an inquiry <span class="arrow">→</span></a>
+      <p class="lede reveal">
+        Fill in the form below and the center will confirm your needs before matching you
+        with suitable research teams. On submission your details are sent securely to the
+        center's administrative window.
+      </p>
+      <div class="inquiry mt-2">
+        <div class="inquiry-main reveal">
+          <form class="inquiry-form" novalidate
+                data-inquiry-form
+                data-endpoint="YOUR_WORKER_ENDPOINT"
+                data-subject-prefix="[AI4X Collaboration Inquiry]"
+                data-msg-invalid="Please complete the highlighted fields."
+                data-msg-sending="Sending…"
+                data-msg-turnstile-missing="Please complete the security check first."
+                data-msg-sent="Your inquiry has been received. The center will be in touch shortly."
+                data-msg-copied="Inquiry copied to the clipboard. Paste it into an email to ai4x@gm.ntpu.edu.tw."
+                data-msg-copyfail="Copying failed. Please select the text manually, or email ai4x@gm.ntpu.edu.tw directly."
+                data-msg-err-generic="Submission failed. Please try again shortly, or email ai4x@gm.ntpu.edu.tw."
+                data-msg-err-network="Connection failed. Please check your network and try again; if it keeps failing, email ai4x@gm.ntpu.edu.tw."
+                data-msg-err-not_configured="The online form is not enabled yet. Please email ai4x@gm.ntpu.edu.tw."
+                data-msg-err-rate_limited="Too many submissions. Please wait a minute and try again."
+                data-msg-err-turnstile_missing="Please complete the security check first."
+                data-msg-err-turnstile_failed="The security check did not pass. Please solve it again and resubmit."
+                data-msg-err-validation_failed="Some fields need attention. Please check the highlighted fields and resubmit."
+                data-msg-err-payload_too_large="Your summary is too long. Please shorten it and resubmit."
+                data-msg-err-forbidden_origin="This origin is not allowed. Please submit from ai4x.ntpu.edu.tw."
+                data-msg-err-upstream_error="The service is busy and could not accept your inquiry. Please try again later, or email ai4x@gm.ntpu.edu.tw.">
+            <div class="inquiry-form-head">
+              <h3>Your collaboration request</h3>
+              <p>Fields marked <span class="req" aria-hidden="true">*</span> are required. Your details are used only to handle this inquiry, contact you about it, and match it with a research team.</p>
+            </div>
+
+            <!-- Honeypot: a real visitor never sees or tabs into this field, so
+                 any value means a bot. Positioned off-screen rather than
+                 display:none so form fillers still populate it. -->
+            <div class="hp-field" aria-hidden="true">
+              <label for="inq-website">Website</label>
+              <input type="text" id="inq-website" name="website" data-honeypot
+                     tabindex="-1" autocomplete="off" />
+            </div>
+
+          <div class="field-grid">
+            <div class="field">
+              <label for="inq-name">Name <span class="req" aria-hidden="true">*</span></label>
+              <input type="text" id="inq-name" name="name" required autocomplete="name"
+                     data-label="Name" placeholder="Chen Ssu-Yin" aria-describedby="err-name" />
+              <p class="field-error" id="err-name">Please enter your name.</p>
+            </div>
+
+            <div class="field">
+              <label for="inq-org">Affiliation / unit <span class="req" aria-hidden="true">*</span></label>
+              <input type="text" id="inq-org" name="org" required autocomplete="organization"
+                     data-label="Affiliation / unit" placeholder="Company, agency, or department"
+                     aria-describedby="err-org" />
+              <p class="field-error" id="err-org">Please enter your affiliation or unit.</p>
+            </div>
+
+            <div class="field">
+              <label for="inq-title">Job title <span class="optional">optional</span></label>
+              <input type="text" id="inq-title" name="title" autocomplete="organization-title"
+                     data-label="Job title" placeholder="Project manager, professor, engineer…" />
+            </div>
+
+            <div class="field">
+              <label for="inq-email">Email <span class="req" aria-hidden="true">*</span></label>
+              <input type="email" id="inq-email" name="email" required autocomplete="email"
+                     data-label="Email" placeholder="you@example.com" aria-describedby="err-email" />
+              <p class="field-error" id="err-email">Please enter a valid email address.</p>
+            </div>
+
+            <div class="field">
+              <label for="inq-phone">Phone <span class="optional">optional</span></label>
+              <input type="tel" id="inq-phone" name="phone" autocomplete="tel"
+                     data-label="Phone" placeholder="+886-2-8674-1111 ext. 66977" />
+            </div>
+
+            <div class="field">
+              <label for="inq-timeline">Preferred timeline <span class="optional">optional</span></label>
+              <select id="inq-timeline" name="timeline" data-label="Preferred timeline">
+                <option value="">No particular timeline</option>
+                <option value="1m">Within one month</option>
+                <option value="1-3m">One to three months</option>
+                <option value="3-6m">Three to six months</option>
+                <option value="6m+">More than six months</option>
+              </select>
+            </div>
+
+            <fieldset class="field-set">
+              <legend class="field-legend">Collaboration type <span class="req" aria-hidden="true">*</span></legend>
+              <div class="chip-options">
+                <label class="chip-option">
+                  <input type="radio" name="type" value="campus" required
+                         data-group-label="Collaboration type" data-label="Campus cross-domain research" />
+                  <span>Campus cross-domain research</span>
+                </label>
+                <label class="chip-option">
+                  <input type="radio" name="type" value="resource"
+                         data-group-label="Collaboration type" data-label="Center resource consultation" />
+                  <span>Center resource consultation</span>
+                </label>
+                <label class="chip-option">
+                  <input type="radio" name="type" value="industry"
+                         data-group-label="Collaboration type" data-label="Industry–academia collaboration" />
+                  <span>Industry–academia collaboration</span>
+                </label>
+                <label class="chip-option">
+                  <input type="radio" name="type" value="government"
+                         data-group-label="Collaboration type" data-label="Government-commissioned research" />
+                  <span>Government-commissioned research</span>
+                </label>
+                <label class="chip-option">
+                  <input type="radio" name="type" value="international"
+                         data-group-label="Collaboration type" data-label="International collaboration" />
+                  <span>International collaboration</span>
+                </label>
+                <label class="chip-option">
+                  <input type="radio" name="type" value="event"
+                         data-group-label="Collaboration type" data-label="Event &amp; speaking invitations" />
+                  <span>Event &amp; speaking invitations</span>
+                </label>
+              </div>
+              <p class="field-error">Please choose a collaboration type.</p>
+            </fieldset>
+
+            <div class="field full">
+              <label for="inq-summary">Summary of your needs <span class="req" aria-hidden="true">*</span></label>
+              <textarea id="inq-summary" name="summary" required maxlength="1500"
+                        data-label="Summary of your needs" aria-describedby="hint-summary err-summary"
+                        placeholder="The research question or business problem, the data or resources involved, and what a successful outcome would look like."></textarea>
+              <p class="field-hint" id="hint-summary">A few sentences are enough. The needs interview covers the details.</p>
+              <p class="char-count" data-char-count aria-hidden="true"></p>
+              <p class="field-error" id="err-summary">Please describe your needs briefly.</p>
+            </div>
+
+            <div class="field-check">
+              <input type="checkbox" id="inq-consent" name="consent" required aria-describedby="err-consent" />
+              <label for="inq-consent">I agree that the information above may be used by the AI4X Research Center to process this inquiry and to match it with a suitable research team.</label>
+              <p class="field-error" id="err-consent">Please confirm before submitting.</p>
+            </div>
+          </div>
+
+          <div class="turnstile-field">
+            <div class="cf-turnstile"
+                 data-sitekey="YOUR_TURNSTILE_SITE_KEY"
+                 data-action="contact_form"
+                 data-theme="auto"
+                 data-language="en"></div>
+            <p class="field-hint">This form uses Cloudflare Turnstile to block automated abuse.</p>
+          </div>
+
+          <div class="inquiry-actions">
+            <button type="submit" class="btn btn-primary" data-submit
+                    data-label-idle="Submit inquiry" data-label-busy="Sending…">
+              <span data-submit-label>Submit inquiry</span> <span class="arrow">→</span>
+            </button>
+            <button type="button" class="btn btn-quiet" data-copy-inquiry>Copy as text</button>
+            <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+          </div>
+          </form>
+
+          <div class="inquiry-success" data-inquiry-success hidden tabindex="-1" role="status">
+          <span class="success-mark" aria-hidden="true">✓</span>
+          <h3>Your inquiry has been received</h3>
+          <p>The administrative window will contact you shortly to confirm your needs.</p>
+          <p class="success-id">Reference: <strong data-submission-id></strong></p>
+          <p class="field-hint">To add anything, email <a href="mailto:ai4x@gm.ntpu.edu.tw">ai4x@gm.ntpu.edu.tw</a> quoting the reference above.</p>
           </div>
         </div>
-        <div class="reveal">
-          <div class="contact-card">
-            <h3>Collaboration types</h3>
+
+        <aside class="inquiry-side">
+          <div class="contact-card card-accent a2 reveal">
+            <h3>What happens next</h3>
+            <ol class="inquiry-steps">
+              <li><strong>Inquiry received</strong>The administrative window acknowledges your message.</li>
+              <li><strong>Needs interview</strong>A short conversation to clarify the research question and scope.</li>
+              <li><strong>Team matchmaking</strong>The center matches you with suitable campus teams.</li>
+              <li><strong>Collaboration begins</strong>Scope, resources, and agreements are confirmed.</li>
+            </ol>
+          </div>
+          <div class="contact-card card-accent a4 reveal">
+            <h3>Prefer plain email?</h3>
             <ul>
-              <li>◦ Campus cross-domain research</li>
-              <li>◦ Center resource consultation</li>
-              <li>◦ Industry–academia collaboration</li>
-              <li>◦ Government-commissioned research</li>
-              <li>◦ International collaboration</li>
-              <li>◦ Event &amp; speaking invitations</li>
+              <li>Write to <a href="mailto:ai4x@gm.ntpu.edu.tw?subject=%5BAI4X%20Collaboration%20Inquiry%5D">ai4x@gm.ntpu.edu.tw</a> with the same information.</li>
+              <li>Tel: +886-2-8674-1111 ext. 66977</li>
+              <li>Office: University-Level Research Center R6, 4F, College of Business, NTPU</li>
             </ul>
           </div>
-        </div>
+        </aside>
       </div>
-      <p class="contact-note mt-2 reveal">
-        An online collaboration form is in preparation; email remains the primary channel
-        in the meantime.
-      </p>
     </div>
   </section>
 
@@ -272,7 +427,7 @@
           <ul class="footer-contact">
             <li>National Taipei University<br>Advanced Research Center for Cross-Disciplinary AI</li>
             <li>Address: 151 University Rd., Sanshia District,<br>New Taipei City 23741, Taiwan</li>
-            <li>Tel: +886-2-8674-1111 ext. 66894</li>
+            <li>Tel: +886-2-8674-1111 ext. 66977</li>
             <li>Email: <a href="mailto:ai4x@gm.ntpu.edu.tw">ai4x@gm.ntpu.edu.tw</a><br>Web: <a href="https://ai4x.ntpu.edu.tw/">https://ai4x.ntpu.edu.tw/</a></li>
             <li><a href="https://new.ntpu.edu.tw/" target="_blank" rel="noopener noreferrer">National Taipei University (NTPU)</a></li>
             <li><a href="zh/contact.html">中文網站</a></li>
@@ -283,11 +438,14 @@
         <span>© <span data-year>2026</span> NTPU AI4X Research Center</span>
         <span>Advanced Research Center for Cross-Disciplinary AI, National Taipei University (NTPU)</span>
         <span><a href="https://ai4x.ntpu.edu.tw/" target="_blank" rel="noopener">https://ai4x.ntpu.edu.tw/</a></span>
-        <span class="last-updated">Last updated: August 3, 2026</span>
+        <span class="last-updated">Last updated: September 3, 2026</span>
       </div>
     </div>
   </footer>
 
   <script src="assets/main.js" defer></script>
+  <!-- Cloudflare Turnstile: implicit mode, mounts the .cf-turnstile container -->
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+  <script src="assets/js/inquiry-form.js" defer></script>
 </body>
 </html>
