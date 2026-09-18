@@ -327,6 +327,7 @@ section { position: relative; padding: 2rem 0; }
 .card-accent.a2 { border-top-color: var(--cyan); }
 .card-accent.a3 { border-top-color: var(--violet); }
 .card-accent.a4 { border-top-color: var(--sun); }
+.card-accent.a2b { border-top-color: var(--clay); }
 
 /* Stats */
 .stat { text-align: center; gap: 0.35rem; display: flex; flex-direction: column; }
