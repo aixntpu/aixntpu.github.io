@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-11",
+  "updated": "2026-09-21",
   "source": "members.html / zh/members.html",
   "ranks": [
     {
@@ -1664,6 +1664,56 @@
       }
     },
     {
+      "id": "wangson",
+      "college": "business",
+      "rank": "professor",
+      "domains": [
+        "ai-core",
+        "nlp",
+        "business"
+      ],
+      "photo": "assets/faculty/wangson_photo.jpg",
+      "initials": null,
+      "email": "wangson@mail.ntpu.edu.tw",
+      "web": "https://sites.google.com/view/prof-wang/",
+      "en": {
+        "name": "Chih-Chien Wang",
+        "alt_name": "汪志堅",
+        "role": "Distinguished Professor and Director of the Computer Center",
+        "affiliation": "Graduate Institute of Information Management and Computer Center, National Taipei University",
+        "degree": "Ph.D. in Business Administration, National Chung Hsing University",
+        "expertise": [
+          "Internet marketing",
+          "Online behavior",
+          "Online consumer behavior",
+          "Cyber psychology",
+          "E-commerce",
+          "Knowledge management",
+          "Artificial intelligence applications",
+          "Social media marketing"
+        ],
+        "courses": "E-Commerce; Social Media Marketing; Consumer Behavior; Business Administration; AI Applications"
+      },
+      "zh": {
+        "name": "汪志堅",
+        "alt_name": "Chih-Chien Wang",
+        "role": "特聘教授兼資訊中心主任",
+        "affiliation": "國立臺北大學資訊管理研究所、資訊中心",
+        "degree": "國立中興大學法商學院企業管理博士",
+        "expertise": [
+          "資訊網路行銷",
+          "網路行為",
+          "網路消費行為",
+          "網路心理學",
+          "電子商務",
+          "知識管理",
+          "人工智慧應用",
+          "社群媒體行銷"
+        ],
+        "courses": "電子商務、社群行銷、消費者行為、企業管理、AI應用"
+      }
+    },
+    {
       "id": "myday",
       "college": "business",
       "rank": "professor",
@@ -1757,6 +1807,167 @@
           "人本人工智慧"
         ],
         "courses": null
+      }
+    },
+    {
+      "id": "hsiuweichang",
+      "college": "business",
+      "rank": "assistant",
+      "domains": [
+        "ai-core",
+        "data",
+        "fintech",
+        "business"
+      ],
+      "photo": "assets/faculty/hsiuweichang_photo.jpg",
+      "initials": "HWC",
+      "email": "andychang@mail.ntpu.edu.tw",
+      "web": "https://changhsiuwei.com/",
+      "en": {
+        "name": "Hsiu-Wei Chang",
+        "alt_name": "張修瑋",
+        "role": "Assistant Professor",
+        "affiliation": "Department of Accountancy, National Taipei University",
+        "degree": "Ph.D. in Accounting, National Taiwan University; M.A. in Taxation and Finance Management, National Taichung University of Science and Technology; B.S. in Public Finance and Taxation, National Taichung University of Science and Technology",
+        "expertise": [
+          "Corporate finance and information disclosure",
+          "Capital markets and investor behavior",
+          "AI applications in accounting and finance",
+          "Capital markets and corporate governance",
+          "International tax and public finance",
+          "Investor attention and information processing",
+          "Material disclosure and corporate transparency",
+          "Machine learning applications in accounting"
+        ],
+        "courses": "Machine Learning Applications in Accounting; Accounting Information Systems; Accounting"
+      },
+      "zh": {
+        "name": "張修瑋",
+        "alt_name": "Hsiu-Wei Chang",
+        "role": "助理教授",
+        "affiliation": "國立臺北大學會計學系",
+        "degree": "國立臺灣大學會計學系博士；國立臺中科技大學租稅管理與理財規劃碩士；國立臺中科技大學財政稅務系學士",
+        "expertise": [
+          "公司財務與資訊揭露",
+          "資本市場與投資人行為",
+          "人工智慧在會計與財務領域的應用",
+          "資本市場與公司治理",
+          "企業稅務與公共財政",
+          "投資者關注度與資訊處理",
+          "重大訊息揭露與公司透明度",
+          "機器學習於會計之應用"
+        ],
+        "courses": "機器學習在會計議題之應用、會計資訊系統、會計學"
+      }
+    },
+    {
+      "id": "hsinyunkuan",
+      "college": "business",
+      "rank": "assistant",
+      "domains": [
+        "ai-core",
+        "nlp",
+        "data",
+        "fintech",
+        "business"
+      ],
+      "photo": "assets/faculty/hsinyunkuan_photo.jpg",
+      "initials": "HYK",
+      "email": "hykuan@mail.ntpu.edu.tw",
+      "web": "https://hsin-yun-kuan.github.io/",
+      "en": {
+        "name": "Hsin-Yun Kuan",
+        "alt_name": "官歆芸",
+        "role": "Assistant Professor",
+        "affiliation": "Department of Accountancy, National Taipei University",
+        "degree": "Ph.D. in Accounting, National Taiwan University",
+        "expertise": [
+          "Cost and management accounting",
+          "Auditing and financial accounting",
+          "AI applications in accounting, including machine learning and large language models",
+          "Stata applications in accounting",
+          "Machine learning and financial forecasting",
+          "Empirical financial accounting research",
+          "AI disclosure and corporate governance",
+          "AI applications in accounting education"
+        ],
+        "courses": "Financial Management; Financial Statement Analysis"
+      },
+      "zh": {
+        "name": "官歆芸",
+        "alt_name": "Hsin-Yun Kuan",
+        "role": "助理教授",
+        "affiliation": "國立臺北大學會計學系",
+        "degree": "國立臺灣大學會計學系博士",
+        "expertise": [
+          "成本與管理會計",
+          "審計與財務會計",
+          "人工智慧會計應用（機器學習模型、大語言模型）",
+          "Stata 會計應用",
+          "機器學習與財務預測",
+          "財務會計實證研究",
+          "AI 揭露與公司治理",
+          "AI 融入會計教學"
+        ],
+        "courses": "財務管理、財務報表分析"
+      },
+      "education": {
+        "zh": [
+          "國立臺灣大學會計學系博士",
+          "國立臺北大學會計學系碩士",
+          "國立臺北大學會計學系學士"
+        ],
+        "en": [
+          "Ph.D. in Accounting, National Taiwan University",
+          "M.A. in Accounting, National Taipei University",
+          "B.A. in Accounting, National Taipei University"
+        ]
+      }
+    },
+    {
+      "id": "mingchehu",
+      "college": "business",
+      "rank": "assistant",
+      "domains": [
+        "ai-core",
+        "data",
+        "fintech"
+      ],
+      "photo": "assets/faculty/mingchehu_photo.jpg",
+      "initials": "MCH",
+      "email": "mingche@mail.ntpu.edu.tw",
+      "web": "https://www.aacsb.ntpu.edu.tw/teach/teachfcm.php?teacher=ODI0NDdf6IOh6YqY5ZOy",
+      "en": {
+        "name": "Ming-Che Hu",
+        "alt_name": "胡銘哲",
+        "role": "Assistant Professor",
+        "affiliation": "Department of Finance and Cooperative Management, National Taipei University",
+        "degree": "Ph.D. in Information Management and Finance, National Yang Ming Chiao Tung University",
+        "expertise": [
+          "Empirical asset pricing",
+          "Behavioral finance",
+          "Machine learning",
+          "R&D innovation",
+          "Quantitative and empirical finance",
+          "Data science and financial-market analytics"
+        ],
+        "courses": "The Decision & Management of Investment; Python in Finance; Financial Statement Analysis; Corporate Governance and Risk Management; International Financial Management"
+      },
+      "zh": {
+        "name": "胡銘哲",
+        "alt_name": "Ming-Che Hu",
+        "role": "助理教授",
+        "affiliation": "國立臺北大學金融與合作經營學系",
+        "degree": "國立陽明交通大學資訊管理與財務金融學博士",
+        "expertise": [
+          "實證資產定價",
+          "行為財務",
+          "機器學習",
+          "研發創新",
+          "量化與實證財務",
+          "資料科學與金融市場數據分析"
+        ],
+        "courses": "投資決策與管理（碩）、Python 財務應用、財務報表分析、公司治理與風險管理、國際財務管理"
       }
     },
     {
@@ -2532,53 +2743,6 @@
           "法律與社會"
         ],
         "courses": null
-      }
-    },
-    {
-      "id": "wangson",
-      "college": "university",
-      "rank": "director",
-      "domains": [
-        "ai-core",
-        "business"
-      ],
-      "photo": "assets/faculty/wangson_photo.jpg",
-      "initials": null,
-      "email": "wangson@mail.ntpu.edu.tw",
-      "web": "https://sites.google.com/view/prof-wang/",
-      "en": {
-        "name": "Chih-Chien Wang",
-        "alt_name": "汪志堅",
-        "role": "Director",
-        "affiliation": "Computer Center, National Taipei University",
-        "degree": "Ph.D. in Business Administration, National Chung Hsing University",
-        "expertise": [
-          "Marketing management",
-          "Business strategy",
-          "Internet marketing",
-          "Social media marketing",
-          "E-commerce",
-          "AI applications",
-          "Information management"
-        ],
-        "courses": "AI Applications"
-      },
-      "zh": {
-        "name": "汪志堅",
-        "alt_name": "Chih-Chien Wang",
-        "role": "主任",
-        "affiliation": "國立臺北大學資訊中心",
-        "degree": "國立中興大學法商學院企業管理博士",
-        "expertise": [
-          "行銷管理",
-          "經營策略",
-          "網路行銷",
-          "Social Media Marketing",
-          "電子商務 E-Commerce",
-          "AI應用",
-          "資訊管理"
-        ],
-        "courses": "AI應用"
       }
     },
     {
