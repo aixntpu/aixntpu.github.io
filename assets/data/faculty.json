@@ -324,7 +324,7 @@
       "en": {
         "name": "Dalton Lin",
         "alt_name": "林道通",
-        "role": "Professor",
+        "role": "Distinguished Professor and President",
         "affiliation": "Department of Computer Science and Information Engineering, National Taipei University",
         "degree": "Ph.D. in Electrical Engineering, University of Maryland",
         "expertise": [
@@ -340,7 +340,7 @@
       "zh": {
         "name": "林道通",
         "alt_name": "Dalton Lin",
-        "role": "教授",
+        "role": "特聘教授兼校長",
         "affiliation": "國立臺北大學資訊工程學系",
         "degree": "美國馬里蘭大學電機工程博士",
         "expertise": [
@@ -352,7 +352,37 @@
           "深度學習"
         ],
         "courses": "人工神經網路與深度學習、電腦視覺"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "official-current-page-backed update",
+        "sources": [
+          "https://www.csie.ntpu.edu.tw/~dalton/",
+          "https://www.csie.ntpu.edu.tw/pages/1"
+        ]
+      },
+      "administrative_roles_zh": [
+        "國立臺北大學校長"
+      ],
+      "distinctions_zh": [
+        "特聘教授"
+      ],
+      "recent_ai_courses": [
+        {
+          "semester": "未由本次查核來源確認",
+          "course_zh": "人工神經網路與深度學習、電腦視覺",
+          "course_en": "Artificial Neural Networks and Deep Learning; Computer Vision",
+          "evidence": "existing faculty dataset course field; retained but not assigned to 115-1 without semester-specific official evidence",
+          "source": "http://www.csie.ntpu.edu.tw/~dalton/"
+        },
+        {
+          "semester": "115-1",
+          "course_zh": "人工神經網路與深度學習",
+          "course_en": "Artificial Neural Networks and Deep Learning",
+          "evidence": "National Taipei University LMS 3.0 course record explicitly identifies semester 1151 and instructor.",
+          "source": "https://lms3.ntpu.edu.tw/course/info.php?id=23495"
+        }
+      ]
     },
     {
       "id": "ysc",
@@ -370,7 +400,7 @@
       "en": {
         "name": "Yue-Shan Chang",
         "alt_name": "張玉山",
-        "role": "Professor",
+        "role": "Distinguished Professor and Vice President",
         "affiliation": "Department of Computer Science and Information Engineering, National Taipei University",
         "degree": "Ph.D. in Computer Science, National Chiao Tung University",
         "expertise": [
@@ -383,7 +413,7 @@
       "zh": {
         "name": "張玉山",
         "alt_name": "Yue-Shan Chang",
-        "role": "教授",
+        "role": "特聘教授兼副校長",
         "affiliation": "國立臺北大學資訊工程學系",
         "degree": "國立交通大學資訊科學博士",
         "expertise": [
@@ -392,7 +422,29 @@
           "智慧計算"
         ],
         "courses": "雲端計算與大數據程式設計"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "official-current-page-backed update",
+        "sources": [
+          "https://new.ntpu.edu.tw/news/689a86b463f5a608851f653e"
+        ]
+      },
+      "administrative_roles_zh": [
+        "國立臺北大學副校長"
+      ],
+      "distinctions_zh": [
+        "特聘教授"
+      ],
+      "recent_ai_courses": [
+        {
+          "semester": "未由本次查核來源確認",
+          "course_zh": "雲端計算與大數據程式設計",
+          "course_en": "Cloud Computing and Big Data Programming",
+          "evidence": "existing faculty dataset course field; retained but not assigned to 115-1 without semester-specific official evidence",
+          "source": "http://web.ntpu.edu.tw/~ysc/"
+        }
+      ]
     },
     {
       "id": "yschen",
@@ -409,7 +461,7 @@
       "en": {
         "name": "Yuh-Shyan Chen",
         "alt_name": "陳裕賢",
-        "role": "Professor",
+        "role": "Distinguished Professor and Vice President for Research and Development",
         "affiliation": "Department of Computer Science and Information Engineering, National Taipei University",
         "degree": "Ph.D. in Computer Science and Information Engineering, National Central University",
         "expertise": [
@@ -424,7 +476,7 @@
       "zh": {
         "name": "陳裕賢",
         "alt_name": "Yuh-Shyan Chen",
-        "role": "教授",
+        "role": "特聘教授兼研究發展處研發長",
         "affiliation": "國立臺北大學資訊工程學系",
         "degree": "國立中央大學資訊工程博士",
         "expertise": [
@@ -435,7 +487,21 @@
           "邊緣計算"
         ],
         "courses": "電腦網路"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "official-current-page-backed update",
+        "sources": [
+          "https://www.csie.ntpu.edu.tw/pages/1"
+        ]
+      },
+      "administrative_roles_zh": [
+        "研究發展處研發長"
+      ],
+      "distinctions_zh": [
+        "特聘教授"
+      ],
+      "recent_ai_courses": []
     },
     {
       "id": "bslin",
@@ -478,7 +544,17 @@
           "可攜式生醫電子系統設計"
         ],
         "courses": "計算機程式設計"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "http://web.ntpu.edu.tw/~bslin/"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": []
     },
     {
       "id": "hsinlung",
@@ -495,7 +571,7 @@
       "en": {
         "name": "Hsin-Lung Wu",
         "alt_name": "吳信龍",
-        "role": "Professor",
+        "role": "Professor (seconded as Dean, College of Photonics, National Yang Ming Chiao Tung University)",
         "affiliation": "Department of Computer Science and Information Engineering, National Taipei University",
         "degree": "Ph.D. in Computer Science, National Chiao Tung University",
         "expertise": [
@@ -509,7 +585,7 @@
       "zh": {
         "name": "吳信龍",
         "alt_name": "Hsin-Lung Wu",
-        "role": "教授",
+        "role": "教授（借調國立陽明交通大學光電學院院長）",
         "affiliation": "國立臺北大學資訊工程學系",
         "degree": "國立交通大學資訊工程博士",
         "expertise": [
@@ -519,7 +595,27 @@
           "可逆式資訊隱藏"
         ],
         "courses": "演算法、生成式人工智慧理論"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "official-current-page-backed update",
+        "sources": [
+          "https://www.csie.ntpu.edu.tw/pages/1"
+        ]
+      },
+      "administrative_roles_zh": [
+        "借調國立陽明交通大學光電學院院長"
+      ],
+      "distinctions_zh": [],
+      "recent_ai_courses": [
+        {
+          "semester": "未由本次查核來源確認",
+          "course_zh": "演算法、生成式人工智慧理論",
+          "course_en": "Algorithms; Theory of Generative Artificial Intelligence",
+          "evidence": "existing faculty dataset course field; retained but not assigned to 115-1 without semester-specific official evidence",
+          "source": "http://web.ntpu.edu.tw/~hsinlung/"
+        }
+      ]
     },
     {
       "id": "jcchen",
@@ -555,7 +651,17 @@
           "人工智慧"
         ],
         "courses": "電腦概論與程式設計、計算機程式設計"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "http://web.ntpu.edu.tw/~jcchen/"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": []
     },
     {
       "id": "jcchang",
@@ -572,7 +678,7 @@
       "en": {
         "name": "Jen-Chun Chang",
         "alt_name": "張仁俊",
-        "role": "Professor",
+        "role": "Distinguished Professor and Chair, Department of Computer Science and Information Engineering",
         "affiliation": "Department of Computer Science and Information Engineering, National Taipei University",
         "degree": "Ph.D. in Computer Science, National Chiao Tung University",
         "expertise": [
@@ -586,7 +692,7 @@
       "zh": {
         "name": "張仁俊",
         "alt_name": "Jen-Chun Chang",
-        "role": "教授",
+        "role": "特聘教授兼資訊工程學系主任",
         "affiliation": "國立臺北大學資訊工程學系",
         "degree": "國立交通大學資訊工程博士",
         "expertise": [
@@ -596,7 +702,21 @@
           "演算法"
         ],
         "courses": "高等演算法"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "official-current-page-backed update",
+        "sources": [
+          "https://www.csie.ntpu.edu.tw/pages/1"
+        ]
+      },
+      "administrative_roles_zh": [
+        "資訊工程學系主任"
+      ],
+      "distinctions_zh": [
+        "特聘教授"
+      ],
+      "recent_ai_courses": []
     },
     {
       "id": "tsengcyt",
@@ -623,7 +743,7 @@
           "Blockchain smart contracts",
           "IoT routing"
         ],
-        "courses": "Programming for AI Network Dataset Analysis"
+        "courses": "Programming for AI Network Dataset Analysis; Network Security and Deep Learning"
       },
       "zh": {
         "name": "曾俊元",
@@ -637,8 +757,33 @@
           "區塊鏈智慧合約",
           "物聯網路由"
         ],
-        "courses": "人工智慧網路資料集分析程式設計"
-      }
+        "courses": "人工智慧網路資料集分析程式設計、網路安全與深度學習"
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "http://web.ntpu.edu.tw/~tsengcyt/"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": [
+        {
+          "semester": "未由本次查核來源確認",
+          "course_zh": "人工智慧網路資料集分析程式設計",
+          "course_en": "Programming for AI Network Dataset Analysis",
+          "evidence": "existing faculty dataset course field; retained but not assigned to 115-1 without semester-specific official evidence",
+          "source": "http://web.ntpu.edu.tw/~tsengcyt/"
+        },
+        {
+          "semester": "115-1",
+          "course_zh": "網路安全與深度學習",
+          "course_en": "Network Security and Deep Learning",
+          "evidence": "National Taipei University LMS 3.0 course record explicitly identifies semester 1151 and instructor.",
+          "source": "https://lms3.ntpu.edu.tw/course/info.php?id=23483"
+        }
+      ]
     },
     {
       "id": "zfyang",
@@ -677,7 +822,25 @@
           "電腦視覺"
         ],
         "courses": "機器學習、機器導航與探索"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "http://web.ntpu.edu.tw/~zfyang/"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": [
+        {
+          "semester": "未由本次查核來源確認",
+          "course_zh": "機器學習、機器導航與探索",
+          "course_en": "Machine Learning; Robot Navigation and Exploration",
+          "evidence": "existing faculty dataset course field; retained but not assigned to 115-1 without semester-specific official evidence",
+          "source": "http://web.ntpu.edu.tw/~zfyang/"
+        }
+      ]
     },
     {
       "id": "hanatai",
@@ -695,7 +858,7 @@
       "en": {
         "name": "Chih-Hua Tai",
         "alt_name": "戴志華",
-        "role": "Associate Professor",
+        "role": "Associate Professor and Head, Administration Division, Computer Center",
         "affiliation": "Department of Computer Science and Information Engineering, National Taipei University",
         "degree": "Ph.D. in Electrical Engineering, National Taiwan University",
         "expertise": [
@@ -704,12 +867,12 @@
           "Privacy-preserving data analytics",
           "Social computing"
         ],
-        "courses": "Object-Oriented Programming; Data Mining"
+        "courses": "Object-Oriented Programming; Data Mining; AI and Law"
       },
       "zh": {
         "name": "戴志華",
         "alt_name": "Chih-Hua Tai",
-        "role": "副教授",
+        "role": "副教授兼資訊中心行政組組長",
         "affiliation": "國立臺北大學資訊工程學系",
         "degree": "國立臺灣大學電機工程博士",
         "expertise": [
@@ -718,8 +881,35 @@
           "隱私保護資料分析",
           "社交計算"
         ],
-        "courses": "物件導向程式設計、資料探勘"
-      }
+        "courses": "物件導向程式設計、資料探勘、AI與法律"
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "official-current-page-backed update",
+        "sources": [
+          "https://www.csie.ntpu.edu.tw/pages/1"
+        ]
+      },
+      "administrative_roles_zh": [
+        "資訊中心行政組組長"
+      ],
+      "distinctions_zh": [],
+      "recent_ai_courses": [
+        {
+          "semester": "未由本次查核來源確認",
+          "course_zh": "物件導向程式設計、資料探勘",
+          "course_en": "Object-Oriented Programming; Data Mining",
+          "evidence": "existing faculty dataset course field; retained but not assigned to 115-1 without semester-specific official evidence",
+          "source": "http://web.ntpu.edu.tw/~hanatai/"
+        },
+        {
+          "semester": "115-1",
+          "course_zh": "AI與法律",
+          "course_en": "AI and Law",
+          "evidence": "National Taipei University LMS 3.0 course record explicitly identifies semester 1151 and instructor.",
+          "source": "https://lms3.ntpu.edu.tw/course/info.php?id=23378"
+        }
+      ]
     },
     {
       "id": "hongshianglin",
@@ -761,12 +951,22 @@
           "車用擴增實境導航"
         ],
         "courses": null
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://sites.google.com/gm.ntpu.edu.tw/hslin"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": []
     },
     {
       "id": "yutingwu",
       "college": "eecs",
-      "rank": "assistant",
+      "rank": "associate",
       "domains": [
         "ai-core",
         "vision"
@@ -778,7 +978,7 @@
       "en": {
         "name": "Yu-Ting Wu",
         "alt_name": "吳昱霆",
-        "role": "Assistant Professor",
+        "role": "Associate Professor",
         "affiliation": "Department of Computer Science and Information Engineering, National Taipei University",
         "degree": "Ph.D. in Computer Science and Information Engineering, National Taiwan University",
         "expertise": [
@@ -792,7 +992,7 @@
       "zh": {
         "name": "吳昱霆",
         "alt_name": "Yu-Ting Wu",
-        "role": "助理教授",
+        "role": "副教授",
         "affiliation": "國立臺北大學資訊工程學系",
         "degree": "國立臺灣大學資訊工程博士",
         "expertise": [
@@ -802,7 +1002,17 @@
           "人工智慧"
         ],
         "courses": "資料結構"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "official-current-page-backed update",
+        "sources": [
+          "https://www.csie.ntpu.edu.tw/pages/1"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": []
     },
     {
       "id": "cywei",
@@ -840,7 +1050,17 @@
           "通道估計"
         ],
         "courses": "無線通訊"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://drcywei.wordpress.com/"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": []
     },
     {
       "id": "htpai",
@@ -878,7 +1098,17 @@
           "數位系統設計"
         ],
         "courses": "計算機程式設計、進階計算機程式設計"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://web.ntpu.edu.tw/~htpai/"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": []
     },
     {
       "id": "cychiang",
@@ -919,7 +1149,25 @@
           "音訊處理"
         ],
         "courses": "自然語言處理"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://www.ce.ntpu.edu.tw/mods/basic/content_top.php?top=26"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": [
+        {
+          "semester": "未由本次查核來源確認",
+          "course_zh": "自然語言處理",
+          "course_en": "Natural Language Processing",
+          "evidence": "existing faculty dataset course field; retained but not assigned to 115-1 without semester-specific official evidence",
+          "source": "https://www.ce.ntpu.edu.tw/mods/basic/content_top.php?top=26"
+        }
+      ]
     },
     {
       "id": "yupinhsu",
@@ -960,7 +1208,17 @@
           "近似演算法與競爭分析"
         ],
         "courses": null
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://www.ce.ntpu.edu.tw/mods/basic/content_top.php?top=26"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": []
     },
     {
       "id": "jcshen",
@@ -998,7 +1256,17 @@
           "Mixed Signal Processing"
         ],
         "courses": "資料結構"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://www.ce.ntpu.edu.tw/mods/basic/content_top.php?top=26"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": []
     },
     {
       "id": "cyyang",
@@ -1016,7 +1284,7 @@
       "en": {
         "name": "Chan-Yun Yang",
         "alt_name": "楊棧雲",
-        "role": "Professor",
+        "role": "Professor and Dean, College of Electrical Engineering and Computer Science",
         "affiliation": "Department of Electrical Engineering, National Taipei University",
         "degree": "Ph.D. in Bio-Industrial Mechatronics Engineering, National Taiwan University",
         "expertise": [
@@ -1032,7 +1300,7 @@
       "zh": {
         "name": "楊棧雲",
         "alt_name": "Chan-Yun Yang",
-        "role": "教授",
+        "role": "教授兼電機資訊學院院長",
         "affiliation": "國立臺北大學電機工程學系",
         "degree": "國立臺灣大學生物產業機電工程博士",
         "expertise": [
@@ -1044,7 +1312,27 @@
           "智慧控制"
         ],
         "courses": "機器學習、機器學習及工業4.0、程式設計"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "official-current-page-backed update",
+        "sources": [
+          "https://new.ntpu.edu.tw/news/689a86b463f5a608851f653e"
+        ]
+      },
+      "administrative_roles_zh": [
+        "電機資訊學院院長"
+      ],
+      "distinctions_zh": [],
+      "recent_ai_courses": [
+        {
+          "semester": "未由本次查核來源確認",
+          "course_zh": "機器學習、機器學習及工業4.0、程式設計",
+          "course_en": "Machine Learning; Machine Learning and Industry 4.0; Programming",
+          "evidence": "existing faculty dataset course field; retained but not assigned to 115-1 without semester-specific official evidence",
+          "source": "https://web.ntpu.edu.tw/~cyyang/#/director"
+        }
+      ]
     },
     {
       "id": "haobijambasanta",
@@ -1064,7 +1352,7 @@
       "en": {
         "name": "Haobijam Basanta",
         "alt_name": "巴桑塔",
-        "role": "Assistant Professor",
+        "role": "Assistant Professor and College Secretary, International College of Sustainability Innovations",
         "affiliation": "Department of Electrical Engineering, National Taipei University",
         "degree": "Ph.D. in Electrical Engineering, National Taipei University of Technology",
         "expertise": [
@@ -1084,7 +1372,7 @@
       "zh": {
         "name": "巴桑塔",
         "alt_name": "Haobijam Basanta",
-        "role": "助理教授",
+        "role": "助理教授兼永續創新國際學院院秘書",
         "affiliation": "國立臺北大學電機工程學系",
         "degree": "國立臺北科技大學電機工程博士",
         "expertise": [
@@ -1100,7 +1388,27 @@
           "人機互動"
         ],
         "courses": "圖像分析的深度學習、人工智慧物聯網"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "official-current-page-backed update",
+        "sources": [
+          "https://www.icsi.ntpu.edu.tw/web/people/people.jsp"
+        ]
+      },
+      "administrative_roles_zh": [
+        "永續創新國際學院院秘書"
+      ],
+      "distinctions_zh": [],
+      "recent_ai_courses": [
+        {
+          "semester": "未由本次查核來源確認",
+          "course_zh": "圖像分析的深度學習、人工智慧物聯網",
+          "course_en": "Deep Learning for Image Analysis; Artificial Intelligence of Things (AIoT)",
+          "evidence": "existing faculty dataset course field; retained but not assigned to 115-1 without semester-specific official evidence",
+          "source": "https://seillab.org/"
+        }
+      ]
     },
     {
       "id": "wlchang",
@@ -1118,7 +1426,7 @@
       "en": {
         "name": "Wei-Lun Chang",
         "alt_name": "張瑋倫",
-        "role": "Professor",
+        "role": "Distinguished Professor and Director, English-taught Master's Program in AI Applications and Management",
         "affiliation": "Department of Business Administration, National Taipei University",
         "degree": "Ph.D. in Management Information Systems, National Chengchi University",
         "expertise": [
@@ -1126,12 +1434,12 @@
           "Artificial intelligence and applications",
           "Text and sentiment analysis"
         ],
-        "courses": "Artificial Intelligence, Business and Society"
+        "courses": "Artificial Intelligence, Business and Society; Artificial Intelligence Strategy and Governance Practice"
       },
       "zh": {
         "name": "張瑋倫",
         "alt_name": "Wei-Lun Chang",
-        "role": "教授",
+        "role": "特聘教授兼人工智慧應用與管理英語碩士學位學程主任",
         "affiliation": "國立臺北大學企業管理學系",
         "degree": "國立政治大學資訊管理博士",
         "expertise": [
@@ -1139,8 +1447,38 @@
           "人工智慧與應用",
           "文字與情感分析"
         ],
-        "courses": "人工智慧企業與社會"
-      }
+        "courses": "人工智慧企業與社會、人工智慧策略與治理實務"
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "official-current-page-backed update",
+        "sources": [
+          "https://www.dba.ntpu.edu.tw/page.php?id=2&ids=2",
+          "https://www.icsi.ntpu.edu.tw/web/people/people.jsp"
+        ]
+      },
+      "administrative_roles_zh": [
+        "永續創新國際學院人工智慧應用與管理英語碩士學位學程主任"
+      ],
+      "distinctions_zh": [
+        "特聘教授"
+      ],
+      "recent_ai_courses": [
+        {
+          "semester": "未由本次查核來源確認",
+          "course_zh": "人工智慧企業與社會",
+          "course_en": "Artificial Intelligence, Business and Society",
+          "evidence": "existing faculty dataset course field; retained but not assigned to 115-1 without semester-specific official evidence",
+          "source": "https://www.dba.ntpu.edu.tw/teacher.php?ids=MjM3Njhf5by155GL5YCr"
+        },
+        {
+          "semester": "115-1",
+          "course_zh": "人工智慧策略與治理實務",
+          "course_en": "Artificial Intelligence Strategy and Governance Practice",
+          "evidence": "National Taipei University LMS 3.0 course record explicitly identifies semester 1151 and instructor.",
+          "source": "https://lms3.ntpu.edu.tw/course/index.php?categoryid=2031"
+        }
+      ]
     },
     {
       "id": "yhhsiao",
@@ -1184,7 +1522,17 @@
           "作業與供應鏈管理"
         ],
         "courses": "商業分析A"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://www.dba.ntpu.edu.tw/teacher.php?ids=NTQzNzdf6JWt5a6H57%2BU"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": []
     },
     {
       "id": "slhuang",
@@ -1224,7 +1572,19 @@
           "共享經濟"
         ],
         "courses": "電腦概論與程式設計"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "official-current-page-backed update",
+        "sources": [
+          "https://www.aacsb.ntpu.edu.tw/page.php?id=6&ids=4"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [
+        "終身榮譽特聘教授"
+      ],
+      "recent_ai_courses": []
     },
     {
       "id": "hsiehjk",
@@ -1240,7 +1600,7 @@
       "en": {
         "name": "Jung-Kuei Hsieh",
         "alt_name": "謝榮桂",
-        "role": "Professor",
+        "role": "Professor and Convener, E-Commerce Master's Credit Program",
         "affiliation": "Department of Business Administration, National Taipei University",
         "degree": "Ph.D. in Information Management, National Central University",
         "expertise": [
@@ -1253,7 +1613,7 @@
       "zh": {
         "name": "謝榮桂",
         "alt_name": "Jung-Kuei Hsieh",
-        "role": "教授",
+        "role": "教授兼商學院電子商務碩士學分學程召集人",
         "affiliation": "國立臺北大學企業管理學系",
         "degree": "國立中央大學資訊管理博士",
         "expertise": [
@@ -1262,7 +1622,19 @@
           "服務科學與創新"
         ],
         "courses": "電腦概論與程式設計"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "official-current-page-backed update",
+        "sources": [
+          "https://www.dba.ntpu.edu.tw/page.php?id=2&ids=2"
+        ]
+      },
+      "administrative_roles_zh": [
+        "商學院電子商務碩士學分學程召集人"
+      ],
+      "distinctions_zh": [],
+      "recent_ai_courses": []
     },
     {
       "id": "ptyang",
@@ -1279,7 +1651,7 @@
       "en": {
         "name": "Pu-Tai Yang",
         "alt_name": "楊溥泰",
-        "role": "Associate Professor",
+        "role": "Associate Professor and College Secretary, College of Business",
         "affiliation": "Department of Business Administration, National Taipei University",
         "degree": "Ph.D. in Industrial Engineering, Purdue University",
         "expertise": [
@@ -1293,7 +1665,7 @@
       "zh": {
         "name": "楊溥泰",
         "alt_name": "Pu-Tai Yang",
-        "role": "副教授",
+        "role": "副教授兼商學院院秘書",
         "affiliation": "國立臺北大學企業管理學系",
         "degree": "美國普渡大學工業工程博士",
         "expertise": [
@@ -1303,7 +1675,27 @@
           "決策支援系統"
         ],
         "courses": "人工智慧專題研討、行銷資料科學"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "official-current-page-backed update",
+        "sources": [
+          "https://emba.ntpu.edu.tw/zh-tw/faculty"
+        ]
+      },
+      "administrative_roles_zh": [
+        "商學院院秘書"
+      ],
+      "distinctions_zh": [],
+      "recent_ai_courses": [
+        {
+          "semester": "未由本次查核來源確認",
+          "course_zh": "人工智慧專題研討、行銷資料科學",
+          "course_en": "Seminar on Artificial Intelligence; Marketing Data Science",
+          "evidence": "existing faculty dataset course field; retained but not assigned to 115-1 without semester-specific official evidence",
+          "source": "https://www.dba.ntpu.edu.tw/teacher.php?ids=ODAwOTdf5qWK5rql5rOw"
+        }
+      ]
     },
     {
       "id": "chwei",
@@ -1345,7 +1737,25 @@
           "商業智慧"
         ],
         "courses": "商業程式設計、人工智慧專題研討"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://www.dba.ntpu.edu.tw/teacher.php?ids=OTM1NDVf6a2P5ZiJ5a6P"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": [
+        {
+          "semester": "未由本次查核來源確認",
+          "course_zh": "商業程式設計、人工智慧專題研討",
+          "course_en": "Business Programming; Seminar on Artificial Intelligence",
+          "evidence": "existing faculty dataset course field; retained but not assigned to 115-1 without semester-specific official evidence",
+          "source": "https://www.dba.ntpu.edu.tw/teacher.php?ids=OTM1NDVf6a2P5ZiJ5a6P"
+        }
+      ]
     },
     {
       "id": "htlee",
@@ -1384,7 +1794,25 @@
           "品質管理"
         ],
         "courses": "資料探勘"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://www.dba.ntpu.edu.tw/teacher.php?ids=MzMyMThf5p2O57eS5p2x"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": [
+        {
+          "semester": "未由本次查核來源確認",
+          "course_zh": "資料探勘",
+          "course_en": "Data Mining",
+          "evidence": "existing faculty dataset course field; retained but not assigned to 115-1 without semester-specific official evidence",
+          "source": "https://www.dba.ntpu.edu.tw/teacher.php?ids=MzMyMThf5p2O57eS5p2x"
+        }
+      ]
     },
     {
       "id": "kochiayu",
@@ -1423,7 +1851,25 @@
           "實證資產定價"
         ],
         "courses": "人工智慧倫理"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://www.dba.ntpu.edu.tw/pages.php"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": [
+        {
+          "semester": "未由本次查核來源確認",
+          "course_zh": "人工智慧倫理",
+          "course_en": "Ethics of Artificial Intelligence",
+          "evidence": "existing faculty dataset course field; retained but not assigned to 115-1 without semester-specific official evidence",
+          "source": "https://www.dba.ntpu.edu.tw/pages.php"
+        }
+      ]
     },
     {
       "id": "cfwu",
@@ -1465,7 +1911,17 @@
           "病人安全"
         ],
         "courses": null
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://www.dba.ntpu.edu.tw/teacher.php?ids=Nzc3Njdf5ZCz5oiQ5bOv"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": []
     },
     {
       "id": "sunanchen",
@@ -1505,7 +1961,17 @@
           "品質管制"
         ],
         "courses": "電腦概論與程式設計、計算統計與機率"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "http://sunc-web.blogspot.tw/"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": []
     },
     {
       "id": "ccw",
@@ -1545,7 +2011,25 @@
           "統計計算"
         ],
         "courses": "淺度機器學習"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "official-current-page-backed update",
+        "sources": [
+          "https://www.stat.ntpu.edu.tw/"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": [
+        {
+          "semester": "未由本次查核來源確認",
+          "course_zh": "淺度機器學習",
+          "course_en": "Shallow Machine Learning",
+          "evidence": "existing faculty dataset course field; retained but not assigned to 115-1 without semester-specific official evidence",
+          "source": "https://ntpuccw.blog/"
+        }
+      ]
     },
     {
       "id": "hwangyt",
@@ -1585,7 +2069,19 @@
           "縱貫資料分析"
         ],
         "courses": "統計套裝軟體"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "official-current-page-backed update",
+        "sources": [
+          "https://www.aacsb.ntpu.edu.tw/page.php?id=6&ids=4"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [
+        "終身榮譽特聘教授"
+      ],
+      "recent_ai_courses": []
     },
     {
       "id": "hcchuang",
@@ -1622,7 +2118,17 @@
           "投資學"
         ],
         "courses": "金融數據分析"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://hcchuang.github.io/"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": []
     },
     {
       "id": "pychen",
@@ -1661,7 +2167,25 @@
           "Machine Learning"
         ],
         "courses": "資料探勘"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://hiiampingyang.notion.site/hiiampingyang/Ping-Yang-Chen-0f7492e2efc64c398631b8fcc0e3a582"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": [
+        {
+          "semester": "未由本次查核來源確認",
+          "course_zh": "資料探勘",
+          "course_en": "Data Mining",
+          "evidence": "existing faculty dataset course field; retained but not assigned to 115-1 without semester-specific official evidence",
+          "source": "https://hiiampingyang.notion.site/hiiampingyang/Ping-Yang-Chen-0f7492e2efc64c398631b8fcc0e3a582"
+        }
+      ]
     },
     {
       "id": "wangson",
@@ -1679,7 +2203,7 @@
       "en": {
         "name": "Chih-Chien Wang",
         "alt_name": "汪志堅",
-        "role": "Distinguished Professor and Director of the Computer Center",
+        "role": "Distinguished Professor and Director, Computer Center",
         "affiliation": "Graduate Institute of Information Management and Computer Center, National Taipei University",
         "degree": "Ph.D. in Business Administration, National Chung Hsing University",
         "expertise": [
@@ -1711,7 +2235,31 @@
           "社群媒體行銷"
         ],
         "courses": "電子商務、社群行銷、消費者行為、企業管理、AI應用"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "official-current-page-backed update",
+        "sources": [
+          "https://www.mis.ntpu.edu.tw/professor/",
+          "https://www.aacsb.ntpu.edu.tw/page.php?id=6&ids=4"
+        ]
+      },
+      "administrative_roles_zh": [
+        "資訊中心主任"
+      ],
+      "distinctions_zh": [
+        "特聘教授",
+        "終身榮譽特聘教授"
+      ],
+      "recent_ai_courses": [
+        {
+          "semester": "未由本次查核來源確認",
+          "course_zh": "電子商務、社群行銷、消費者行為、企業管理、AI應用",
+          "course_en": "E-Commerce; Social Media Marketing; Consumer Behavior; Business Administration; AI Applications",
+          "evidence": "existing faculty dataset course field; retained but not assigned to 115-1 without semester-specific official evidence",
+          "source": "https://sites.google.com/view/prof-wang/"
+        }
+      ]
     },
     {
       "id": "myday",
@@ -1732,7 +2280,7 @@
       "en": {
         "name": "Min-Yuh Day",
         "alt_name": "戴敏育",
-        "role": "Professor",
+        "role": "Professor and Director, Graduate Institute of Information Management; Director, Center for Interdisciplinary AI Frontier Research",
         "affiliation": "Graduate Institute of Information Management, National Taipei University",
         "degree": "Ph.D. in Information Management, National Taiwan University",
         "expertise": [
@@ -1744,12 +2292,12 @@
           "Information Systems Evaluation",
           "Biomedical Informatics"
         ],
-        "courses": "Artificial Intelligence; Innovative Applications of Generative AI; Generative AI: Principles and Practice of Text and Image Generation"
+        "courses": "Agentic AI Innovative Applications; Artificial Intelligence; Generative AI Innovative Applications; Generative AI: Principles and Practice of Text and Image Generation"
       },
       "zh": {
         "name": "戴敏育",
         "alt_name": "Min-Yuh Day",
-        "role": "教授",
+        "role": "教授兼資訊管理研究所所長、跨域人工智慧前瞻研究中心主任",
         "affiliation": "國立臺北大學資訊管理研究所",
         "degree": "國立臺灣大學資訊管理博士",
         "expertise": [
@@ -1761,8 +2309,30 @@
           "資訊系統評量",
           "生物醫學資訊"
         ],
-        "courses": "人工智慧、生成式AI創新應用、生成式AI:文字與圖像生成的原理與實務"
-      }
+        "courses": "代理式AI創新應用、人工智慧、生成式AI創新應用、生成式AI:文字與圖像生成的原理與實務"
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "official-current-page-backed update",
+        "sources": [
+          "https://www.mis.ntpu.edu.tw/professor/",
+          "https://web.ntpu.edu.tw/~myday/cindex.htm"
+        ]
+      },
+      "administrative_roles_zh": [
+        "資訊管理研究所所長",
+        "跨域人工智慧前瞻研究中心主任"
+      ],
+      "distinctions_zh": [],
+      "recent_ai_courses": [
+        {
+          "semester": "115-1",
+          "course_zh": "代理式AI創新應用",
+          "course_en": "Agentic AI Innovative Applications",
+          "evidence": "official faculty teaching page explicitly labels Fall 2026 / 115-1",
+          "source": "https://web.ntpu.edu.tw/~myday/cindex.htm"
+        }
+      ]
     },
     {
       "id": "claudiapan",
@@ -1807,7 +2377,17 @@
           "人本人工智慧"
         ],
         "courses": null
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://claudiapan.cc/status"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": []
     },
     {
       "id": "hsiuweichang",
@@ -1858,7 +2438,25 @@
           "機器學習於會計之應用"
         ],
         "courses": "機器學習在會計議題之應用、會計資訊系統、會計學"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://changhsiuwei.com/"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": [
+        {
+          "semester": "未由本次查核來源確認",
+          "course_zh": "機器學習在會計議題之應用、會計資訊系統、會計學",
+          "course_en": "Machine Learning Applications in Accounting; Accounting Information Systems; Accounting",
+          "evidence": "existing faculty dataset course field; retained but not assigned to 115-1 without semester-specific official evidence",
+          "source": "https://changhsiuwei.com/"
+        }
+      ]
     },
     {
       "id": "hsinyunkuan",
@@ -1922,7 +2520,17 @@
           "M.A. in Accounting, National Taipei University",
           "B.A. in Accounting, National Taipei University"
         ]
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://hsin-yun-kuan.github.io/"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": []
     },
     {
       "id": "mingchehu",
@@ -1968,7 +2576,17 @@
           "資料科學與金融市場數據分析"
         ],
         "courses": "投資決策與管理（碩）、Python 財務應用、財務報表分析、公司治理與風險管理、國際財務管理"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://www.aacsb.ntpu.edu.tw/teach/teachfcm.php?teacher=ODI0NDdf6IOh6YqY5ZOy"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": []
     },
     {
       "id": "shimiin",
@@ -2007,7 +2625,25 @@
           "Environmental Economics"
         ],
         "courses": "資料科學程式設計(二)"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://econ.ntpu.edu.tw/p/405-1001-480,c108.php?Lang=zh-tw"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": [
+        {
+          "semester": "未由本次查核來源確認",
+          "course_zh": "資料科學程式設計(二)",
+          "course_en": "Data Science Programming (II)",
+          "evidence": "existing faculty dataset course field; retained but not assigned to 115-1 without semester-specific official evidence",
+          "source": "https://econ.ntpu.edu.tw/p/405-1001-480,c108.php?Lang=zh-tw"
+        }
+      ]
     },
     {
       "id": "jychioua",
@@ -2044,12 +2680,30 @@
           "經濟理論與方法"
         ],
         "courses": "用AI學賽局"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://econ.ntpu.edu.tw/p/405-1001-556,c107.php?Lang=zh-tw"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": [
+        {
+          "semester": "未由本次查核來源確認",
+          "course_zh": "用AI學賽局",
+          "course_en": "Learning Game Theory with AI",
+          "evidence": "existing faculty dataset course field; retained but not assigned to 115-1 without semester-specific official evidence",
+          "source": "https://econ.ntpu.edu.tw/p/405-1001-556,c107.php?Lang=zh-tw"
+        }
+      ]
     },
     {
       "id": "syyin",
       "college": "social",
-      "rank": "assistant",
+      "rank": "associate",
       "domains": [
         "ai-core",
         "data",
@@ -2062,7 +2716,7 @@
       "en": {
         "name": "Shou-Yung Yin",
         "alt_name": "殷壽鏞",
-        "role": "Assistant Professor",
+        "role": "Associate Professor",
         "affiliation": "Department of Economics, National Taipei University",
         "degree": "Ph.D. in Economics, National Central University",
         "expertise": [
@@ -2075,7 +2729,7 @@
       "zh": {
         "name": "殷壽鏞",
         "alt_name": "Shou-Yung Yin",
-        "role": "助理教授",
+        "role": "副教授",
         "affiliation": "國立臺北大學經濟學系",
         "degree": "國立中央大學經濟學博士",
         "expertise": [
@@ -2084,7 +2738,25 @@
           "High-dimensional Data Analysis"
         ],
         "courses": "機器學習"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "official-current-page-backed update",
+        "sources": [
+          "https://econ.ntpu.edu.tw/p/412-1001-107.php?Lang=zh-tw"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": [
+        {
+          "semester": "未由本次查核來源確認",
+          "course_zh": "機器學習",
+          "course_en": "Machine Learning",
+          "evidence": "existing faculty dataset course field; retained but not assigned to 115-1 without semester-specific official evidence",
+          "source": "https://econ.ntpu.edu.tw/p/412-1001-178.php?Lang=zh-tw"
+        }
+      ]
     },
     {
       "id": "cchu",
@@ -2119,7 +2791,25 @@
           "applied nonparametric econometrics"
         ],
         "courses": "資料科學程式設計(一)"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://econ.ntpu.edu.tw/p/405-1001-561,c107.php?Lang=zh-tw"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": [
+        {
+          "semester": "未由本次查核來源確認",
+          "course_zh": "資料科學程式設計(一)",
+          "course_en": "Data Science Programming (I)",
+          "evidence": "existing faculty dataset course field; retained but not assigned to 115-1 without semester-specific official evidence",
+          "source": "https://econ.ntpu.edu.tw/p/405-1001-561,c107.php?Lang=zh-tw"
+        }
+      ]
     },
     {
       "id": "mtlin",
@@ -2158,7 +2848,25 @@
           "資料科學"
         ],
         "courses": "生成式人工智慧的人文導論、用AI學賽局、經濟資料視覺化處理、資料科學程式設計(一)"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://econ.ntpu.edu.tw/p/405-1001-559,c107.php?Lang=zh-tw"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": [
+        {
+          "semester": "未由本次查核來源確認",
+          "course_zh": "生成式人工智慧的人文導論、用AI學賽局、經濟資料視覺化處理、資料科學程式設計(一)",
+          "course_en": "A Humanities Introduction to Generative AI; Learning Game Theory with AI; Economic Data Visualization; Data Science Programming (I)",
+          "evidence": "existing faculty dataset course field; retained but not assigned to 115-1 without semester-specific official evidence",
+          "source": "https://econ.ntpu.edu.tw/p/405-1001-559,c107.php?Lang=zh-tw"
+        }
+      ]
     },
     {
       "id": "hsinyiy",
@@ -2174,7 +2882,7 @@
       "en": {
         "name": "Hsin-Yi Yeh",
         "alt_name": "葉欣怡",
-        "role": "Associate Professor",
+        "role": "Associate Professor and Chair, Department of Sociology",
         "affiliation": "Department of Sociology, National Taipei University",
         "degree": "Ph.D. in Sociology, Rutgers University",
         "expertise": [
@@ -2195,7 +2903,7 @@
       "zh": {
         "name": "葉欣怡",
         "alt_name": "Hsin-Yi Yeh",
-        "role": "副教授",
+        "role": "副教授兼社會學系主任",
         "affiliation": "國立臺北大學社會學系",
         "degree": "美國羅格斯大學社會學博士",
         "expertise": [
@@ -2212,7 +2920,19 @@
           "科技的公眾參與"
         ],
         "courses": null
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "official-current-page-backed update",
+        "sources": [
+          "https://sociology.ntpu.edu.tw/teacher?cate=1"
+        ]
+      },
+      "administrative_roles_zh": [
+        "社會學系主任"
+      ],
+      "distinctions_zh": [],
+      "recent_ai_courses": []
     },
     {
       "id": "linqus",
@@ -2249,7 +2969,25 @@
           "偏差"
         ],
         "courses": "AI資料探勘"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://sociology.ntpu.edu.tw/teacher/35"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": [
+        {
+          "semester": "未由本次查核來源確認",
+          "course_zh": "AI資料探勘",
+          "course_en": "AI Data Mining",
+          "evidence": "existing faculty dataset course field; retained but not assigned to 115-1 without semester-specific official evidence",
+          "source": "https://sociology.ntpu.edu.tw/teacher/35"
+        }
+      ]
     },
     {
       "id": "yuanlin",
@@ -2289,7 +3027,17 @@
           "兒童福利"
         ],
         "courses": "程式設計於社會公益之運用"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://www.sw.ntpu.edu.tw/index.php?belongid=1&id=87&index=12&lang=cht&option=members&task=pageinfo"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": []
     },
     {
       "id": "jwliu",
@@ -2338,7 +3086,17 @@
           "社會科學統計"
         ],
         "courses": null
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://pa.ntpu.edu.tw/teacher_detail/5"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": []
     },
     {
       "id": "cltsai",
@@ -2379,7 +3137,17 @@
           "選舉與投票行為研究"
         ],
         "courses": null
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://pa.ntpu.edu.tw/teacher_detail/84"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": []
     },
     {
       "id": "tcpeng",
@@ -2419,12 +3187,22 @@
           "計量分析"
         ],
         "courses": "R語言程式設計與應用"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://www.rebe.ntpu.edu.tw/web/about/mentor_in.jsp?fp_id=FP1735007074844"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": []
     },
     {
       "id": "bclin",
       "college": "public",
-      "rank": "assistant",
+      "rank": "associate",
       "domains": [
         "vision",
         "society"
@@ -2436,7 +3214,7 @@
       "en": {
         "name": "Po-Cheng Lin",
         "alt_name": "林柏丞",
-        "role": "Assistant Professor",
+        "role": "Associate Professor",
         "affiliation": "Department of Real Estate and Built Environment, National Taipei University",
         "degree": "Ph.D. in Geomatics, National Cheng Kung University",
         "expertise": [
@@ -2449,7 +3227,7 @@
       "zh": {
         "name": "林柏丞",
         "alt_name": "Po-Cheng Lin",
-        "role": "助理教授",
+        "role": "副教授",
         "affiliation": "國立臺北大學不動產與城鄉環境學系",
         "degree": "國立成功大學測量及空間資訊博士",
         "expertise": [
@@ -2458,7 +3236,17 @@
           "地理資訊系統"
         ],
         "courses": "電腦程式設計"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "official-current-page-backed update",
+        "sources": [
+          "https://www.rebe.ntpu.edu.tw/web/about/mentor_in.jsp?fp_id=FP1734663649995"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": []
     },
     {
       "id": "yingchen0915",
@@ -2496,7 +3284,17 @@
           "智慧城市發展策略"
         ],
         "courses": null
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://www.rebe.ntpu.edu.tw/web/about/mentor_in.jsp?fp_id=FP1735009880085"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": []
     },
     {
       "id": "j12093",
@@ -2534,7 +3332,17 @@
           "編纂學研究"
         ],
         "courses": null
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://www.cl.ntpu.edu.tw/faculty/"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": []
     },
     {
       "id": "ymchou",
@@ -2551,7 +3359,7 @@
       "en": {
         "name": "Ya-Min Chou",
         "alt_name": "周亞民",
-        "role": "Associate Professor",
+        "role": "Associate Professor and Convener, Chinese Language Teaching Credit Program",
         "affiliation": "Department of Chinese Language and Literature, National Taipei University",
         "degree": "Ph.D. in Information Management, National Taiwan University",
         "expertise": [
@@ -2566,7 +3374,7 @@
       "zh": {
         "name": "周亞民",
         "alt_name": "Ya-Min Chou",
-        "role": "副教授",
+        "role": "副教授兼華語文教學學分學程召集人",
         "affiliation": "國立臺北大學中國文學系",
         "degree": "國立臺灣大學資訊管理博士",
         "expertise": [
@@ -2577,7 +3385,19 @@
           "語料庫語言學"
         ],
         "courses": "程式設計概論"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "official-current-page-backed update",
+        "sources": [
+          "https://www.cl.ntpu.edu.tw/faculty/"
+        ]
+      },
+      "administrative_roles_zh": [
+        "華語文教學學分學程召集人"
+      ],
+      "distinctions_zh": [],
+      "recent_ai_courses": []
     },
     {
       "id": "ypchen",
@@ -2622,7 +3442,17 @@
           "心理語言學"
         ],
         "courses": null
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://www.dafl.ntpu.edu.tw/teacher_detail.php?ids=1&q=534"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": []
     },
     {
       "id": "chiyanglin",
@@ -2661,7 +3491,25 @@
           "智慧財產法"
         ],
         "courses": "人工智慧(AI)學分學程"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://www.law.ntpu.edu.tw/teacher/36"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": [
+        {
+          "semester": "未由本次查核來源確認",
+          "course_zh": "人工智慧(AI)學分學程",
+          "course_en": "Artificial Intelligence (AI) Credit Program",
+          "evidence": "existing faculty dataset course field; retained but not assigned to 115-1 without semester-specific official evidence",
+          "source": "https://www.law.ntpu.edu.tw/teacher/36"
+        }
+      ]
     },
     {
       "id": "rgli",
@@ -2688,7 +3536,7 @@
           "Cybercrime",
           "Privacy"
         ],
-        "courses": null
+        "courses": "AI and Law"
       },
       "zh": {
         "name": "李榮耕",
@@ -2703,8 +3551,26 @@
           "電腦犯罪",
           "隱私"
         ],
-        "courses": null
-      }
+        "courses": "AI與法律"
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://www.law.ntpu.edu.tw/teacher/21"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": [
+        {
+          "semester": "115-1",
+          "course_zh": "AI與法律",
+          "course_en": "AI and Law",
+          "evidence": "National Taipei University LMS 3.0 course record explicitly identifies semester 1151 and instructor.",
+          "source": "https://lms3.ntpu.edu.tw/course/info.php?id=23378"
+        }
+      ]
     },
     {
       "id": "taijan",
@@ -2743,7 +3609,17 @@
           "法律與社會"
         ],
         "courses": null
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://www.law.ntpu.edu.tw/teacher/137"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": []
     },
     {
       "id": "wjtsaur",
@@ -2760,7 +3636,7 @@
       "en": {
         "name": "Woei-Jiunn Tsaur",
         "alt_name": "曹偉駿",
-        "role": "Professor",
+        "role": "Distinguished Professor and Head, Operations Division, Computer Center",
         "affiliation": "Computer Center, National Taipei University",
         "degree": "Ph.D. in Electrical Engineering, National Taiwan University of Science and Technology",
         "expertise": [
@@ -2775,7 +3651,7 @@
       "zh": {
         "name": "曹偉駿",
         "alt_name": "Woei-Jiunn Tsaur",
-        "role": "教授",
+        "role": "特聘教授兼資訊中心作業組組長",
         "affiliation": "國立臺北大學資訊中心",
         "degree": "國立臺灣科技大學電機工程博士",
         "expertise": [
@@ -2786,7 +3662,22 @@
           "資訊安全管理與稽核"
         ],
         "courses": "高等演算法"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "official-current-page-backed update",
+        "sources": [
+          "https://www.mis.ntpu.edu.tw/professor/",
+          "https://www.csie.ntpu.edu.tw/pages/112"
+        ]
+      },
+      "administrative_roles_zh": [
+        "資訊中心作業組組長"
+      ],
+      "distinctions_zh": [
+        "特聘教授"
+      ],
+      "recent_ai_courses": []
     },
     {
       "id": "kevin",
@@ -2834,7 +3725,25 @@
           "電子商務與網路社群(含管理理論與大數據輿情分析)"
         ],
         "courses": "生成式AI體驗與實作、Python生成式AI實作、Python資料科學-公共事務與法學應用"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://crm.ntpu.edu.tw/index.php?id=8189&lang=cht&option=module&task=pageinfo"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": [
+        {
+          "semester": "未由本次查核來源確認",
+          "course_zh": "生成式AI體驗與實作、Python生成式AI實作、Python資料科學-公共事務與法學應用",
+          "course_en": "Generative AI: Experience and Practice; Generative AI Practice with Python; Python Data Science: Public Affairs and Legal Applications",
+          "evidence": "existing faculty dataset course field; retained but not assigned to 115-1 without semester-specific official evidence",
+          "source": "https://crm.ntpu.edu.tw/index.php?id=8189&lang=cht&option=module&task=pageinfo"
+        }
+      ]
     },
     {
       "id": "yiwen1024",
@@ -2880,7 +3789,17 @@
           "環境與資源經濟"
         ],
         "courses": null
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://new.ntpu.edu.tw/cge"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": []
     },
     {
       "id": "tsaihuiju",
@@ -2897,7 +3816,7 @@
       "en": {
         "name": "Hui-Ju Tsai",
         "alt_name": "蔡蕙如",
-        "role": "Assistant Professor",
+        "role": "Assistant Professor and Head, International Education Development Division, Office of International Affairs",
         "affiliation": "Language Center, National Taipei University",
         "degree": "Ed.D. in Education, Durham University",
         "expertise": [
@@ -2912,7 +3831,7 @@
       "zh": {
         "name": "蔡蕙如",
         "alt_name": "Hui-Ju Tsai",
-        "role": "助理教授",
+        "role": "助理教授兼國際處國際教育發展組組長",
         "affiliation": "國立臺北大學語言中心",
         "degree": "英國德倫大學教育博士",
         "expertise": [
@@ -2923,7 +3842,27 @@
           "電腦輔助教學等研究領域"
         ],
         "courses": "AI輔助英文寫作"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "official-current-page-backed update",
+        "sources": [
+          "https://lc.ntpu.edu.tw/web/about/team_in.jsp?dm_id=DM1638120159514&fp_id=FP1638256543350"
+        ]
+      },
+      "administrative_roles_zh": [
+        "國際處國際教育發展組組長"
+      ],
+      "distinctions_zh": [],
+      "recent_ai_courses": [
+        {
+          "semester": "目前官網課程列表（未標明學期）",
+          "course_zh": "AI輔助英文寫作",
+          "course_en": "English Writing with AI",
+          "evidence": "current Language Center faculty/course listing",
+          "source": "https://lc.ntpu.edu.tw/web/about/team.jsp?dm_id=DM1638120159514"
+        }
+      ]
     },
     {
       "id": "chunyilii",
@@ -2939,7 +3878,7 @@
       "en": {
         "name": "Chun-Yi Lee",
         "alt_name": "李俊儀",
-        "role": "Associate Professor",
+        "role": "Associate Professor and Director, Center for Teacher Education",
         "affiliation": "Center for Teacher Education, National Taipei University",
         "degree": "Ph.D. in Information and Computer Education, National Taiwan Normal University",
         "expertise": [
@@ -2952,7 +3891,7 @@
       "zh": {
         "name": "李俊儀",
         "alt_name": "Chun-Yi Lee",
-        "role": "副教授",
+        "role": "副教授兼師資培育中心主任",
         "affiliation": "國立臺北大學師資培育中心",
         "degree": "國立臺灣師範大學資訊教育博士",
         "expertise": [
@@ -2961,7 +3900,27 @@
           "教學訊息設計"
         ],
         "courses": null
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "official-current-page-backed update",
+        "sources": [
+          "https://tec.ntpu.edu.tw/?cat=24"
+        ]
+      },
+      "administrative_roles_zh": [
+        "師資培育中心主任"
+      ],
+      "distinctions_zh": [],
+      "recent_ai_courses": [
+        {
+          "semester": "115-2（預告）",
+          "course_zh": "AI輔助自主學習",
+          "course_en": null,
+          "evidence": "Teacher Education Center announcement states planned offering in 115-2",
+          "source": "https://tec.ntpu.edu.tw/?p=15857"
+        }
+      ]
     },
     {
       "id": "gonzalez74",
@@ -3005,7 +3964,25 @@
           "Natural Language Processing"
         ],
         "courses": "機器學習、程式設計、Python程式設計、大數據與資料探勘"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "baseline retained; no specific newer contradictory title captured in this pass",
+        "sources": [
+          "https://ssdm.ntpu.edu.tw/web/faculty/faculty.jsp"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": [
+        {
+          "semester": "未由本次查核來源確認",
+          "course_zh": "機器學習、程式設計、Python程式設計、大數據與資料探勘",
+          "course_en": "Machine Learning; Programming; Python Programming; Big Data and Data Mining",
+          "evidence": "existing faculty dataset course field; retained but not assigned to 115-1 without semester-specific official evidence",
+          "source": "https://ssdm.ntpu.edu.tw/web/faculty/faculty.jsp"
+        }
+      ]
     },
     {
       "id": "bydrmanga",
@@ -3047,7 +4024,48 @@
           "Calculus"
         ],
         "courses": "健康經濟與財務管理之人工智慧應用、程式設計、資料探勘"
-      }
+      },
+      "verification": {
+        "checked_on": "2026-09-21",
+        "status": "official-current-page-backed update",
+        "sources": [
+          "https://www.shm.ntpu.edu.tw/web/people/people_in.jsp?fp_id=FP1690853207898"
+        ]
+      },
+      "administrative_roles_zh": [],
+      "distinctions_zh": [],
+      "recent_ai_courses": [
+        {
+          "semester": "未由本次查核來源確認",
+          "course_zh": "健康經濟與財務管理之人工智慧應用、程式設計、資料探勘",
+          "course_en": "AI Applications in Health Economics and Financial Management; Programming; Data Mining",
+          "evidence": "existing faculty dataset course field; retained but not assigned to 115-1 without semester-specific official evidence",
+          "source": "https://www.shm.ntpu.edu.tw/web/people/people.jsp"
+        }
+      ]
     }
-  ]
+  ],
+  "verification": {
+    "verified_on": "2026-09-21",
+    "scope": "Current academic title/rank, special distinguished-professor titles, concurrent administrative roles, and recent AI-related teaching where official evidence was found.",
+    "method": "Cross-checked against current National Taipei University department/center pages and recent official NTPU announcements. Semester is recorded only when the official source explicitly identifies it.",
+    "course_context": {
+      "semester": "115-1",
+      "note_zh": "115-1 為 2026 秋季學期；校方選課公告另指出 TAICA／AI 聯盟本學期共開設 10 門課。",
+      "source": "https://ntpusu.ntpu.edu.tw/p/406-1015-1591%2Cr40.php?Lang=zh-tw"
+    },
+    "courses_merge": {
+      "updated_on": "2026-09-21",
+      "rule_zh": "將校方 LMS 3.0 可明確確認為115-1且能對應教師之AI相關課程合併至 courses；保留原有課程並去重。",
+      "verified_115_1_ai_course_additions": 1,
+      "newly_verified_course_teacher_pairs": 5,
+      "new_courses_added_to_courses_fields": 4,
+      "sources_added": [
+        "https://lms3.ntpu.edu.tw/course/index.php?categoryid=2031",
+        "https://lms3.ntpu.edu.tw/course/info.php?id=23378",
+        "https://lms3.ntpu.edu.tw/course/info.php?id=23483",
+        "https://lms3.ntpu.edu.tw/course/info.php?id=23495"
+      ]
+    }
+  }
 }
