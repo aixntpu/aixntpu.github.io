@@ -2,6 +2,37 @@
   "$schema": "./news.schema.json",
   "items": [
     {
+      "id": "2026-10-ai-platform-launch",
+      "slug": "ai-platform-launch",
+      "title": "NTPU AI Platform Launch & AI4X Research Center Inauguration Ceremony",
+      "summary": "National Taipei University officially launched its NTPU AI Platform and held the inauguration ceremony for the Advanced Research Center for Cross-Disciplinary AI (AI4X), marking a new stage of AI for every student and every class.",
+      "content": [
+        "On October 1, 2026 (Thursday) at noon, National Taipei University held the \"NTPU AI Platform Launch & AI4X Research Center Inauguration Ceremony,\" announcing the official launch of the university-wide AI platform together with the inauguration of the Advanced Research Center for Cross-Disciplinary AI (AI4X).",
+        "Themed \"NTPU AI Goes Live - AI for Every Class, AI for Everyone,\" the event showcased the university's concrete progress in AI teaching and research, bringing together faculty and staff from across the colleges as witnesses.",
+        "Program: 12:30 check-in, 12:40 AI platform launch, 13:15 inauguration ceremony, 13:30 close."
+      ],
+      "category": "announcement",
+      "category_label": "Center Announcement",
+      "source_type": "internal",
+      "publish_date": "2026-10-01",
+      "event_date": "2026-10-01",
+      "location": "Room C1, Research Base, 4F, College of Business, National Taipei University",
+      "organizers": [
+        "Advanced Research Center for Cross-Disciplinary AI (AI4X), National Taipei University"
+      ],
+      "image": {
+        "src": "assets/images/news/2026-10-ai-platform-launch-poster.jpg",
+        "alt": "Event poster for the NTPU AI Platform Launch & Research Center Inauguration Ceremony: October 1, 2026 (Thursday), 12:30-1:30 PM, Room C1, Research Base, 4F, College of Business, National Taipei University"
+      },
+      "tags": [
+        "AI Platform",
+        "Inauguration Ceremony",
+        "Center Announcement"
+      ],
+      "featured": true,
+      "priority": 100
+    },
+    {
       "id": "2026-napai-agentic-ai-campus-competition",
       "slug": "napai-agentic-ai-campus-competition",
       "title": "NAPAI Agentic AI Campus Innovation Competition",

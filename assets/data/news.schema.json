@@ -55,6 +55,15 @@
         "tags": { "type": "array", "items": { "type": "string" } },
         "external_url": { "type": "string", "pattern": "^https?://" },
         "source_name": { "type": "string" },
+        "image": {
+          "type": "object",
+          "required": ["src", "alt"],
+          "properties": {
+            "src": { "type": "string", "minLength": 1 },
+            "alt": { "type": "string", "minLength": 1 }
+          },
+          "additionalProperties": false
+        },
         "featured": { "type": "boolean" },
         "priority": { "type": "integer", "minimum": 0, "maximum": 100 }
       },

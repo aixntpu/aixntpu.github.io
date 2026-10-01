@@ -2,6 +2,37 @@
   "$schema": "./news.schema.json",
   "items": [
     {
+      "id": "2026-10-ai-platform-launch",
+      "slug": "ai-platform-launch",
+      "title": "NTPU AI 平台發布會暨跨域人工智慧前瞻研究中心揭牌儀式",
+      "summary": "國立臺北大學「NTPU AI 平台」正式發布，同時舉行跨域人工智慧前瞻研究中心（AI4X）揭牌儀式，宣告全校邁入「生生有AI、人人用AI」的新階段。",
+      "content": [
+        "國立臺北大學於 2026 年 10 月 1 日（四）中午舉辦「NTPU AI 平台發布會暨跨域人工智慧前瞻研究中心揭牌儀式」，宣告全校 AI 應用平台正式上線，並完成跨域人工智慧前瞻研究中心（AI4X）揭牌。",
+        "活動以「國立臺北大學 AI 上線，生生有AI、人人用AI」為主題，展示全校推動人工智慧教學與研究的具體成果，邀集校內各學院師長與行政同仁共同見證。",
+        "活動時程：中午 12:30 簽到、12:40 AI 平台發布會、下午 13:15 揭牌儀式、13:30 散會。"
+      ],
+      "category": "announcement",
+      "category_label": "中心公告",
+      "source_type": "internal",
+      "publish_date": "2026-10-01",
+      "event_date": "2026-10-01",
+      "location": "國立臺北大學商學院 4 樓研究基地 C1 會議室",
+      "organizers": [
+        "國立臺北大學跨域人工智慧前瞻研究中心（AI4X）"
+      ],
+      "image": {
+        "src": "assets/images/news/2026-10-ai-platform-launch-poster.jpg",
+        "alt": "NTPU AI 平台發布會暨研究中心揭牌儀式海報：115 年 10 月 1 日（四）中午 12:30 至下午 1:30，國立臺北大學商學院 4 樓研究基地 C1 會議室"
+      },
+      "tags": [
+        "AI 平台",
+        "揭牌儀式",
+        "中心公告"
+      ],
+      "featured": true,
+      "priority": 100
+    },
+    {
       "id": "2026-napai-agentic-ai-campus-competition",
       "slug": "napai-agentic-ai-campus-competition",
       "title": "NAPAI Agentic AI 校園落地創新應用競賽",
