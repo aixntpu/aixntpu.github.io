@@ -618,7 +618,6 @@ table.data tfoot td { font-weight: 800; background: rgba(17, 168, 160, 0.1); }
 /* Footer contact & meta */
 .footer-contact { margin: 0.35rem 0 0; padding: 0; list-style: none; }
 .footer-contact li { margin-bottom: 0.3rem; line-height: 1.5; overflow-wrap: anywhere; }
-.footer-base .last-updated { color: var(--ink-soft); }
 
 /* Reveal animation */
 .reveal { opacity: 0; transform: translateY(16px); transition: opacity 0.6s ease, transform 0.6s ease; }
