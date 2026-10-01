@@ -55,6 +55,10 @@ function renderItem(container, item) {
   article.append(meta);
 
   article.append(el('h1', 'news-detail__title', item.title));
+
+  const image = imageBlock(item);
+  if (image) article.append(image);
+
   article.append(el('p', 'news-detail__summary', item.summary));
 
   const facts = factList(item);
@@ -78,6 +82,25 @@ function renderItem(container, item) {
   article.append(back);
 
   container.append(article);
+}
+
+function imageBlock(item) {
+  const src = item.image?.src;
+  const alt = item.image?.alt;
+  if (!src || !alt) return null;
+  const figure = el('figure', 'news-detail__image');
+  const img = el('img');
+  img.src = resolveImageSrc(src);
+  img.alt = alt;
+  img.loading = 'lazy';
+  figure.append(img);
+  return figure;
+}
+
+/* The zh edition lives one directory down, so repo-root image paths in the
+   JSON need the `../` prefix there (same pattern as faculty-directory.js). */
+function resolveImageSrc(path) {
+  return /\/zh\//.test(location.pathname) ? `../${path}` : path;
 }
 
 function factList(item) {
