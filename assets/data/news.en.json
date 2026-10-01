@@ -33,6 +33,34 @@
       "priority": 100
     },
     {
+      "id": "2026-10-cna-ai-platform-coverage",
+      "slug": "cna-ai-platform-coverage",
+      "title": "CNA coverage: NTPU launches university-wide AI platform for digital equity",
+      "summary": "Central News Agency (CNA) covered the NTPU AI Platform launch and AI4X Research Center inauguration ceremony, featuring remarks from President Lin Tao-Tung, Center Director Min-Yuh Day, and Computer Center Director Chih-Chien Wang on the platform's mission and educational-equity goals.",
+      "content": [
+        "Central News Agency (CNA), via its Global Views China desk, reported on October 1, 2026 that National Taipei University had officially launched its university-wide \"NTPU AI Platform,\" combining open-weight and commercial models to provide free generative AI access to all faculty and students, alongside the inauguration of the Advanced Research Center for Cross-Disciplinary AI (AI4X).",
+        "The report quoted President Lin Tao-Tung on how the platform reflects the university's direction of grounding AI innovation in its law, business, and public-affairs strengths; Center Director Min-Yuh Day on AI4X's mission to integrate AI across law, business, public affairs, humanities and social sciences, and sustainability; and Computer Center Director Chih-Chien Wang on how a university-run platform reduces the access gap created by paid commercial AI subscriptions.",
+        "The original report is in Chinese; see the CNA link below for the full article."
+      ],
+      "category": "announcement",
+      "category_label": "Media coverage",
+      "source_type": "external",
+      "publish_date": "2026-10-01",
+      "organizers": [
+        "Central News Agency (CNA)"
+      ],
+      "tags": [
+        "Media coverage",
+        "CNA",
+        "AI Platform",
+        "Digital equity"
+      ],
+      "external_url": "https://www.cna.com.tw/news/newsworld/20261001n002.aspx",
+      "source_name": "CNA (Chinese): \"NTPU launches university-wide AI platform, free access for all faculty and students advances digital equity\"",
+      "featured": true,
+      "priority": 90
+    },
+    {
       "id": "2026-napai-agentic-ai-campus-competition",
       "slug": "napai-agentic-ai-campus-competition",
       "title": "NAPAI Agentic AI Campus Innovation Competition",

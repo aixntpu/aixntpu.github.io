@@ -33,6 +33,34 @@
       "priority": 100
     },
     {
+      "id": "2026-10-cna-ai-platform-coverage",
+      "slug": "cna-ai-platform-coverage",
+      "title": "中央社報導：臺北大學推校級 AI 平台　全校師生免費使用實踐資訊平權",
+      "summary": "中央社《全球中央》報導 NTPU AI 平台發布會暨跨域人工智慧前瞻研究中心揭牌儀式，校長林道通、中心主任戴敏育與資訊中心主任汪志堅分享平台理念與教育平權目標。",
+      "content": [
+        "中央社《全球中央》於 2026 年 10 月 1 日報導，國立臺北大學正式發布全校性「NTPU AI 平台」，整合開放權重模型與商用模型，提供全校師生免費使用，並同步揭牌成立跨域人工智慧前瞻研究中心（AI4X）。",
+        "報導中，校長林道通談到平台如何呼應學校「法商政經為底蘊、科技跨域為創新」的發展方向；中心主任戴敏育說明 AI4X 將推動 AI 與法律、商學、公共事務、人文社會、永續發展等領域的跨域整合；資訊中心主任汪志堅則談到校級平台如何降低商用訂閱制造成的使用落差。",
+        "完整報導內容請見中央社原文連結。"
+      ],
+      "category": "announcement",
+      "category_label": "媒體報導",
+      "source_type": "external",
+      "publish_date": "2026-10-01",
+      "organizers": [
+        "中央通訊社（中央社）"
+      ],
+      "tags": [
+        "媒體報導",
+        "中央社",
+        "AI 平台",
+        "資訊平權"
+      ],
+      "external_url": "https://www.cna.com.tw/news/newsworld/20261001n002.aspx",
+      "source_name": "中央社《全球中央》：臺北大學推校級AI平台　全校師生免費使用實踐資訊平權",
+      "featured": true,
+      "priority": 90
+    },
+    {
       "id": "2026-napai-agentic-ai-campus-competition",
       "slug": "napai-agentic-ai-campus-competition",
       "title": "NAPAI Agentic AI 校園落地創新應用競賽",
