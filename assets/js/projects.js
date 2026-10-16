@@ -8,7 +8,7 @@
 const ZH = document.documentElement.lang.toLowerCase().startsWith('zh');
 
 const S = ZH ? {
-  projects: '合作計畫', partners: '合作單位', total: '合作經費總額', yearLabel: y => `${y} 學年度`,
+  projects: '合作計畫', partners: '合作單位', totalLabel: y => `${y} 學年度合作經費總額`,
   
   types: { industry: '企業合作', institute: '法人研究機構', government: '政府計畫' },
   status: { upcoming: '即將開始', ongoing: '進行中', completed: '已完成' },
@@ -19,7 +19,7 @@ const S = ZH ? {
     agentic: 'Agentic AI', network: '開放網路' },
   error: '資料載入失敗，請稍後再試。', updated: '資料更新'
 } : {
-  projects: 'Projects', partners: 'Partners', total: 'Total funding', yearLabel: y => `Academic year ${y} (ROC calendar)`,
+  projects: 'Projects', partners: 'Partners', totalLabel: y => `Total funding, academic year ${y}`,
   
   types: { industry: 'Industry partners', institute: 'Research institutes', government: 'Government programs' },
   status: { upcoming: 'Upcoming', ongoing: 'Ongoing', completed: 'Completed' },
@@ -82,17 +82,24 @@ function render(host, { meta, items }) {
   if (summary) {
     const partners = new Set(items.map(i => i.partner)).size;
     summary.replaceChildren(
-      stat(String(items.length), S.projects, ''),
-      stat(String(partners), S.partners, ''),
-      stat(money(meta.total_ntd), S.total, S.yearLabel(meta.academic_year))
+      stat(String(items.length), S.projects),
+      stat(String(partners), S.partners),
+      stat(money(meta.total_ntd), S.totalLabel(meta.academic_year))
     );
   }
 
+  const nav = document.querySelector('[data-collab-nav]');
+  const navLinks = [];
   const frag = document.createDocumentFragment();
   TYPE_ORDER.forEach(type => {
     const group = items.filter(i => i.type === type);
     if (!group.length) return;
     const section = el('section', 'collab-group');
+    section.id = `collab-${type}`;
+    const link = el('a', 'collab-nav__link', S.types[type]);
+    link.href = `#collab-${type}`;
+    link.append(el('span', 'collab-nav__count', String(group.length)));
+    navLinks.push(link);
     section.append(el('h2', 'collab-group__title', S.types[type]));
     const grid = el('div', 'feature-grid cols-2');
     group.forEach(i => grid.append(card(i)));
@@ -100,15 +107,15 @@ function render(host, { meta, items }) {
     frag.append(section);
   });
   host.replaceChildren(frag);
+  if (nav) nav.replaceChildren(...navLinks);
 
   const stamp = document.querySelector('[data-collab-updated]');
   if (stamp && meta.updated) stamp.textContent = `${S.updated}: ${meta.updated}`;
 }
 
-function stat(value, label, desc) {
+function stat(value, label) {
   const box = el('div', 'stat');
   box.append(el('span', 'n collab-n', value), el('span', 'stat-label', label));
-  if (desc) box.append(el('p', 'desc', desc));
   return box;
 }
 
