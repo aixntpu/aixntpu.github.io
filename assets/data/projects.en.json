@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "academic_year": "115",
+    "total_ntd": 11760000,
+    "updated": "2026-10-16"
+  },
+  "items": [
+    {
+      "id": "2026-konsten",
+      "type": "industry",
+      "partner": "Vine Management Consulting Co., Ltd.",
+      "title": "AI-Powered HR Advisory Coaching and Assisted Assessment System",
+      "start": "2026-09-01",
+      "end": "2028-02-29",
+      "duration_months": 18,
+      "amount_ntd": 3000000,
+      "pi": "Min-Yuh Day",
+      "co_pi": [
+        "Chih-Chien Wang"
+      ],
+      "tags": [
+        "hr",
+        "assessment"
+      ]
+    },
+    {
+      "id": "2026-topco",
+      "type": "industry",
+      "partner": "Topco Scientific Co., Ltd.",
+      "title": "AI Digital Transformation Training and Industry Application Guidance",
+      "start": "2026-10-01",
+      "end": "2027-09-30",
+      "duration_months": 12,
+      "amount_ntd": 5000000,
+      "pi": "Min-Yuh Day",
+      "co_pi": [
+        "Yue-Shan Chang"
+      ],
+      "tags": [
+        "transformation",
+        "training"
+      ]
+    },
+    {
+      "id": "2026-green-innovation",
+      "type": "industry",
+      "partner": "Green Innovation Sustainability Investment & Development Consulting Co., Ltd.",
+      "title": "AI-Driven Circular Materials Optimization, ESG Governance, and Digital Product Passport (DPP) Development",
+      "start": "2026-10-01",
+      "end": "2027-09-30",
+      "duration_months": 12,
+      "amount_ntd": 1000000,
+      "pi": "Wei-Lun Chang",
+      "co_pi": [
+        "Min-Yuh Day"
+      ],
+      "tags": [
+        "esg",
+        "materials"
+      ]
+    },
+    {
+      "id": "2026-moe-crossdomain-1",
+      "type": "government",
+      "partner": "Ministry of Education",
+      "title": "AI Cross-Disciplinary Co-Creation and Applied Practice Course Program - AI Cross-Disciplinary Co-Creation x Social Welfare Services: Agentic AI Innovative Applications and AI Course (EECS, Information Management)",
+      "start": "2026-09-01",
+      "end": "2027-08-31",
+      "duration_months": 12,
+      "amount_ntd": 880000,
+      "pi": "Min-Yuh Day",
+      "co_pi": [],
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "2026-moe-crossdomain-2",
+      "type": "government",
+      "partner": "Ministry of Education",
+      "title": "AI Cross-Disciplinary Co-Creation and Applied Practice Course Program - AI Cross-Disciplinary Co-Creation x Social Welfare Services: Cross-Disciplinary PBL Course on Research Methods and Program Design (Applied Fields, Social Work)",
+      "start": "2026-09-01",
+      "end": "2027-08-31",
+      "duration_months": 12,
+      "amount_ntd": 880000,
+      "pi": "Yuan-An Lin",
+      "co_pi": [],
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "2026-itri-agentic",
+      "type": "institute",
+      "partner": "Industrial Technology Research Institute (ITRI)",
+      "title": "Trustworthy Agentic AI for Smart Manufacturing: Tacit Knowledge Elicitation, Procedural Knowledge Graphs, and Digital Master Craftsman",
+      "start": "2026-09-01",
+      "end": "2026-12-31",
+      "duration_months": 4,
+      "amount_ntd": 700000,
+      "pi": "Min-Yuh Day",
+      "co_pi": [],
+      "tags": [
+        "manufacturing",
+        "agentic"
+      ]
+    },
+    {
+      "id": "2026-itri-ocudu",
+      "type": "institute",
+      "partner": "Industrial Technology Research Institute (ITRI)",
+      "title": "Open Network OCUDU Validation Environment Development (Commissioned)",
+      "start": "2026-05-26",
+      "end": "2026-11-30",
+      "duration_months": 6,
+      "amount_ntd": 300000,
+      "pi": "Yuh-Shyan Chen",
+      "co_pi": [],
+      "tags": [
+        "network"
+      ]
+    }
+  ]
+}

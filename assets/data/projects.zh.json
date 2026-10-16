@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "academic_year": "115",
+    "total_ntd": 11760000,
+    "updated": "2026-10-16"
+  },
+  "items": [
+    {
+      "id": "2026-konsten",
+      "type": "industry",
+      "partner": "康士藤管理顧問有限公司",
+      "title": "AI 人力資源顧問陪練與輔助評量系統研究計畫",
+      "start": "2026-09-01",
+      "end": "2028-02-29",
+      "duration_months": 18,
+      "amount_ntd": 3000000,
+      "pi": "戴敏育",
+      "co_pi": [
+        "汪志堅"
+      ],
+      "tags": [
+        "hr",
+        "assessment"
+      ]
+    },
+    {
+      "id": "2026-topco",
+      "type": "industry",
+      "partner": "崇越科技股份有限公司",
+      "title": "AI 數位轉型教育訓練與產業應用轉導",
+      "start": "2026-10-01",
+      "end": "2027-09-30",
+      "duration_months": 12,
+      "amount_ntd": 5000000,
+      "pi": "戴敏育",
+      "co_pi": [
+        "張玉山"
+      ],
+      "tags": [
+        "transformation",
+        "training"
+      ]
+    },
+    {
+      "id": "2026-green-innovation",
+      "type": "industry",
+      "partner": "綠創永續投資開發顧問股份有限公司",
+      "title": "AI 驅動循環材料最佳化、ESG 永續治理與數位產品護照（DPP）建置產學合作計畫",
+      "start": "2026-10-01",
+      "end": "2027-09-30",
+      "duration_months": 12,
+      "amount_ntd": 1000000,
+      "pi": "張瑋倫",
+      "co_pi": [
+        "戴敏育"
+      ],
+      "tags": [
+        "esg",
+        "materials"
+      ]
+    },
+    {
+      "id": "2026-moe-crossdomain-1",
+      "type": "government",
+      "partner": "教育部",
+      "title": "人工智慧跨域共創與實踐應用課程計畫-AI 跨域共創×社會福祉服務：代理式 AI 創新應用與人工智慧課程（電資領域・資訊管理）",
+      "start": "2026-09-01",
+      "end": "2027-08-31",
+      "duration_months": 12,
+      "amount_ntd": 880000,
+      "pi": "戴敏育",
+      "co_pi": [],
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "2026-moe-crossdomain-2",
+      "type": "government",
+      "partner": "教育部",
+      "title": "人工智慧跨域共創與實踐應用課程計畫-AI 跨域共創×社會福祉服務：研究法與方案設計之跨域 PBL 課程（應用領域・社會工作）",
+      "start": "2026-09-01",
+      "end": "2027-08-31",
+      "duration_months": 12,
+      "amount_ntd": 880000,
+      "pi": "林予安",
+      "co_pi": [],
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "2026-itri-agentic",
+      "type": "institute",
+      "partner": "工業技術研究院（工研院）",
+      "title": "可信任 Agentic AI 於智慧製造之隱性知識誘發、程序知識圖譜建構與數位老師傅技術",
+      "start": "2026-09-01",
+      "end": "2026-12-31",
+      "duration_months": 4,
+      "amount_ntd": 700000,
+      "pi": "戴敏育",
+      "co_pi": [],
+      "tags": [
+        "manufacturing",
+        "agentic"
+      ]
+    },
+    {
+      "id": "2026-itri-ocudu",
+      "type": "institute",
+      "partner": "工業技術研究院（工研院）",
+      "title": "開放網路 OCUDU 驗證環境建置委託",
+      "start": "2026-05-26",
+      "end": "2026-11-30",
+      "duration_months": 6,
+      "amount_ntd": 300000,
+      "pi": "陳裕賢",
+      "co_pi": [],
+      "tags": [
+        "network"
+      ]
+    }
+  ]
+}
