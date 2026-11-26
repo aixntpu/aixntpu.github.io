@@ -2759,59 +2759,6 @@
       ]
     },
     {
-      "id": "cchu",
-      "college": "social",
-      "rank": "assistant",
-      "domains": [
-        "data",
-        "fintech"
-      ],
-      "photo": "assets/faculty/cchu_photo.jpg",
-      "initials": null,
-      "email": "cchu@mail.ntpu.edu.tw",
-      "web": "https://econ.ntpu.edu.tw/p/405-1001-561,c107.php?Lang=zh-tw",
-      "en": {
-        "name": "Chi-Yang Chu",
-        "alt_name": "朱紀仰",
-        "role": "Assistant Professor",
-        "affiliation": "Department of Economics, National Taipei University",
-        "degree": "Ph.D. in Economics, University of Alabama",
-        "expertise": [
-          "Applied nonparametric econometrics"
-        ],
-        "courses": "Data Science Programming (I)"
-      },
-      "zh": {
-        "name": "朱紀仰",
-        "alt_name": "Chi-Yang Chu",
-        "role": "助理教授",
-        "affiliation": "國立臺北大學經濟學系",
-        "degree": "美國阿拉巴馬大學經濟學博士",
-        "expertise": [
-          "applied nonparametric econometrics"
-        ],
-        "courses": "資料科學程式設計(一)"
-      },
-      "verification": {
-        "checked_on": "2026-09-21",
-        "status": "baseline retained; no specific newer contradictory title captured in this pass",
-        "sources": [
-          "https://econ.ntpu.edu.tw/p/405-1001-561,c107.php?Lang=zh-tw"
-        ]
-      },
-      "administrative_roles_zh": [],
-      "distinctions_zh": [],
-      "recent_ai_courses": [
-        {
-          "semester": "未由本次查核來源確認",
-          "course_zh": "資料科學程式設計(一)",
-          "course_en": "Data Science Programming (I)",
-          "evidence": "existing faculty dataset course field; retained but not assigned to 115-1 without semester-specific official evidence",
-          "source": "https://econ.ntpu.edu.tw/p/405-1001-561,c107.php?Lang=zh-tw"
-        }
-      ]
-    },
-    {
       "id": "mtlin",
       "college": "social",
       "rank": "assistant",
